@@ -11,7 +11,8 @@ Shrink my Plex library by converting older codecs to HEVC. The Tdarr server runs
 - Gigabit LAN between the two.
 - Library is mostly 1080p or below. Many files are already HEVC.
 - Claude has SSH key access to Bandersnatch as `<nas-user>`. Passwordless sudo for `<nas-user>` was set up on 2026-10-16 in `/usr/etc/sudoers.d/<nas-user>`. The root filesystem is a RAM disk, so `/tmp/config/autorun.sh` on the flash config partition (with `Misc Autorun = TRUE`) recreates the rule at boot. Not yet verified across a reboot.
-- The Sonarr and Radarr stack will be installed before this project. Use the same media path mapping it uses. Check for its compose file and README before choosing paths.
+- The *arr stack is installed and working (confirmed 2026-10-16): Sonarr 4.0.20, Radarr 6.4.4, Prowlarr, Bazarr, NZBGet, Recyclarr, linuxserver images. Compose file and `.env` are in `/share/CACHEDEV1_DATA/Video/arr-config/`. Both Sonarr and Radarr mount `/share/CACHEDEV1_DATA/Video` at `/data`; root folders are `/data/Movies` and `/data/TV Shows`. Tdarr uses the same mapping.
+- Docker on Bandersnatch: `<nas-user>` can run it without sudo. The binary is `/share/CACHEDEV1_DATA/.qpkg/container-station/bin/docker`, which is not on the default SSH PATH. Use `docker compose` (v2.29.1-qnap2); standalone `docker-compose` is not installed. Ports 8265 and 8266 were free on 2026-10-16.
 
 ## GPUs on Straylight (observed 2026-10-16)
 
@@ -32,6 +33,23 @@ Shrink my Plex library by converting older codecs to HEVC. The Tdarr server runs
 - State after cleanup on 2026-10-16: 791 movie folders, 56 TV shows with 773 episodes. Movies 1.90 TiB, TV Shows 524 GiB, total 2.41 TiB. File types: 1056 mkv, 219 mp4, 200 m4v, 89 avi, plus 8 srt and 8 idx/sub subtitle sidecars.
 - Volume has 56 TB free. Disk space is not a constraint.
 - Exclude `.@__thumb` folders (QNAP thumbnail caches, whose files carry video extensions) from Tdarr libraries.
+
+## Baseline test encode (2026-10-16)
+
+Manual encode on Straylight with portable ffmpeg 8.1 (BtbN build), not Tdarr's ffmpeg.
+
+- Source: Red 2, 1080p Blu-ray x264, 1920x800, 116 min, DTS 5.1, one SRT. 8.52 GB.
+- Command: `-hwaccel cuda -hwaccel_output_format cuda -map 0 -c:v hevc_nvenc -preset p7 -tune hq -rc vbr -cq 26 -b:v 0 -spatial_aq 1 -temporal_aq 1 -rc-lookahead 32 -profile:v main -c:a copy -c:s copy`, with `CUDA_VISIBLE_DEVICES` set to the 4070 Super UUID.
+- Result: 4.63 GB (46% smaller overall). Video went from about 8.3 Mb/s to 3.7 Mb/s.
+- Speed: 247 fps, about 10x real time, 11 min 15 s encode.
+- Transfer: NAS to Straylight over SMB at 103 MB/s (83 s for 8.52 GB).
+- GPU: 4070 Super averaged 98% encoder use; 2070 Super stayed at 0%. UUID pinning works.
+- Picture quality not yet reviewed.
+
+## Open concerns
+
+- Recyclarr is installed. If it applies TRaSH custom formats that score x265 negatively for HD, Sonarr and Radarr may treat converted files as upgrade candidates and download replacements. Check the custom format scores before the first real batch.
+- Bazarr manages subtitles and may add new sidecar files after conversion.
 
 ## Requirements
 
@@ -64,7 +82,6 @@ Shrink my Plex library by converting older codecs to HEVC. The Tdarr server runs
 
 ## Working style
 
-- Do not begin this project until I confirm the Sonarr and Radarr stack is installed, tested, and working.
 
 - Propose, then wait for my approval before deploying or changing anything on either machine.
 - Check current Tdarr documentation; flows and node settings change between versions.
