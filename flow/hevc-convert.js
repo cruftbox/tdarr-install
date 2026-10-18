@@ -8,8 +8,9 @@ const { execFileSync } = require('child_process');
 
 const CQ = 26;
 const HEVC_REENCODE_BYTES = 2e9; // HEVC/AV1 files larger than this are re-encoded too
-// Global tag written into every file this flow encodes. A file carrying it, or a video stream encoded by
-// hevc_nvenc (files converted before the tag existed), is never encoded again.
+// Global tag written into every file this flow encodes, and into a kept .mkv whose encode was not smaller.
+// A file carrying it, or a video stream encoded by hevc_nvenc (files converted before the tag existed),
+// is never encoded again.
 const MARKER_TAG = 'HEVC_PROJECT';
 const LOG_CSV = 'C:/Code/tdarr/logs/transcode-log.csv';
 // Tdarr's own CLI runner, for progress and ETA in the web UI.
@@ -81,6 +82,24 @@ const applyDefaults = (ffprobe, mkv, jobLog) => {
   execFileSync(MKVPROPEDIT, [mkv, ...edits]);
   const lang = (list, flags) => { const i = flags.indexOf(true); return i < 0 ? 'none' : ((list[i].tags && list[i].tags.language) || 'und'); };
   return `default audio ${lang(audio, want.audio)}, default subtitle ${lang(subs, want.subtitle)}`;
+};
+
+// Adds the marker to an .mkv in place. mkvpropedit replaces all global tags, so the existing ones are written
+// back with it. title and creation_time are segment info, not tags, and are left alone.
+const markMkv = (ffprobe, mkv, value, jobLog) => {
+  const { tags } = JSON.parse(execFileSync(ffprobe, ['-v', 'error', '-show_entries', 'format_tags', '-of', 'json', mkv]).toString()).format || {};
+  const keep = Object.entries(tags || {}).filter(([k]) => !/^(title|creation_time)$/i.test(k) && k.toUpperCase() !== MARKER_TAG);
+  keep.push([MARKER_TAG, value]);
+  const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<Tags><Tag><Targets/>${keep.map(([k, v]) => `<Simple><Name>${esc(k)}</Name><String>${esc(v)}</String></Simple>`).join('')}</Tag></Tags>\n`;
+  const xmlFile = path.join(require('os').tmpdir(), `hevc-marker-${process.pid}-${Date.now()}.xml`);
+  fs.writeFileSync(xmlFile, xml);
+  try {
+    jobLog(`mkvpropedit --tags global (${MARKER_TAG}=${value})`);
+    execFileSync(MKVPROPEDIT, [mkv, '--tags', `global:${xmlFile}`]);
+  } finally {
+    fs.unlinkSync(xmlFile);
+  }
 };
 
 module.exports = async (args) => {
@@ -277,7 +296,8 @@ module.exports = async (args) => {
     // The original stays. An .mkv gets English defaults in place; another container is remuxed only if its flags need to change.
     if (isMkv) {
       const changed = applyDefaults(ffprobe, src, args.jobLog);
-      return finish(3, 'kept', `new file not smaller${changed ? `; ${changed}` : ''}`, kept);
+      markMkv(ffprobe, src, `kept cq${CQ}`, args.jobLog);
+      return finish(3, 'kept', `new file not smaller${changed ? `; ${changed}` : ''}; marked`, kept);
     }
     if (!needsFlags()) return finish(3, 'kept', 'new file not smaller', kept);
     keptNote = `new encode not smaller (${r.sizeAfter} bytes)`;
