@@ -8,6 +8,9 @@ const { execFileSync } = require('child_process');
 
 const CQ = 26;
 const HEVC_REENCODE_BYTES = 2e9; // HEVC/AV1 files larger than this are re-encoded too
+// Global tag written into every file this flow encodes. A file carrying it, or a video stream encoded by
+// hevc_nvenc (files converted before the tag existed), is never encoded again.
+const MARKER_TAG = 'HEVC_PROJECT';
 const LOG_CSV = 'C:/Code/tdarr/logs/transcode-log.csv';
 // Tdarr's own CLI runner, for progress and ETA in the web UI.
 const CLI_UTILS = 'D:/Tdarr/Tdarr_Node/assets/app/plugins/FlowPlugins/FlowHelpers/1.0.0/cliUtils.js';
@@ -114,8 +117,16 @@ module.exports = async (args) => {
   const dv = !!dovi || ['dvh1', 'dvhe'].includes(v.codec_tag_string);
   const dvProfile = dovi ? dovi.dv_profile : undefined;
 
+  const tagOf = (tags, name) => Object.entries(tags || {}).find(([k]) => k.toUpperCase() === name);
+  const marker = tagOf(file.ffProbeData.format && file.ffProbeData.format.tags, MARKER_TAG);
+  const encoder = tagOf(v.tags, 'ENCODER');
+
   let skipReason = '';
-  if (is4K) {
+  if (marker) {
+    skipReason = `already converted by this flow (${MARKER_TAG}=${marker[1]})`;
+  } else if (encoder && /hevc_nvenc/i.test(encoder[1])) {
+    skipReason = `already converted (${encoder[1]})`;
+  } else if (is4K) {
     if (dv && dvProfile === 5) skipReason = 'Dolby Vision profile 5 (no HDR10 base layer)';
   } else if (['hevc', 'av1'].includes(v.codec_name) && sizeBefore <= HEVC_REENCODE_BYTES) {
     skipReason = `already ${v.codec_name}, 2 GB or smaller`;
@@ -219,6 +230,7 @@ module.exports = async (args) => {
     }
     ff.push('-c:a', 'copy', ...outCodecs, '-c:t', 'copy', ...outMaps);
     ff.push('-map_metadata', '0', '-map_chapters', '0', '-max_muxing_queue_size', '9999');
+    if (!remux) ff.push('-metadata', `${MARKER_TAG}=cq${CQ}`);
 
     const workDir = `${args.workDir}/${Date.now()}`;
     fs.mkdirSync(workDir, { recursive: true });
