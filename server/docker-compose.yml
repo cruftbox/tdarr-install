@@ -1,0 +1,31 @@
+# Tdarr server on Bandersnatch. Deployed to /share/CACHEDEV1_DATA/Container/tdarr.
+# Secrets live in .env next to this file (see .env.example); .env is not committed.
+services:
+  tdarr:
+    container_name: tdarr
+    image: ghcr.io/haveagitgat/tdarr:3.01.00
+    restart: unless-stopped
+    network_mode: bridge
+    ports:
+      - 8265:8265 # web UI
+      - 8266:8266 # server port, nodes connect here
+    environment:
+      - TZ=America/Los_Angeles
+      - PUID=500 # <nas-user>, same as the *arr stack
+      - PGID=100 # everyone
+      - UMASK=002
+      - serverIP=0.0.0.0
+      - serverPort=8266
+      - webUIPort=8265
+      - internalNode=false # all work runs on the Straylight node
+      - inContainer=true
+      - ffmpegVersion=7
+      - auth=true
+      - seededApiKey=${TDARR_API_KEY}
+      - maxLogSizeMB=10
+    volumes:
+      - ./server:/app/server
+      - ./configs:/app/configs
+      - ./logs:/app/logs
+      - /share/CACHEDEV1_DATA/Video:/data # same mapping as Sonarr and Radarr
+      - /share/CACHEDEV1_DATA/Video/tdarr-cache:/temp
