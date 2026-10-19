@@ -1,3 +1,4 @@
 .env
 Tdarr_Node_Config.json
 plex-token.txt
+logs/
