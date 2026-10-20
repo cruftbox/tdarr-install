@@ -101,6 +101,8 @@ The feeder never scans. That's because a single-folder scan in Tdarr removes the
 
 - A 10 PM to 6 AM schedule for the node.
 - The TV Shows library.
+- After the Movies run: a "Find new" scan of Movies, to pick up files downloaded during the run.
+- After the Movies run: turn on folder watching, so new downloads are processed without the feeder. File-change notifications from the QNAP share reaching the container are untested.
 - Purging the `.old` originals.
 - The NAS restarts itself at 1 AM every Saturday and Sunday. The feeder exits when it loses the server, so it has to be restarted by hand after each restart.
 
