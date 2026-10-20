@@ -1,12 +1,14 @@
 // Feeds a Tdarr library to the node one file at a time, in path order.
 // The library is scanned in full once with "Process library" off; --park then sets every record that is
 // waiting to "Not required" so nothing runs when processing is turned on. The feeder loop sets one record
-// at a time to "Queued" and waits until it is finished before queuing the next.
+// at a time to "Queued" and waits until it is finished before queuing the next. With --slots N it keeps up
+// to N files queued, for N GPU workers across the nodes.
 // Scanning a single folder makes Tdarr drop the records of every file outside it (tested 2026-10-17),
 // so this script never scans; it only changes record status.
 // Usage:
 //   node feeder.js --library movies --park           park every Queued record not yet fed
-//   node feeder.js --library movies [--count 50]     feed files until --count are done, or none are left
+//   node feeder.js --library movies [--count 50] [--slots 2]
+//                                                    feed files until --count are done, or none are left
 //   node feeder.js --library movies --status         show progress
 const fs = require('fs');
 const path = require('path');
@@ -15,6 +17,7 @@ const arg = (name, def) => { const i = process.argv.indexOf(`--${name}`); return
 const flag = (name) => process.argv.includes(`--${name}`);
 const LIBRARY = arg('library', 'movies');
 const COUNT = Number(arg('count', 'Infinity'));
+const SLOTS = Number(arg('slots', '1')); // files queued at once; one per node GPU worker
 const INTERVAL = Number(arg('interval', '15')) * 1000;
 const LOG_DIR = 'C:/Code/tdarr/logs';
 const STATE = arg('state', `${LOG_DIR}/feeder-state-${LIBRARY}.json`);
@@ -82,30 +85,44 @@ const lock = () => {
   if (!lib || !lib._id) throw new Error(`library ${LIBRARY} not found`);
   if (!lib.processLibrary) log('warning: "Process library" is off, so a queued file will not run');
   let fedThisRun = 0;
-  let current = null;
-  log(`feeder started${Number.isFinite(COUNT) ? `, count ${COUNT}` : ''}`);
+  const inFlight = new Set(); // files this run queued that have not finished yet
+  let warned = false;
+  log(`feeder started, slots ${SLOTS}${Number.isFinite(COUNT) ? `, count ${COUNT}` : ''}`);
   for (;;) {
     const recs = await records();
     const waiting = recs.filter((f) => WAITING.test(f.TranscodeDecisionMaker || ''));
-    if (current) {
-      const rec = recs.find((f) => f._id === current);
-      if (waiting.length) { await sleep(INTERVAL); continue; }
-      log(`done: ${path.posix.basename(current)} -> ${rec ? rec.TranscodeDecisionMaker : 'record replaced'}`);
-      current = null;
-    } else if (waiting.length) {
-      log(`waiting: ${waiting.length} file(s) already queued in this library (${path.posix.basename(waiting[0]._id)}); not feeding until they finish`);
+    for (const id of inFlight) {
+      const rec = recs.find((f) => f._id === id);
+      if (rec && WAITING.test(rec.TranscodeDecisionMaker || '')) continue;
+      log(`done: ${path.posix.basename(id)} -> ${rec ? rec.TranscodeDecisionMaker : 'record replaced'}`);
+      inFlight.delete(id);
+    }
+    if (waiting.length >= SLOTS) {
+      // Files queued by something else (or a previous run) count against the slots too.
+      if (!warned && waiting.some((f) => !inFlight.has(f._id))) {
+        log(`waiting: ${waiting.length} file(s) queued in this library (${path.posix.basename(waiting[0]._id)}); feeding when a slot frees`);
+        warned = true;
+      }
       await sleep(INTERVAL);
       continue;
     }
-    if (fedThisRun >= COUNT) { log(`count ${COUNT} reached; stopping`); return; }
+    if (fedThisRun >= COUNT) {
+      if (!inFlight.size) { log(`count ${COUNT} reached; stopping`); return; }
+      await sleep(INTERVAL);
+      continue;
+    }
     const next = recs.find((f) => !fedStems.has(stem(f._id)) && f.TranscodeDecisionMaker === PARKED);
-    if (!next) { log('nothing left to feed; stopping'); return; }
+    if (!next) {
+      if (!inFlight.size) { log('nothing left to feed; stopping'); return; }
+      await sleep(INTERVAL);
+      continue;
+    }
     await setStatus(next._id, 'Queued');
     state.fed.push({ id: next._id, at: new Date().toISOString() });
     fedStems.add(stem(next._id));
     saveState(state);
     fedThisRun += 1;
-    current = next._id;
+    inFlight.add(next._id);
     log(`fed ${fedThisRun}${Number.isFinite(COUNT) ? `/${COUNT}` : ''}: ${next._id}`);
     await sleep(INTERVAL);
   }

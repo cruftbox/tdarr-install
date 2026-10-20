@@ -19,7 +19,7 @@ The 103 replaced movies went from 351.3 GB to 179.3 GB, a 49% reduction. An enco
 ## Hardware
 
 - **Bandersnatch**: QNAP TS-451 NAS, Intel Celeron (Bay Trail), 16 GB RAM, QTS 5.2, Container Station (Docker). It holds the media (about 2.4 TiB in scope) and runs Plex and the *arr stack. Its CPU is far too slow to encode.
-- **Straylight**: Windows 11 desktop, Ryzen 7 5700X, 64 GB RAM, RTX 4070 SUPER and RTX 2070 SUPER. Encoding uses only the 4070 SUPER's NVENC encoder. The 2070 SUPER is kept free for other work.
+- **Straylight**: Windows 11 desktop, Ryzen 7 5700X, 64 GB RAM, RTX 4070 SUPER and RTX 2070 SUPER. Each card runs its own Tdarr node and NVENC encoder. The 2070 SUPER node was added on 2026-10-19. In a test on the same file it took 684 s, compared with 588 s on the 4070 SUPER, and the output size was within 1%.
 - Gigabit Ethernet between them.
 
 ### Why the desktop does the encoding
@@ -44,7 +44,7 @@ Bandersnatch (NAS)                              Straylight (desktop)
 ```
 
 - The node is a *mapped* node: it reads and writes the media directly over SMB, using path translators (`/data` on the server is `//bandersnatch/Video` on the node). Unmapped nodes need Tdarr Pro for files over 10 MB.
-- The GPU is pinned by UUID through `CUDA_VISIBLE_DEVICES` in [node/start-node.cmd](node/start-node.cmd). `nvidia-smi` and CUDA number the two cards differently, so an index isn't reliable.
+- There are two nodes on Straylight, each a separate install with its own config. Each one is pinned to one card by UUID through `CUDA_VISIBLE_DEVICES`, in [node/start-node.cmd](node/start-node.cmd) and [node/start-node-2070.cmd](node/start-node-2070.cmd). The feeder runs with `--slots 2`, so each node has one file at a time. `nvidia-smi` and CUDA number the two cards differently, so an index isn't reliable.
 - The node runs from Task Scheduler at startup, at priority 4. At the default priority 7, SMB reads dropped from about 65 MB/s to 5 MB/s.
 
 ### Ports and paths
