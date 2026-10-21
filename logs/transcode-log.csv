@@ -1,0 +1,800 @@
+timestamp,path,source_codec,resolution,size_before,size_after,bytes_saved,cq,encode_seconds,outcome,reason
+2026-10-18T03:33:50.058Z,//bandersnatch/Video/Movies/10 Cloverfield Lane (2016)/10 Cloverfield Lane (2016).mkv,h264,1280x536,950958940,862967122,87991818,26,288,replaced,
+2026-10-18T03:38:53.248Z,//bandersnatch/Video/Movies/12 Years a Slave (2013)/12 Years a Slave (2013).mkv,hevc,720x304,1068318196,,,,,skipped,already converted (Lavc61.19.101 hevc_nvenc)
+2026-10-18T03:39:08.726Z,//bandersnatch/Video/Movies/1917 (2019)/1917 (2019).mkv,hevc,720x352,649178897,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T03:39:23.263Z,//bandersnatch/Video/Movies/2 Guns (2013)/2 Guns (2013).mkv,h264,1920x800,8210260613,4098954290,4111306323,26,695,replaced,"default audio eng, default subtitle eng"
+2026-10-18T03:51:20.049Z,//bandersnatch/Video/Movies/2001 - A Space Odyssey (1968)/2001 - A Space Odyssey (1968).mp4,h264,1280x544,705858460,988651826,0,26,414,kept,new file not smaller
+2026-10-18T03:58:27.936Z,//bandersnatch/Video/Movies/2010 (1984)/2010 (1984).mp4,hevc,1912x796,1938393503,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T03:58:42.803Z,//bandersnatch/Video/Movies/42 (2013)/42 (2013).mkv,h264,1920x800,8996888569,3817402511,5179486058,26,793,replaced,
+2026-10-18T04:12:23.133Z,//bandersnatch/Video/Movies/9 (2009)/9 (2009).m4v,h264,720x460,846414801,735979633,110435168,26,132,replaced,
+2026-10-18T04:15:03.647Z,//bandersnatch/Video/Movies/A Christmas Story (1983)/A Christmas Story (1983).m4v,h264,710x480,1871744313,950911055,920833258,26,160,replaced,
+2026-10-18T04:18:16.326Z,//bandersnatch/Video/Movies/A Good Day to Die Hard (2013)/A Good Day to Die Hard (2013).mkv,h264,1280x694,9254000720,2923595355,6330405365,26,425,replaced,
+2026-10-18T04:25:40.560Z,//bandersnatch/Video/Movies/A Scanner Darkly (2006)/A Scanner Darkly (2006).mp4,hevc,1920x1080,1679263922,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T04:25:55.426Z,//bandersnatch/Video/Movies/A Simple Favor (2018)/A Simple Favor (2018).avi,mpeg4,720x368,1496265975,925122513,571143462,26,158,replaced,
+2026-10-18T04:28:58.093Z,//bandersnatch/Video/Movies/A Star Is Born (2018)/A Star Is Born (2018).mkv,h264,1920x800,2843481350,3207844932,0,26,811,kept,new file not smaller; marked
+2026-10-18T04:42:43.941Z,//bandersnatch/Video/Movies/A Very Long Engagement (2004)/A Very Long Engagement (2004).m4v,h264,720x370,1682464276,1208902468,473561808,26,193,replaced,
+2026-10-18T04:46:33.274Z,//bandersnatch/Video/Movies/A Working Man (2025)/A Working Man (2025).mp4,hevc,1920x800,2083557447,2449421636,0,26,675,kept,new file not smaller
+2026-10-18T04:57:59.316Z,//bandersnatch/Video/Movies/A Wrinkle in Time (2018)/A Wrinkle in Time (2018).mkv,h264,1280x536,1049001815,1078336754,0,26,309,kept,new file not smaller; marked
+2026-10-18T05:03:27.805Z,//bandersnatch/Video/Movies/Abraham Lincoln - Vampire Hunter (2012)/Abraham Lincoln - Vampire Hunter (2012).mkv,h264,1280x536,4682326613,2277840013,2404486600,26,338,replaced,
+2026-10-18T05:09:22.637Z,//bandersnatch/Video/Movies/Ace Ventura - When Nature Calls (1995)/Ace Ventura - When Nature Calls (1995).mp4,hevc,712x364,1330436241,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T05:09:46.157Z,//bandersnatch/Video/Movies/Ad Astra (2019)/Ad Astra (2019).mkv,hevc,1920x800,1681650604,,,,,skipped,"already hevc, 2 GB or smaller; default audio eng, default subtitle eng"
+2026-10-18T05:09:53.484Z,//bandersnatch/Video/Movies/Aferim! (2015)/Aferim! (2015).mkv,h264,1280x536,5861473803,2731092459,3130381344,26,356,replaced,"default audio rum, default subtitle eng"
+2026-10-18T05:16:14.202Z,//bandersnatch/Video/Movies/Air (2023)/Air (2023).mkv,hevc,1280x696,903271554,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T05:16:26.920Z,//bandersnatch/Video/Movies/Akira (1988)/Akira (1988).m4v,h264,718x480,2830071717,1596914402,1233157315,26,228,replaced,
+2026-10-18T05:20:53.436Z,//bandersnatch/Video/Movies/Aladdin (2019)/Aladdin (2019).mkv,h264,1280x536,1119146124,1357225847,0,26,361,kept,new file not smaller; marked
+2026-10-18T05:27:08.233Z,//bandersnatch/Video/Movies/Alien (1979)/Alien (1979).mkv,h264,1280x546,4694982092,1943774659,2751207433,26,370,replaced,
+2026-10-18T05:33:42.417Z,//bandersnatch/Video/Movies/Alita - Battle Angel (2019)/Alita - Battle Angel (2019).mkv,hevc,1920x1080,2150490883,3757133395,0,26,971,kept,new file not smaller; marked
+2026-10-18T05:50:19.251Z,//bandersnatch/Video/Movies/All Is Lost (2013)/All Is Lost (2013).mkv,h264,1280x536,4695357097,2284406023,2410951074,26,339,replaced,
+2026-10-18T05:56:17.951Z,//bandersnatch/Video/Movies/Amelie (2001)/Amélie (2001).mkv,h264,1280x544,4693323598,1943087575,2750236023,26,376,replaced,
+2026-10-18T06:02:54.768Z,//bandersnatch/Video/Movies/American Beauty (1999)/American Beauty (1999).m4v,h264,720x364,1225816580,1044910786,180905794,26,181,replaced,
+2026-10-18T06:06:29.894Z,//bandersnatch/Video/Movies/American Gangster (2007)/American Gangster (2007).mp4,h264,720x462,1116752174,1037914917,78837257,26,284,replaced,
+2026-10-18T06:11:54.071Z,//bandersnatch/Video/Movies/American Hustle (2013)/American Hustle (2013).avi,mpeg4,704x288,1996495934,930118786,1066377148,26,181,replaced,
+2026-10-18T06:15:20.351Z,//bandersnatch/Video/Movies/American Made (2017)/American Made (2017).mkv,h264,1916x1032,2099603739,3128877471,0,26,893,kept,new file not smaller; marked
+2026-10-18T06:30:37.109Z,//bandersnatch/Video/Movies/American Sniper (2014)/American Sniper (2014).avi,mpeg4,720x304,1630656982,839399826,791257156,26,154,replaced,
+2026-10-18T06:33:37.532Z,//bandersnatch/Video/Movies/Anchorman - The Legend of Ron Burgundy (2004)/Anchorman - The Legend of Ron Burgundy (2004).m4v,h264,720x460,1357859859,1050553811,307306048,26,172,replaced,
+2026-10-18T06:36:51.888Z,//bandersnatch/Video/Movies/Anchorman 2 - The Legend Continues (2013)/Anchorman 2 - The Legend Continues (2013).mkv,h264,1920x800,9389198944,3990166365,5399032579,26,795,replaced,"default audio eng, default subtitle eng"
+2026-10-18T06:50:30.543Z,//bandersnatch/Video/Movies/And Everything Is Going Fine (2010)/And Everything Is Going Fine (2010).m4v,h264,712x530,1106968607,812250980,294717627,26,173,replaced,
+2026-10-18T06:53:43.013Z,//bandersnatch/Video/Movies/Anemone (2025)/Anemone (2025).mkv,hevc,1280x536,927246685,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T06:54:06.572Z,//bandersnatch/Video/Movies/Annihilation (2018)/Annihilation (2018).mkv,hevc,1280x536,1541178694,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T06:54:16.165Z,//bandersnatch/Video/Movies/Anomalisa (2015)/Anomalisa (2015).mp4,h264,1280x534,1174822528,695191525,479631003,26,258,replaced,
+2026-10-18T06:58:56.604Z,//bandersnatch/Video/Movies/Anora (2024)/Anora (2024).mkv,hevc,1920x800,2196026215,2407448765,0,26,796,kept,new file not smaller; marked
+2026-10-18T07:12:23.179Z,//bandersnatch/Video/Movies/Ant-Man (2015)/Ant-Man (2015).mkv,h264,1280x688,1513601695,1750136107,0,26,425,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-18T07:19:45.937Z,//bandersnatch/Video/Movies/Ant-Man and the Wasp - Quantumania (2023)/Ant-Man and the Wasp - Quantumania (2023).mp4,hevc,1920x804,2082342188,2323878160,0,26,745,kept,new file not smaller
+2026-10-18T07:32:32.407Z,//bandersnatch/Video/Movies/Ant-Man and the Wasp (2018)/Ant-Man and the Wasp (2018).mkv,h264,1920x804,2030506804,2373592224,0,26,725,kept,new file not smaller; marked
+2026-10-18T07:44:45.352Z,//bandersnatch/Video/Movies/Any Given Sunday (1999)/Any Given Sunday (1999).m4v,h264,720x358,1999216483,1523266123,475950360,26,228,replaced,
+2026-10-18T12:11:54.607Z,//bandersnatch/Video/Movies/Apocalypse Now (1979)/Apocalypse Now (1979).mp4,hevc,1920x800,3278927966,4868903612,0,26,1166,kept,new file not smaller
+2026-10-18T12:31:59.222Z,//bandersnatch/Video/Movies/Apollo 11 (2019)/Apollo 11 (2019).mkv,h264,1280x582,6883039702,1642436666,5240603036,26,330,replaced,
+2026-10-18T12:37:46.810Z,//bandersnatch/Video/Movies/Apollo 13 (1995)/Apollo 13 (1995).m4v,h264,720x362,1835397753,1384072149,451325604,26,208,replaced,
+2026-10-18T12:41:37.565Z,//bandersnatch/Video/Movies/Argo (2012)/Argo (2012).mkv,h264,1920x800,9383315145,4948242091,4435073054,26,837,replaced,
+2026-10-18T12:56:10.909Z,//bandersnatch/Video/Movies/Army of Darkness (1992)/Army of Darkness (1992).mp4,hevc,720x480,1516243519,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T12:56:34.157Z,//bandersnatch/Video/Movies/Arrival (2016)/Arrival (2016).avi,mpeg4,720x304,1376320494,652560528,723759966,26,138,replaced,
+2026-10-18T12:59:15.655Z,//bandersnatch/Video/Movies/As Good as It Gets (1997)/As Good as It Gets (1997).m4v,h264,720x470,1294937787,1064868342,230069445,26,231,replaced,
+2026-10-18T13:03:32.184Z,//bandersnatch/Video/Movies/Assassin's Creed (2016)/Assassin's Creed (2016).mp4,h264,1280x536,1499546129,1116567938,382978191,26,330,replaced,
+2026-10-18T13:09:14.974Z,//bandersnatch/Video/Movies/Asteroid City (2023)/Asteroid City (2023).mp4,hevc,1920x804,1889151341,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T13:09:31.183Z,//bandersnatch/Video/Movies/Atomic Blonde (2017)/Atomic Blonde (2017).mkv,h264,1920x804,2317968318,2562800163,0,26,711,kept,new file not smaller; marked
+2026-10-18T13:21:35.201Z,//bandersnatch/Video/Movies/Austin Powers - International Man of Mystery (1997)/Austin Powers - International Man of Mystery (1997).m4v,h264,720x446,1471309701,975565059,495744642,26,152,replaced,
+2026-10-18T13:24:30.617Z,//bandersnatch/Video/Movies/Avengers - Age of Ultron (2015)/Avengers - Age of Ultron (2015).mkv,h264,1280x544,4039171433,2027530782,2011640651,26,425,replaced,
+2026-10-18T13:32:11.196Z,//bandersnatch/Video/Movies/Avengers - Endgame (2019)/Avengers - Endgame (2019).mkv,h264,1920x804,3545702400,3801210388,0,26,1113,kept,new file not smaller; marked
+2026-10-18T13:51:07.643Z,//bandersnatch/Video/Movies/Avengers - Infinity War (2018)/Avengers - Infinity War (2018).mkv,hevc,1920x808,2905017200,2968202318,0,26,891,kept,new file not smaller; marked
+2026-10-18T14:06:24.111Z,//bandersnatch/Video/Movies/Baby Driver (2017)/Baby Driver (2017).mkv,hevc,1920x804,3344860197,,,,,skipped,already converted (Lavc61.19.101 hevc_nvenc)
+2026-10-18T14:06:38.557Z,//bandersnatch/Video/Movies/Back to Black (2024)/Back to Black (2024).mkv,hevc,1280x696,918907839,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T14:06:54.556Z,//bandersnatch/Video/Movies/Back to the Future (1985)/Back to the Future (1985).m4v,h264,720x460,1976989930,1338284296,638705634,26,203,replaced,
+2026-10-18T14:10:27.958Z,//bandersnatch/Video/Movies/Back to the Future Part II (1989)/Back to the Future Part II (1989).m4v,h264,720x460,1600857911,1198860474,401997437,26,186,replaced,
+2026-10-18T14:14:02.546Z,//bandersnatch/Video/Movies/Back to the Future Part III (1990)/Back to the Future Part III (1990).m4v,h264,720x460,1825527005,1319234796,506292209,26,204,replaced,
+2026-10-18T14:17:44.962Z,//bandersnatch/Video/Movies/Bad Lieutenant (1992)/Bad Lieutenant (1992).m4v,h264,720x474,1037032283,766420404,270611879,26,160,replaced,
+2026-10-18T14:20:31.990Z,//bandersnatch/Video/Movies/Bad Moms (2016)/Bad Moms (2016).avi,mpeg4,720x304,1450110034,726733518,723376516,26,122,replaced,
+2026-10-18T14:22:57.226Z,//bandersnatch/Video/Movies/Bad Times at the El Royale (2018)/Bad Times at the El Royale (2018).mkv,h264,1280x536,1454705140,1288191303,166513837,26,400,replaced,
+2026-10-18T14:30:05.528Z,//bandersnatch/Video/Movies/Ballerina (2025)/Ballerina (2025).mkv,hevc,1920x800,2257612315,2286940380,0,26,720,kept,new file not smaller; marked
+2026-10-18T14:42:18.812Z,//bandersnatch/Video/Movies/Barb & Star Go to Vista Del Mar (2021)/Barb & Star Go to Vista Del Mar (2021).mkv,h264,1280x720,2984708326,1719642207,1265066119,26,416,replaced,"default audio eng, default subtitle eng"
+2026-10-18T14:49:28.249Z,//bandersnatch/Video/Movies/Barbie (2023)/Barbie (2023).mkv,hevc,1280x640,1041891610,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T14:49:41.287Z,//bandersnatch/Video/Movies/Barry Lyndon (1975)/Barry Lyndon (1975).mp4,h264,1280x720,1266098354,1825061297,0,26,692,kept,new file not smaller
+2026-10-18T15:01:31.012Z,//bandersnatch/Video/Movies/Batman v Superman - Dawn of Justice (2016)/Batman v Superman - Dawn of Justice (2016).avi,mpeg4,720x304,2216971050,1377591174,839379876,26,214,replaced,
+2026-10-18T15:05:21.076Z,//bandersnatch/Video/Movies/Battle Beyond the Stars (1980)/Battle Beyond the Stars (1980).mkv,h264,1920x1080,7975490734,4721532591,3253958143,26,872,replaced,"default audio eng, default subtitle none"
+2026-10-18T15:20:17.488Z,//bandersnatch/Video/Movies/Battleship (2012)/Battleship (2012).mkv,h264,1920x800,10566628211,5210905270,5355722941,26,830,replaced,
+2026-10-18T15:34:45.089Z,//bandersnatch/Video/Movies/Baywatch (2017)/Baywatch (2017).mkv,h264,1280x536,2967631708,1842036876,1125594832,26,355,replaced,
+2026-10-18T15:40:56.677Z,//bandersnatch/Video/Movies/Beasts of the Southern Wild (2012)/Beasts of the Southern Wild (2012).mkv,h264,1280x696,4693191501,2844393638,1848797863,26,383,replaced,"default audio eng, default subtitle eng"
+2026-10-18T15:47:45.221Z,//bandersnatch/Video/Movies/Beauty and the Beast (2017)/Beauty and the Beast (2017).mkv,h264,720x302,1056312951,696384303,359928648,26,153,replaced,
+2026-10-18T15:50:46.118Z,//bandersnatch/Video/Movies/Beavis and Butt-Head Do the Universe (2022)/Beavis and Butt-Head Do the Universe (2022).mp4,h264,720x400,878395942,495064538,383331404,26,125,replaced,
+2026-10-18T15:53:08.924Z,//bandersnatch/Video/Movies/Becoming Led Zeppelin (2025)/Becoming Led Zeppelin (2025).mp4,hevc,1920x1080,2181224064,3836966607,0,26,964,kept,new file not smaller
+2026-10-18T16:09:25.490Z,//bandersnatch/Video/Movies/Beerfest (2006)/Beerfest (2006).m4v,h264,720x360,1609059303,1162188575,446870728,26,170,replaced,
+2026-10-18T16:12:41.822Z,//bandersnatch/Video/Movies/Better Off Dead. (1985)/Better Off Dead. (1985).m4v,h264,720x480,1747053000,960693578,786359422,26,167,replaced,
+2026-10-18T16:15:52.855Z,//bandersnatch/Video/Movies/Big Eyes (2014)/Big Eyes (2014).mkv,h264,720x400,742629072,611129786,131499286,26,186,replaced,
+2026-10-18T16:19:19.381Z,//bandersnatch/Video/Movies/Big Hero 6 (2014)/Big Hero 6 (2014).avi,mpeg4,720x304,1395112038,621900787,773211251,26,116,replaced,
+2026-10-18T16:21:44.962Z,//bandersnatch/Video/Movies/Big Trouble in Little China (1986)/Big Trouble in Little China (1986).m4v,h264,720x368,1469097210,1157740577,311356633,26,148,replaced,
+2026-10-18T16:24:25.785Z,//bandersnatch/Video/Movies/Bill & Ted Face the Music (2020)/Bill & Ted Face the Music (2020).mkv,hevc,1920x800,1230504910,,,,,skipped,"already hevc, 2 GB or smaller; default audio eng, default subtitle eng"
+2026-10-18T16:24:43.868Z,//bandersnatch/Video/Movies/Birdman or (The Unexpected Virtue of Ignorance) (2014)/Birdman or (The Unexpected Virtue of Ignorance) (2014).avi,mpeg4,720x384,1620254668,772904071,847350597,26,158,replaced,
+2026-10-18T16:27:27.960Z,//bandersnatch/Video/Movies/Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn) (2020)/Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn) (2020).mkv,hevc,1280x536,801700530,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T16:27:58.640Z,//bandersnatch/Video/Movies/Black Adam (2022)/Black Adam (2022).mkv,h264,1920x1080,6549058256,4176957119,2372101137,26,1024,replaced,"default audio eng, default subtitle eng"
+2026-10-18T16:45:24.149Z,//bandersnatch/Video/Movies/Black Mass (2015)/Black Mass (2015).avi,mpeg4,720x304,1527937352,808055127,719882225,26,145,replaced,
+2026-10-18T16:48:06.545Z,//bandersnatch/Video/Movies/Black Panther - Wakanda Forever (2022)/Black Panther - Wakanda Forever (2022).mp4,hevc,1920x804,2698946965,2814757086,0,26,963,kept,new file not smaller
+2026-10-18T17:04:23.980Z,//bandersnatch/Video/Movies/Black Panther (2018)/Black Panther (2018).mkv,hevc,1280x536,1061200342,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T17:04:40.539Z,//bandersnatch/Video/Movies/Black Widow (2021)/Black Widow (2021).mkv,hevc,1920x808,2690635886,2863744797,0,26,799,kept,new file not smaller; marked
+2026-10-18T17:18:23.360Z,//bandersnatch/Video/Movies/Blade (1998)/Blade (1998).mkv,hevc,1280x720,1279348911,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T17:18:46.989Z,//bandersnatch/Video/Movies/Blade Runner (1982)/Blade Runner (1982).mp4,h264,1280x544,936273076,974481992,0,26,327,kept,new file not smaller
+2026-10-18T17:24:29.601Z,//bandersnatch/Video/Movies/Blade Runner 2049 (2017)/Blade Runner 2049 (2017).mkv,h264,1920x800,3441049229,2403021810,1038027419,26,957,replaced,
+2026-10-18T17:40:51.646Z,//bandersnatch/Video/Movies/Blazing Saddles (1974)/Blazing Saddles (1974).m4v,h264,720x362,1328319545,937947561,390371984,26,137,replaced,
+2026-10-18T17:43:29.521Z,//bandersnatch/Video/Movies/Blockers (2018)/Blockers (2018).mkv,h264,1280x536,894088165,948840998,0,26,286,kept,new file not smaller; marked
+2026-10-18T17:48:34.702Z,//bandersnatch/Video/Movies/Bohemian Rhapsody (2018)/Bohemian Rhapsody (2018).avi,mpeg4,720x304,2109788252,1016671775,1093116477,26,165,replaced,
+2026-10-18T17:51:46.578Z,//bandersnatch/Video/Movies/Bombshell (2019)/Bombshell (2019).mkv,hevc,1280x536,688860098,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T17:52:02.627Z,//bandersnatch/Video/Movies/Bone Tomahawk (2015)/Bone Tomahawk (2015).avi,mpeg4,720x304,1483529388,868617638,614911750,26,156,replaced,
+2026-10-18T17:54:45.502Z,//bandersnatch/Video/Movies/Booksmart (2019)/Booksmart (2019).avi,h264,720x304,1508233375,654282092,853951283,26,126,replaced,
+2026-10-18T17:57:13.701Z,//bandersnatch/Video/Movies/Borderlands (2024)/Borderlands (2024).mkv,hevc,1280x536,932873828,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T17:57:35.747Z,//bandersnatch/Video/Movies/Bram Stoker's Dracula (1992)/Bram Stoker's Dracula (1992).mkv,h264,1280x688,7039503433,2088818386,4950685047,26,480,replaced,
+2026-10-18T18:06:01.336Z,//bandersnatch/Video/Movies/Brave (2012)/Brave (2012).mkv,h264,1920x808,5868057061,2339346465,3528710596,26,588,replaced,"default audio eng, default subtitle eng"
+2026-10-18T18:16:21.853Z,//bandersnatch/Video/Movies/Bridge of Spies (2015)/Bridge of Spies (2015).mkv,h264,1920x800,11727047187,4980230485,6746816702,26,901,replaced,
+2026-10-18T18:32:00.978Z,//bandersnatch/Video/Movies/Brooklyn (2015)/Brooklyn (2015).avi,mpeg4,704x368,1457521256,633402843,824118413,26,140,replaced,
+2026-10-18T18:34:40.645Z,//bandersnatch/Video/Movies/Buffaloed (2020)/Buffaloed (2020).avi,h264,720x300,1478535010,644134436,834400574,26,118,replaced,
+2026-10-18T18:37:06.612Z,//bandersnatch/Video/Movies/Bugonia (2025)/Bugonia (2025).mkv,hevc,1622x1080,6740565980,3079870218,3660695762,26,799,replaced,"default audio eng, default subtitle eng"
+2026-10-18T18:50:42.049Z,//bandersnatch/Video/Movies/Bumblebee (2018)/Bumblebee (2018).mkv,h264,1280x720,3942853019,1589163849,2353689170,26,431,replaced,"default audio und, default subtitle none"
+2026-10-18T18:58:06.364Z,//bandersnatch/Video/Movies/Burnt (2015)/Burnt (2015).mkv,h264,1920x800,1942606920,1854796245,87810675,26,595,replaced,
+2026-10-18T19:08:10.760Z,//bandersnatch/Video/Movies/Butter (2012)/Butter (2012).mkv,h264,1280x544,4825914255,1955966721,2869947534,26,292,replaced,
+2026-10-18T19:13:23.299Z,//bandersnatch/Video/Movies/C'mon C'mon (2021)/C'mon C'mon (2021).mkv,h264,1280x772,1010074321,1046036011,0,26,439,kept,new file not smaller; marked
+2026-10-18T19:21:04.457Z,//bandersnatch/Video/Movies/Caligula (1979)/Caligula (1979).m4v,h264,720x360,3336446445,1722603638,1613842807,26,286,replaced,
+2026-10-18T19:26:29.105Z,//bandersnatch/Video/Movies/Captain America - Brave New World (2025)/Captain America - Brave New World (2025).mkv,hevc,1920x804,1474824183,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T19:26:43.454Z,//bandersnatch/Video/Movies/Captain America - Civil War (2016)/Captain America - Civil War (2016).mkv,h264,1280x544,4077593874,1960419356,2117174518,26,428,replaced,"default audio eng, default subtitle eng"
+2026-10-18T19:34:07.977Z,//bandersnatch/Video/Movies/Captain America - The Winter Soldier (2014)/Captain America - The Winter Soldier (2014).mkv,h264,1280x536,5863804575,2874899674,2988904901,26,429,replaced,
+2026-10-18T19:41:30.354Z,//bandersnatch/Video/Movies/Captain Marvel (2019)/Captain Marvel (2019).mkv,hevc,1920x804,2386661079,2900243053,0,26,763,kept,new file not smaller; marked
+2026-10-18T19:54:36.916Z,//bandersnatch/Video/Movies/Captain Phillips (2013)/Captain Phillips (2013).mkv,h264,1280x534,6752993543,3382951950,3370041593,26,443,replaced,
+2026-10-18T20:02:25.827Z,//bandersnatch/Video/Movies/Cars (2006)/Cars (2006).m4v,h264,720x362,1696487138,1194304622,502182516,26,173,replaced,
+2026-10-18T20:05:27.309Z,//bandersnatch/Video/Movies/Casablanca (1943)/Casablanca (1943).m4v,h264,720x480,1936058630,1046281706,889776924,26,179,replaced,
+2026-10-18T20:08:43.608Z,//bandersnatch/Video/Movies/Caught Stealing (2025)/Caught Stealing (2025).mkv,hevc,1920x1036,1923524185,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T20:08:56.445Z,//bandersnatch/Video/Movies/Chappie (2015)/Chappie (2015).mkv,h264,1280x532,3786117764,1553745844,2232371920,26,355,replaced,
+2026-10-18T20:15:17.519Z,//bandersnatch/Video/Movies/Charlie Wilson's War (2007)/Charlie Wilson's War (2007).mp4,hevc,1920x1040,1705164548,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T20:15:32.322Z,//bandersnatch/Video/Movies/Charlie's Angels (2000)/Charlie's Angels (2000).m4v,h264,720x364,1320548313,857751288,462797025,26,141,replaced,
+2026-10-18T20:18:14.458Z,//bandersnatch/Video/Movies/Charlie's Angels (2019)/Charlie's Angels (2019).mkv,hevc,1280x528,872722294,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T20:18:35.040Z,//bandersnatch/Video/Movies/Children of Men (2006)/Children of Men (2006).m4v,h264,720x460,1645953148,1164491763,481461385,26,191,replaced,
+2026-10-18T20:22:05.408Z,//bandersnatch/Video/Movies/Chronicle (2012)/Chronicle (2012).mkv,h264,1920x1036,10383184484,4253229936,6129954548,26,740,replaced,
+2026-10-18T20:34:50.065Z,//bandersnatch/Video/Movies/Cinderella II - Dreams Come True (2002)/Cinderella II - Dreams Come True (2002).m4v,h264,684x480,902143083,797429224,104713859,26,147,replaced,
+2026-10-18T20:37:30.269Z,//bandersnatch/Video/Movies/Clean (2022)/Clean (2022).mkv,h264,1280x536,862729381,838496294,24233087,26,266,replaced,
+2026-10-18T20:42:09.627Z,//bandersnatch/Video/Movies/Clerks (1994)/Clerks (1994).m4v,h264,720x344,2401613109,894655750,1506957359,26,136,replaced,
+2026-10-18T20:44:53.838Z,//bandersnatch/Video/Movies/Clerks II (2006)/Clerks II (2006).m4v,h264,720x480,1629606935,1111953461,517653474,26,170,replaced,
+2026-10-18T20:48:08.264Z,//bandersnatch/Video/Movies/Clue (1985)/Clue (1985).mp4,hevc,716x480,1266062357,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T20:48:22.506Z,//bandersnatch/Video/Movies/Conan the Barbarian (1982)/Conan the Barbarian (1982).mkv,hevc,1280x544,2397782555,1926496057,471286498,26,381,replaced,
+2026-10-18T20:55:05.495Z,//bandersnatch/Video/Movies/Conclave (2024)/Conclave (2024).mkv,hevc,1920x800,1372341076,,,,,skipped,"already hevc, 2 GB or smaller; default audio eng, default subtitle eng"
+2026-10-18T20:55:19.880Z,//bandersnatch/Video/Movies/Concussion (2015)/Concussion (2015).mkv,h264,1280x536,1172412474,1111761452,60651022,26,347,replaced,"default audio eng, default subtitle eng"
+2026-10-18T21:01:22.719Z,//bandersnatch/Video/Movies/Constantine (2005)/Constantine (2005).m4v,h264,720x358,1276777955,1068640752,208137203,26,173,replaced,
+2026-10-18T21:04:40.887Z,//bandersnatch/Video/Movies/Coyote vs. Acme (2026)/Coyote vs. Acme (2026).mkv,hevc,1920x800,1488727366,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T21:05:02.456Z,//bandersnatch/Video/Movies/Crazy Rich Asians (2018)/Crazy Rich Asians (2018).mkv,hevc,1920x800,1603194905,,,,,skipped,"already hevc, 2 GB or smaller; default audio eng, default subtitle none"
+2026-10-18T21:05:16.943Z,//bandersnatch/Video/Movies/Creed (2015)/Creed (2015).mkv,h264,720x288,1275321740,785898842,489422898,26,188,replaced,
+2026-10-18T21:08:49.933Z,//bandersnatch/Video/Movies/Cromwell (1970)/Cromwell (1970).avi,mpeg4,720x300,1889984460,852541366,1037443094,26,167,replaced,
+2026-10-18T21:12:06.800Z,"//bandersnatch/Video/Movies/Crouching Tiger, Hidden Dragon (2000)/Crouching Tiger, Hidden Dragon (2000).m4v",h264,720x366,1322403126,1016217852,306185274,26,173,replaced,
+2026-10-18T21:15:18.625Z,//bandersnatch/Video/Movies/Croupier (1998)/Croupier (1998).mkv,hevc,720x360,675700615,,,,,skipped,already converted (Lavc62.28.103 hevc_nvenc)
+2026-10-18T21:15:35.829Z,//bandersnatch/Video/Movies/Cruella (2021)/Cruella (2021).mkv,hevc,1920x1040,2398472117,2783987464,0,26,1028,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-18T21:33:02.847Z,//bandersnatch/Video/Movies/Da 5 Bloods (2020)/Da 5 Bloods (2020).mkv,hevc,1280x688,1791570980,,,,,skipped,"already hevc, 2 GB or smaller; default audio eng, default subtitle eng"
+2026-10-18T21:33:22.130Z,//bandersnatch/Video/Movies/Daddy's Home (2015)/Daddy's Home (2015).mkv,h264,1280x720,831271255,1101781850,0,26,355,kept,"new file not smaller; default audio eng, default subtitle none; marked"
+2026-10-18T21:39:40.952Z,//bandersnatch/Video/Movies/Dallas Buyers Club (2013)/Dallas Buyers Club (2013).avi,mpeg4,720x304,1804980224,866465885,938514339,26,144,replaced,
+2026-10-18T21:42:20.610Z,//bandersnatch/Video/Movies/Dark Star (1974)/Dark Star (1974).mp4,h264,1920x1040,1457296652,1963836375,0,26,561,kept,new file not smaller
+2026-10-18T21:52:00.017Z,//bandersnatch/Video/Movies/Darkest Hour (2017)/Darkest Hour (2017).mkv,h264,1280x688,4231957865,1668401829,2563556036,26,456,replaced,
+2026-10-18T22:00:09.322Z,//bandersnatch/Video/Movies/Dawn of the Planet of the Apes (2014)/Dawn of the Planet of the Apes (2014).mkv,h264,1280x696,5866949174,2990948657,2876000517,26,509,replaced,"default audio eng, default subtitle none"
+2026-10-18T22:08:50.151Z,//bandersnatch/Video/Movies/DC League of Super-Pets (2022)/DC League of Super-Pets (2022).mkv,hevc,1920x808,1349718391,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T22:09:04.968Z,//bandersnatch/Video/Movies/Deadpool (2016)/Deadpool (2016).mp4,h264,1280x536,1403476191,1225742771,177733420,26,309,replaced,
+2026-10-18T22:14:32.047Z,//bandersnatch/Video/Movies/Deadpool & Wolverine (2024)/Deadpool & Wolverine (2024).mkv,hevc,1920x808,2332557833,2529341962,0,26,767,kept,new file not smaller; marked
+2026-10-18T22:27:35.114Z,//bandersnatch/Video/Movies/Deadpool 2 (2018)/Deadpool 2 (2018).mkv,hevc,1920x808,3518838931,3112088739,406750192,26,805,replaced,
+2026-10-18T22:41:13.620Z,//bandersnatch/Video/Movies/Die Hard (1988)/Die Hard (1988).mkv,h264,1280x544,7038028714,3068724494,3969304220,26,434,replaced,
+2026-10-18T22:48:52.541Z,//bandersnatch/Video/Movies/Disclosure Day (2026)/Disclosure Day (2026).mkv,hevc,1920x804,2273173820,2636406395,0,26,868,kept,new file not smaller; marked
+2026-10-18T23:04:01.405Z,//bandersnatch/Video/Movies/Django Unchained (2012)/Django Unchained (2012).mkv,h264,1920x800,22414572303,7511128454,14903443849,26,1092,replaced,"default audio eng, default subtitle eng"
+2026-10-18T23:22:41.600Z,//bandersnatch/Video/Movies/Doctor Strange (2016)/Doctor Strange (2016).mkv,h264,1280x540,2736262804,1844499292,891763512,26,333,replaced,
+2026-10-18T23:28:28.677Z,//bandersnatch/Video/Movies/Doctor Strange in the Multiverse of Madness (2022)/Doctor Strange in the Multiverse of Madness (2022).mp4,h264,720x302,1291899150,808634023,483265127,26,158,replaced,
+2026-10-18T23:31:25.648Z,//bandersnatch/Video/Movies/DodgeBall - A True Underdog Story (2004)/DodgeBall - A True Underdog Story (2004).m4v,h264,720x370,1456482447,989873082,466609365,26,138,replaced,
+2026-10-18T23:34:26.357Z,//bandersnatch/Video/Movies/Dogma (1999)/Dogma (1999).m4v,h264,720x372,1000334513,851152637,149181876,26,184,replaced,
+2026-10-18T23:37:53.732Z,//bandersnatch/Video/Movies/Dolittle (2020)/Dolittle (2020).mkv,hevc,1280x688,822280744,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T23:38:16.231Z,//bandersnatch/Video/Movies/Donnie Darko (2001)/Donnie Darko (2001).mkv,h264,1920x816,9391343604,3623558610,5767784994,26,760,replaced,
+2026-10-18T23:51:20.674Z,//bandersnatch/Video/Movies/Downton Abbey (2019)/Downton Abbey (2019).mkv,hevc,1280x536,768993854,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-18T23:51:42.486Z,//bandersnatch/Video/Movies/Dredd (2012)/Dredd (2012).mkv,h264,1280x536,4690558322,2288361192,2402197130,26,320,replaced,
+2026-10-18T23:57:25.943Z,//bandersnatch/Video/Movies/Drive (2011)/Drive (2011).mp4,h264,640x272,398968794,383601808,15366986,26,100,replaced,
+2026-10-18T23:59:37.108Z,"//bandersnatch/Video/Movies/Dude, Where's My Car! (2000)/Dude, Where's My Car! (2000).m4v",h264,720x466,1373524437,973867221,399657216,26,154,replaced,
+2026-10-19T00:02:53.038Z,//bandersnatch/Video/Movies/Dumbo (1941)/Dumbo (1941).mkv,hevc,1920x1080,1138276257,,,,,skipped,"already hevc, 2 GB or smaller; default audio eng, default subtitle eng"
+2026-10-19T00:03:17.096Z,//bandersnatch/Video/Movies/Dune (1984)/Dune (1984).m4v,h264,704x576,2980234353,1814230195,1166004158,26,353,replaced,
+2026-10-19T00:09:34.726Z,//bandersnatch/Video/Movies/Dungeons & Dragons - Honor Among Thieves (2023)/Dungeons & Dragons - Honor Among Thieves (2023).mkv,hevc,1920x800,2229803476,2378912435,0,26,782,kept,new file not smaller; marked
+2026-10-19T00:22:50.707Z,//bandersnatch/Video/Movies/Dunkirk (2017)/Dunkirk (2017).mkv,h264,1920x1080,2159232815,3066027835,0,26,852,kept,new file not smaller; marked
+2026-10-19T00:37:26.012Z,//bandersnatch/Video/Movies/Eastern Promises (2007)/Eastern Promises (2007).m4v,h264,720x466,1334087871,1024607553,309480318,26,178,replaced,
+2026-10-19T00:40:40.194Z,//bandersnatch/Video/Movies/Edward Scissorhands (1990)/Edward Scissorhands (1990).m4v,h264,720x476,1305072251,1047342400,257729851,26,179,replaced,
+2026-10-19T00:44:17.443Z,//bandersnatch/Video/Movies/Elio (2025)/Elio (2025).mkv,hevc,1920x808,1596391140,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T00:44:36.413Z,//bandersnatch/Video/Movies/Ella Enchanted (2004)/Ella Enchanted (2004).m4v,h264,720x466,1441026807,1048927665,392099142,26,174,replaced,
+2026-10-19T00:48:09.306Z,//bandersnatch/Video/Movies/Elvis (2022)/Elvis (2022).mkv,h264,1280x536,1396164389,1696489454,0,26,458,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-19T00:56:04.501Z,//bandersnatch/Video/Movies/Elysium (2013)/Elysium (2013).mkv,h264,1920x808,8212594506,3924214272,4288380234,26,719,replaced,"default audio eng, default subtitle eng"
+2026-10-19T01:08:21.916Z,//bandersnatch/Video/Movies/Ender's Game (2013)/Ender's Game (2013).mkv,h264,1280x536,5863724538,2304801371,3558923167,26,367,replaced,"default audio eng, default subtitle eng"
+2026-10-19T01:14:52.572Z,//bandersnatch/Video/Movies/Enter the Dragon (1973)/Enter the Dragon (1973).m4v,h264,720x366,1744089418,1056450353,687639065,26,153,replaced,
+2026-10-19T01:17:49.152Z,//bandersnatch/Video/Movies/Equilibrium (2002)/Equilibrium (2002).mkv,hevc,1920x824,1782720533,,,,,skipped,"already hevc, 2 GB or smaller; default audio none, default subtitle eng"
+2026-10-19T01:18:12.565Z,//bandersnatch/Video/Movies/Eternals (2021)/Eternals (2021).mkv,hevc,1280x536,1090273966,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T01:18:27.797Z,//bandersnatch/Video/Movies/Eurovision Song Contest - The Story of Fire Saga (2020)/Eurovision Song Contest - The Story of Fire Saga (2020).mkv,hevc,1280x688,1386842590,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T01:18:41.799Z,//bandersnatch/Video/Movies/Evan Almighty (2007)/Evan Almighty (2007).m4v,h264,720x362,1099679074,896259514,203419560,26,137,replaced,
+2026-10-19T01:21:23.915Z,//bandersnatch/Video/Movies/Everest (2015)/Everest (2015).mkv,h264,1280x536,1334024716,1503259877,0,26,346,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-19T01:27:22.512Z,//bandersnatch/Video/Movies/Everybody Wants Some!! (2016)/Everybody Wants Some!! (2016).mkv,h264,1280x720,1047279026,1532050847,0,26,434,kept,new file not smaller; marked
+2026-10-19T01:34:47.331Z,//bandersnatch/Video/Movies/Everything Everywhere All at Once (2022)/Everything Everywhere All at Once (2022).mkv,hevc,1920x1040,1926304632,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T01:35:03.137Z,//bandersnatch/Video/Movies/Ex Machina (2015)/Ex Machina (2015).mkv,h264,1280x536,4695900070,1342791329,3353108741,26,321,replaced,"default audio eng, default subtitle none"
+2026-10-19T01:40:51.462Z,//bandersnatch/Video/Movies/F1 (2025)/F1 (2025).mkv,hevc,1920x800,3522158452,3856389329,0,26,913,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-19T01:56:19.120Z,//bandersnatch/Video/Movies/F9 (2021)/F9 (2021).mkv,h264,1248x520,4603696626,2401205870,2202490756,26,418,replaced,"default audio eng, default subtitle eng"
+2026-10-19T02:03:27.879Z,//bandersnatch/Video/Movies/Fantasia 2000 (2000)/Fantasia 2000 (2000).m4v,h264,720x474,1146820706,896822013,249998693,26,131,replaced,
+2026-10-19T02:06:09.617Z,//bandersnatch/Video/Movies/Fantastic Beasts and Where to Find Them (2016)/Fantastic Beasts and Where to Find Them (2016).mkv,h264,1280x536,1338149915,1200227578,137922337,26,372,replaced,
+2026-10-19T02:12:44.559Z,//bandersnatch/Video/Movies/Fast & Furious Presents - Hobbs & Shaw (2019)/Fast & Furious Presents - Hobbs & Shaw (2019).mkv,h264,1280x536,1363455268,1523765096,0,26,386,kept,new file not smaller; marked
+2026-10-19T02:19:35.136Z,//bandersnatch/Video/Movies/Fast X (2023)/Fast X (2023).mkv,hevc,1280x536,1264418723,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T02:19:49.867Z,//bandersnatch/Video/Movies/Fastball (2016)/Fastball (2016).avi,mpeg4,720x400,1336455616,745381863,591073753,26,129,replaced,
+2026-10-19T02:22:18.859Z,//bandersnatch/Video/Movies/Fences (2016)/Fences (2016).avi,mpeg4,720x304,1952755712,886574030,1066181682,26,167,replaced,
+2026-10-19T02:25:20.466Z,//bandersnatch/Video/Movies/Fight Club (1999)/Fight Club (1999).m4v,h264,720x360,1165937955,980211847,185726108,26,192,replaced,
+2026-10-19T02:28:54.590Z,//bandersnatch/Video/Movies/Finch (2021)/Finch (2021).mkv,hevc,1280x536,983776295,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T02:29:17.453Z,//bandersnatch/Video/Movies/Finding Nemo (2003)/Finding Nemo (2003).m4v,h264,720x480,1897158969,1212525231,684633738,26,180,replaced,
+2026-10-19T02:32:48.686Z,//bandersnatch/Video/Movies/First Man (2018)/First Man (2018).mkv,hevc,1280x540,999912640,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T02:33:09.008Z,//bandersnatch/Video/Movies/Flash Gordon (1980)/Flash Gordon (1980).m4v,h264,720x440,1699991371,1195458176,504533195,26,184,replaced,
+2026-10-19T02:36:43.866Z,//bandersnatch/Video/Movies/Ford v Ferrari (2019)/Ford v Ferrari (2019).mp4,h264,720x404,1536803634,920067099,616736535,26,270,replaced,
+2026-10-19T02:41:50.345Z,//bandersnatch/Video/Movies/Frankenweenie (2012)/Frankenweenie (2012).mkv,h264,1920x1040,4690529230,3083073955,1607455275,26,696,replaced,
+2026-10-19T02:53:46.631Z,//bandersnatch/Video/Movies/Free Guy (2021)/Free Guy (2021).mkv,hevc,1280x536,1136485365,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T02:54:04.071Z,//bandersnatch/Video/Movies/From Russia with Love (1963)/From Russia with Love (1963).mp4,h264,1280x720,956436576,1502253278,0,26,432,kept,new file not smaller
+2026-10-19T03:01:27.904Z,//bandersnatch/Video/Movies/Frozen II (2019)/Frozen II (2019).avi,mpeg4,720x304,1756782592,627888775,1128893817,26,125,replaced,
+2026-10-19T03:03:55.366Z,//bandersnatch/Video/Movies/Furiosa - A Mad Max Saga (2024)/Furiosa - A Mad Max Saga (2024).mkv,h264,1920x800,12564156064,6475940961,6088215103,26,966,replaced,"default audio eng, default subtitle eng"
+2026-10-19T03:20:20.940Z,//bandersnatch/Video/Movies/Furious 7 (2015)/Furious 7 (2015).mkv,h264,1280x534,3312162729,3127250319,184912410,26,431,replaced,"default audio eng, default subtitle none"
+2026-10-19T03:27:48.908Z,//bandersnatch/Video/Movies/Fury (2014)/Fury (2014).avi,mpeg4,720x292,2055493632,1015170942,1040322690,26,199,replaced,
+2026-10-19T03:31:39.054Z,//bandersnatch/Video/Movies/Futurama - Bender's Big Score (2007)/Futurama - Bender's Big Score (2007).m4v,h264,720x480,879578037,770388930,109189107,26,149,replaced,
+2026-10-19T03:34:32.444Z,//bandersnatch/Video/Movies/Game Night (2018)/Game Night (2018).mkv,h264,1920x800,2021759253,2161851376,0,26,591,kept,new file not smaller; marked
+2026-10-19T03:44:45.281Z,//bandersnatch/Video/Movies/Gemini Man (2019)/Gemini Man (2019).mkv,hevc,1920x1040,1990372165,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T03:44:59.508Z,//bandersnatch/Video/Movies/Get Out (2017)/Get Out (2017).mkv,h264,1280x536,995940235,891834808,104105427,26,290,replaced,
+2026-10-19T03:50:14.355Z,//bandersnatch/Video/Movies/Get Shorty (1995)/Get Shorty (1995).m4v,h264,718x480,1372153940,1032054219,340099721,26,176,replaced,
+2026-10-19T03:53:51.064Z,//bandersnatch/Video/Movies/Ghost in the Shell (2017)/Ghost in the Shell (2017).mkv,h264,1920x1080,2078073537,2579489259,0,26,848,kept,new file not smaller; marked
+2026-10-19T04:08:17.596Z,//bandersnatch/Video/Movies/Ghostbusters - Afterlife (2021)/Ghostbusters - Afterlife (2021).mkv,hevc,1920x800,1802467416,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T04:08:35.367Z,//bandersnatch/Video/Movies/Ghostbusters (1984)/Ghostbusters (1984).m4v,h264,720x360,1431737835,1057377875,374359960,26,154,replaced,
+2026-10-19T04:11:34.570Z,//bandersnatch/Video/Movies/Ghostbusters (2016)/Ghostbusters (2016).mp4,h264,1280x536,1372070377,1737449078,0,26,381,kept,new file not smaller
+2026-10-19T04:18:07.140Z,//bandersnatch/Video/Movies/Ghostbusters II (1989)/Ghostbusters II (1989).m4v,h264,720x374,1530317105,1105116213,425200892,26,158,replaced,
+2026-10-19T04:21:07.439Z,//bandersnatch/Video/Movies/Girls Trip (2017)/Girls Trip (2017).mkv,h264,1280x532,4024861976,1885559822,2139302154,26,362,replaced,
+2026-10-19T04:27:22.175Z,//bandersnatch/Video/Movies/Glengarry Glen Ross (1992)/Glengarry Glen Ross (1992).m4v,h264,720x362,1199450439,949823459,249626980,26,146,replaced,
+2026-10-19T04:29:55.236Z,//bandersnatch/Video/Movies/Gods of Egypt (2016)/Gods of Egypt (2016).avi,mpeg4,720x304,1480881242,1000477791,480403451,26,146,replaced,
+2026-10-19T04:32:36.543Z,//bandersnatch/Video/Movies/Godzilla - King of the Monsters (2019)/Godzilla - King of the Monsters (2019).mkv,h264,1280x534,1335202776,1462515322,0,26,369,kept,new file not smaller; marked
+2026-10-19T04:38:57.605Z,//bandersnatch/Video/Movies/Godzilla Minus One (2023)/Godzilla Minus One (2023).mkv,hevc,1920x808,2335695930,2277782604,57913326,26,743,replaced,
+2026-10-19T04:51:37.956Z,//bandersnatch/Video/Movies/Godzilla vs. Kong (2021)/Godzilla vs. Kong (2021).mkv,hevc,1920x808,2659996740,2572228574,87768166,26,676,replaced,
+2026-10-19T05:03:13.260Z,//bandersnatch/Video/Movies/Gold (2016)/Gold (2016).mkv,h264,1280x536,1177379146,1174173769,3205377,26,339,replaced,
+2026-10-19T05:09:10.937Z,//bandersnatch/Video/Movies/Gone Girl (2014)/Gone Girl (2014).mkv,h264,1280x528,3506160687,1601618000,1904542687,26,425,replaced,
+2026-10-19T05:16:29.484Z,//bandersnatch/Video/Movies/Good Boys (2019)/Good Boys (2019).mkv,h264,1280x534,785989565,907024975,0,26,250,kept,new file not smaller; marked
+2026-10-19T05:20:56.141Z,//bandersnatch/Video/Movies/Good Fortune (2025)/Good Fortune (2025).mkv,hevc,1920x1040,1727956067,,,,,skipped,"already hevc, 2 GB or smaller; default audio eng, default subtitle eng"
+2026-10-19T05:21:16.364Z,//bandersnatch/Video/Movies/Gravity (2013)/Gravity (2013).mkv,h264,1280x536,4689926748,1982522551,2707404197,26,295,replaced,"default audio eng, default subtitle eng"
+2026-10-19T05:26:47.468Z,//bandersnatch/Video/Movies/Green Book (2018)/Green Book (2018).mkv,h264,720x368,947017268,601206941,345810327,26,170,replaced,
+2026-10-19T05:30:17.872Z,//bandersnatch/Video/Movies/Guardians of the Galaxy (2014)/Guardians of the Galaxy (2014).mkv,h264,1280x536,5864668074,2535087538,3329580536,26,385,replaced,
+2026-10-19T05:37:22.731Z,//bandersnatch/Video/Movies/Guardians of the Galaxy Vol. 2 (2017)/Guardians of the Galaxy Vol. 2 (2017).mp4,h264,1280x536,1762687634,1582644020,180043614,26,388,replaced,
+2026-10-19T05:44:27.383Z,//bandersnatch/Video/Movies/Guardians of the Galaxy Vol. 3 (2023)/Guardians of the Galaxy Vol. 3 (2023).mkv,hevc,1920x1012,3807923687,3851830601,0,26,1096,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-19T06:03:19.606Z,//bandersnatch/Video/Movies/Guns Akimbo (2020)/Guns Akimbo (2020).avi,h264,720x298,1454074600,704474975,749599625,26,120,replaced,
+2026-10-19T06:05:44.125Z,//bandersnatch/Video/Movies/Guy Ritchie's The Covenant (2023)/Guy Ritchie's The Covenant (2023).mkv,hevc,1280x536,1038272676,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T06:06:02.381Z,//bandersnatch/Video/Movies/Hackers (1995)/Hackers (1995).mkv,hevc,1920x804,14542682469,,,,,skipped,"HDR or Dolby Vision, not 4K; default audio eng, default subtitle eng"
+2026-10-19T06:06:16.204Z,//bandersnatch/Video/Movies/Hacksaw Ridge (2016)/Hacksaw Ridge (2016).mkv,h264,1280x528,3539546580,2086562105,1452984475,26,407,replaced,"default audio eng, default subtitle none"
+2026-10-19T06:13:20.209Z,"//bandersnatch/Video/Movies/Hail, Caesar! (2016)/Hail, Caesar! (2016).mkv",h264,1914x1032,4211378034,2923249609,1288128425,26,825,replaced,
+2026-10-19T06:27:21.769Z,//bandersnatch/Video/Movies/Hairspray (2007)/Hairspray (2007).m4v,h264,720x364,1644009151,1223739568,420269583,26,172,replaced,
+2026-10-19T06:30:52.521Z,//bandersnatch/Video/Movies/Hamilton (2025)/Hamilton (2025).mkv,h264,1920x1080,11129771100,5389815725,5739955375,26,1296,replaced,
+2026-10-19T06:52:52.831Z,//bandersnatch/Video/Movies/Hansel & Gretel - Witch Hunters (2013)/Hansel & Gretel - Witch Hunters (2013).mkv,h264,1920x800,6570997653,2600758653,3970239000,26,592,replaced,
+2026-10-19T07:03:05.727Z,//bandersnatch/Video/Movies/Harry Potter and the Chamber of Secrets (2002)/Harry Potter and the Chamber of Secrets (2002).m4v,h264,720x362,1715801041,1405416930,310384111,26,229,replaced,
+2026-10-19T07:07:33.021Z,//bandersnatch/Video/Movies/Harry Potter and the Goblet of Fire (2005)/Harry Potter and the Goblet of Fire (2005).mkv,h264,1280x536,8541699394,3519670423,5022028971,26,515,replaced,
+2026-10-19T07:16:32.813Z,//bandersnatch/Video/Movies/Harry Potter and the Order of the Phoenix (2007)/Harry Potter and the Order of the Phoenix (2007).m4v,h264,720x360,1523860937,1190482362,333378575,26,196,replaced,
+2026-10-19T07:20:01.463Z,//bandersnatch/Video/Movies/Harry Potter and the Philosopher's Stone (2001)/Harry Potter and the Philosopher's Stone (2001).m4v,h264,720x360,1859301147,1455281077,404020070,26,220,replaced,
+2026-10-19T07:24:09.969Z,//bandersnatch/Video/Movies/Harry Potter and the Prisoner of Azkaban (2004)/Harry Potter and the Prisoner of Azkaban (2004).m4v,h264,720x362,1882569729,1386684710,495885019,26,210,replaced,
+2026-10-19T07:27:58.409Z,//bandersnatch/Video/Movies/Haywire (2011)/Haywire (2011).mkv,h264,1920x1080,1637894358,1660409563,0,26,732,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-19T07:40:23.182Z,//bandersnatch/Video/Movies/Heat (1995)/Heat (1995).mp4,hevc,1920x800,2849908359,3358857584,0,26,984,kept,new file not smaller
+2026-10-19T07:57:11.421Z,//bandersnatch/Video/Movies/Heavy Metal (1981)/Heavy Metal (1981).mp4,hevc,1920x1040,1511409190,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T07:57:26.385Z,//bandersnatch/Video/Movies/Hell or High Water (2016)/Hell or High Water (2016).avi,mpeg4,720x304,1956504584,808133120,1148371464,26,122,replaced,
+2026-10-19T07:59:52.825Z,//bandersnatch/Video/Movies/Hellboy (2004)/Hellboy (2004).m4v,h264,720x474,1942917828,1330561879,612355949,26,217,replaced,
+2026-10-19T08:03:41.217Z,//bandersnatch/Video/Movies/Hellboy (2019)/Hellboy (2019).mkv,h264,1920x784,2189760266,2500704406,0,26,706,kept,new file not smaller; marked
+2026-10-19T08:15:47.785Z,//bandersnatch/Video/Movies/Hellboy Animated - Blood and Iron (2007)/Hellboy Animated - Blood and Iron (2007).m4v,h264,718x480,579598228,558241002,21357226,26,123,replaced,
+2026-10-19T08:18:12.635Z,//bandersnatch/Video/Movies/Hellboy II - The Golden Army (2008)/Hellboy II - The Golden Army (2008).mp4,hevc,720x460,2270095841,1672169015,597926826,26,213,replaced,
+2026-10-19T08:22:23.102Z,//bandersnatch/Video/Movies/Her (2013)/Her (2013).mkv,h264,720x368,1042354018,923127560,119226458,26,212,replaced,
+2026-10-19T08:26:11.384Z,//bandersnatch/Video/Movies/Hercules (1997)/Hercules (1997).m4v,h264,720x388,1138349068,924723886,213625182,26,140,replaced,
+2026-10-19T08:28:51.528Z,//bandersnatch/Video/Movies/Hidden Figures (2016)/Hidden Figures (2016).mkv,h264,720x304,1800060966,740516567,1059544399,26,184,replaced,
+2026-10-19T08:32:06.647Z,//bandersnatch/Video/Movies/Highlander (1986)/Highlander (1986).m4v,h264,720x344,2797558490,1254244361,1543314129,26,172,replaced,
+2026-10-19T08:35:22.642Z,//bandersnatch/Video/Movies/Hitman (2007)/Hitman (2007).mkv,h264,1280x544,4694633549,2197948422,2496685127,26,304,replaced,
+2026-10-19T08:40:49.370Z,//bandersnatch/Video/Movies/Holmes & Watson (2018)/Holmes & Watson (2018).mkv,h264,1280x530,786214650,864209884,0,26,251,kept,new file not smaller; marked
+2026-10-19T08:45:16.889Z,//bandersnatch/Video/Movies/Honey Boy (2019)/Honey Boy (2019).avi,h264,720x304,1464081029,551311833,912769196,26,113,replaced,
+2026-10-19T08:47:18.012Z,//bandersnatch/Video/Movies/Honey Don't! (2025)/Honey Don't! (2025).mkv,hevc,1920x1040,1851584339,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T08:47:38.389Z,//bandersnatch/Video/Movies/Hostiles (2017)/Hostiles (2017).mkv,hevc,1280x536,836204508,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T08:47:49.214Z,//bandersnatch/Video/Movies/Hot Fuzz (2007)/Hot Fuzz (2007).mkv,h264,1920x816,9392392098,6104803138,3287588960,26,815,replaced,"default audio eng, default subtitle none"
+2026-10-19T09:01:37.840Z,//bandersnatch/Video/Movies/Hotel Artemis (2018)/Hotel Artemis (2018).mkv,h264,1280x536,890115256,740815379,149299877,26,261,replaced,
+2026-10-19T09:06:19.923Z,//bandersnatch/Video/Movies/House (1977)/House (1977).mkv,hevc,608x448,460191191,,,,,skipped,already converted (Lavc61.19.101 hevc_nvenc)
+2026-10-19T09:06:38.594Z,//bandersnatch/Video/Movies/How the Grinch Stole Christmas (2000)/How the Grinch Stole Christmas (2000).mkv,h264,1920x1040,7044279690,3613702911,3430576779,26,833,replaced,
+2026-10-19T09:20:45.449Z,//bandersnatch/Video/Movies/Howl's Moving Castle (2004)/Howl's Moving Castle (2004).mkv,hevc,720x460,1215791262,,,,,skipped,already converted (Lavc61.19.101 hevc_nvenc)
+2026-10-19T09:21:01.535Z,//bandersnatch/Video/Movies/Hudson Hawk (1991)/Hudson Hawk (1991).m4v,h264,720x470,1362274266,910766948,451507318,26,169,replaced,
+2026-10-19T09:24:14.352Z,//bandersnatch/Video/Movies/Hustlers (2019)/Hustlers (2019).mkv,hevc,1280x536,805647378,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T09:24:35.051Z,//bandersnatch/Video/Movies/I Am Legend (2007)/I Am Legend (2007).m4v,h264,720x360,1057849281,859208585,198640696,26,145,replaced,
+2026-10-19T09:27:36.282Z,"//bandersnatch/Video/Movies/I, Tonya (2017)/I, Tonya (2017).mkv",h264,720x304,791112676,594729998,196382678,26,174,replaced,
+2026-10-19T09:31:08.833Z,//bandersnatch/Video/Movies/Idiocracy (2006)/Idiocracy (2006).mkv,h264,720x406,668208168,526383210,141824958,26,121,replaced,
+2026-10-19T09:33:32.873Z,//bandersnatch/Video/Movies/In the Heart of the Sea (2015)/In the Heart of the Sea (2015).avi,mpeg4,720x400,1897506817,1044696991,852809826,26,222,replaced,
+2026-10-19T09:37:39.216Z,//bandersnatch/Video/Movies/Incredibles 2 (2018)/Incredibles 2 (2018).mkv,h264,1920x804,3048703445,2857359352,191344093,26,731,replaced,
+2026-10-19T09:50:07.207Z,//bandersnatch/Video/Movies/Indiana Jones and the Kingdom of the Crystal Skull (2008)/Indiana Jones and the Kingdom of the Crystal Skull (2008).m4v,h264,720x356,1782282452,1266448855,515833597,26,186,replaced,
+2026-10-19T09:53:40.597Z,//bandersnatch/Video/Movies/Indiana Jones and the Last Crusade (1989)/Indiana Jones and the Last Crusade (1989).m4v,h264,720x372,1880130980,1302034556,578096424,26,193,replaced,
+2026-10-19T09:57:32.940Z,//bandersnatch/Video/Movies/Indiana Jones and the Temple of Doom (1984)/Indiana Jones and the Temple of Doom (1984).m4v,h264,720x368,1803503242,1244897643,558605599,26,181,replaced,
+2026-10-19T10:00:46.790Z,//bandersnatch/Video/Movies/Inherent Vice (2014)/Inherent Vice (2014).avi,mpeg4,720x304,1886356622,951315042,935041580,26,226,replaced,
+2026-10-19T10:04:50.337Z,//bandersnatch/Video/Movies/Inkheart (2008)/Inkheart (2008).m4v,h264,720x366,1261932922,983215001,278717921,26,159,replaced,
+2026-10-19T10:07:49.218Z,//bandersnatch/Video/Movies/Inside Llewyn Davis (2013)/Inside Llewyn Davis (2013).m4v,h264,720x462,831675119,809980182,21694937,26,178,replaced,
+2026-10-19T10:11:05.933Z,//bandersnatch/Video/Movies/Inside Out (2015)/Inside Out (2015).mkv,h264,1280x720,2885100019,1558927340,1326172679,26,457,replaced,
+2026-10-19T10:19:04.620Z,//bandersnatch/Video/Movies/Inspector Gadget 2 (2003)/Inspector Gadget 2 (2003).m4v,h264,670x480,1335937346,963413582,372523764,26,149,replaced,
+2026-10-19T10:22:04.030Z,//bandersnatch/Video/Movies/Interview with the Vampire (1994)/Interview with the Vampire (1994).mkv,h264,1280x720,7034973005,1701949800,5333023205,26,489,replaced,
+2026-10-19T10:30:38.011Z,//bandersnatch/Video/Movies/Into the Woods (2014)/Into the Woods (2014).avi,mpeg4,720x288,1615847646,687917877,927929769,26,136,replaced,
+2026-10-19T10:33:36.527Z,//bandersnatch/Video/Movies/Iron Man 3 (2013)/Iron Man 3 (2013).mkv,h264,1280x520,4273075376,2277750671,1995324705,26,485,replaced,
+2026-10-19T10:42:24.556Z,//bandersnatch/Video/Movies/Iron Within (2023)/Iron Within (2023).mkv,h264,1920x1080,1237646747,881488885,356157862,26,223,replaced,
+2026-10-19T10:46:28.186Z,//bandersnatch/Video/Movies/Isle of Dogs (2018)/Isle of Dogs (2018).mkv,h264,1280x536,893987135,863761436,30225699,26,287,replaced,
+2026-10-19T10:51:29.684Z,//bandersnatch/Video/Movies/Jack Reacher - Never Go Back (2016)/Jack Reacher - Never Go Back (2016).avi,mpeg4,720x304,1490620628,827530980,663089648,26,146,replaced,
+2026-10-19T10:54:10.792Z,//bandersnatch/Video/Movies/Jackie (2016)/Jackie (2016).avi,mpeg4,720x384,1390966784,598607004,792359780,26,137,replaced,
+2026-10-19T10:56:50.208Z,//bandersnatch/Video/Movies/Jason Bourne (2016)/Jason Bourne (2016).mp4,h264,1280x540,1262932812,1426571745,0,26,351,kept,new file not smaller
+2026-10-19T11:02:56.477Z,//bandersnatch/Video/Movies/Jay and Silent Bob Reboot (2019)/Jay and Silent Bob Reboot (2019).mkv,h264,1280x536,2508860991,1448931870,1059929121,26,313,replaced,
+2026-10-19T11:08:25.307Z,//bandersnatch/Video/Movies/Jay and Silent Bob Strike Back (2001)/Jay and Silent Bob Strike Back (2001).m4v,h264,720x370,1431482306,1110275841,321206465,26,171,replaced,
+2026-10-19T11:11:37.869Z,//bandersnatch/Video/Movies/Jeremiah Johnson (1972)/Jeremiah Johnson (1972).mp4,h264,1280x534,1505358948,1282506316,222852632,26,336,replaced,
+2026-10-19T11:17:27.387Z,//bandersnatch/Video/Movies/Jodorowsky's Dune (2013)/Jodorowsky's Dune (2013).mp4,h264,1280x720,733136862,929239294,0,26,336,kept,new file not smaller
+2026-10-19T11:23:42.070Z,//bandersnatch/Video/Movies/John Wick - Chapter 2 (2017)/John Wick - Chapter 2 (2017).mkv,h264,1916x796,2364793168,2665380821,0,26,731,kept,new file not smaller; marked
+2026-10-19T11:36:05.524Z,//bandersnatch/Video/Movies/John Wick - Chapter 3 - Parabellum (2019)/John Wick - Chapter 3 - Parabellum (2019).mkv,hevc,3840x1600,4369407163,2685141923,1684265240,26,820,replaced,
+2026-10-19T11:49:59.893Z,//bandersnatch/Video/Movies/John Wick - Chapter 4 (2023)/John Wick - Chapter 4 (2023).mkv,hevc,1280x536,1458309946,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T11:50:17.555Z,//bandersnatch/Video/Movies/John Wick (2014)/John Wick (2014).mkv,h264,1920x800,7034343021,2454092515,4580250506,26,618,replaced,
+2026-10-19T12:01:19.190Z,//bandersnatch/Video/Movies/Johnny Mnemonic (1995)/Johnny Mnemonic (1995).mp4,hevc,1920x1080,1617729567,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T12:01:34.642Z,//bandersnatch/Video/Movies/Jojo Rabbit (2019)/Jojo Rabbit (2019).mkv,hevc,720x384,422250272,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T12:01:50.367Z,//bandersnatch/Video/Movies/Joker (2019)/Joker (2019).mkv,hevc,1920x1040,2129907337,2480902400,0,26,931,kept,new file not smaller; marked
+2026-10-19T12:17:44.241Z,//bandersnatch/Video/Movies/Joy (2015)/Joy (2015).avi,mpeg4,720x400,1580136448,942146284,637990164,26,202,replaced,
+2026-10-19T12:21:13.722Z,//bandersnatch/Video/Movies/Joy Ride (2001)/Joy Ride (2001).mp4,hevc,1918x798,1587988258,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T12:21:30.422Z,//bandersnatch/Video/Movies/Jumanji - The Next Level (2019)/Jumanji - The Next Level (2019).mkv,hevc,1920x808,2319915220,2504793333,0,26,733,kept,new file not smaller; marked
+2026-10-19T12:33:58.302Z,//bandersnatch/Video/Movies/Jumanji - Welcome to the Jungle (2017)/Jumanji - Welcome to the Jungle (2017).mkv,h264,1920x796,2135843023,2681225135,0,26,704,kept,new file not smaller; marked
+2026-10-19T12:46:05.597Z,//bandersnatch/Video/Movies/Jupiter Ascending (2015)/Jupiter Ascending (2015).mkv,h264,1280x536,3575163166,1626094264,1949068902,26,371,replaced,
+2026-10-19T12:52:40.283Z,//bandersnatch/Video/Movies/Jurassic World - Fallen Kingdom (2018)/Jurassic World - Fallen Kingdom (2018).mkv,h264,1280x536,1080059506,1199157093,0,26,359,kept,new file not smaller; marked
+2026-10-19T12:58:56.923Z,//bandersnatch/Video/Movies/Jurassic World (2015)/Jurassic World (2015).mp4,h264,1280x640,1273858605,1797315077,0,26,414,kept,new file not smaller
+2026-10-19T13:06:25.839Z,//bandersnatch/Video/Movies/Jurassic World Rebirth (2025)/Jurassic World Rebirth (2025).mkv,hevc,1280x536,1350473278,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T13:06:47.542Z,//bandersnatch/Video/Movies/Justice League - The Flashpoint Paradox (2013)/Justice League - The Flashpoint Paradox (2013).mkv,h264,1280x720,2342304608,1647323040,694981568,26,316,replaced,
+2026-10-19T13:12:19.719Z,//bandersnatch/Video/Movies/Justice League - The New Frontier (2008)/Justice League - The New Frontier (2008).m4v,h264,720x480,820960236,672518445,148441791,26,125,replaced,
+2026-10-19T13:14:44.736Z,//bandersnatch/Video/Movies/Justice League - Throne of Atlantis (2015)/Justice League - Throne of Atlantis (2015).mkv,h264,1280x720,2344445601,1389538723,954906878,26,282,replaced,
+2026-10-19T13:20:00.044Z,//bandersnatch/Video/Movies/Justice League (2017)/Justice League (2017).mkv,h264,1920x1080,2604727739,3809024115,0,26,957,kept,new file not smaller; marked
+2026-10-19T13:36:30.869Z,//bandersnatch/Video/Movies/Justice League vs. the Fatal Five (2019)/Justice League vs. the Fatal Five (2019).mkv,h264,1920x1080,1808816707,1413553469,395263238,26,614,replaced,"default audio eng, default subtitle none"
+2026-10-19T13:46:53.892Z,//bandersnatch/Video/Movies/Kagemusha (1980)/Kagemusha (1980).m4v,h264,720x474,3939004333,2077187415,1861816918,26,325,replaced,
+2026-10-19T13:52:59.251Z,//bandersnatch/Video/Movies/Keanu (2016)/Keanu (2016).mkv,h264,720x304,731938119,511064351,220873768,26,114,replaced,
+2026-10-19T13:55:08.564Z,//bandersnatch/Video/Movies/Kiki's Delivery Service (1989)/Kiki's Delivery Service (1989).mp4,hevc,1920x1036,1723546625,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T13:55:28.168Z,//bandersnatch/Video/Movies/Kill Bill - Vol. 1 (2003)/Kill Bill - Vol. 1 (2003).m4v,h264,720x358,1208770921,981865618,226905303,26,157,replaced,
+2026-10-19T13:58:46.596Z,//bandersnatch/Video/Movies/King Arthur - Legend of the Sword (2017)/King Arthur - Legend of the Sword (2017).mkv,h264,1280x536,1241230255,1265973147,0,26,359,kept,new file not smaller; marked
+2026-10-19T14:05:07.304Z,//bandersnatch/Video/Movies/King of New York (1990)/King of New York (1990).m4v,h264,720x354,1229478824,826961836,402516988,26,151,replaced,
+2026-10-19T14:08:03.609Z,//bandersnatch/Video/Movies/Kingsman - The Golden Circle (2017)/Kingsman - The Golden Circle (2017).mkv,h264,1280x536,1407761490,1515673030,0,26,403,kept,new file not smaller; marked
+2026-10-19T14:15:28.910Z,//bandersnatch/Video/Movies/Kingsman - The Secret Service (2015)/Kingsman - The Secret Service (2015).mkv,h264,1280x534,5862615613,1856335073,4006280540,26,391,replaced,
+2026-10-19T14:22:20.416Z,//bandersnatch/Video/Movies/Knives Out (2019)/Knives Out (2019).mkv,hevc,720x384,588895009,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T14:22:42.745Z,//bandersnatch/Video/Movies/Knocked Up (2007)/Knocked Up (2007).m4v,h264,720x460,1762630575,1386180993,376449582,26,226,replaced,
+2026-10-19T14:26:51.035Z,//bandersnatch/Video/Movies/Kung Fu Hustle (2004)/Kung Fu Hustle (2004).m4v,h264,720x354,1086121921,912043300,174078621,26,142,replaced,
+2026-10-19T14:29:48.840Z,//bandersnatch/Video/Movies/La La Land (2016)/La La Land (2016).avi,mpeg4,720x288,1748436998,711434473,1037002525,26,143,replaced,
+2026-10-19T14:32:31.291Z,//bandersnatch/Video/Movies/Lady and the Tramp (1955)/Lady and the Tramp (1955).m4v,h264,720x280,705966832,593802445,112164387,26,92,replaced,
+2026-10-19T14:34:23.378Z,//bandersnatch/Video/Movies/Lady Bird (2017)/Lady Bird (2017).mkv,h264,1920x1040,1823171220,2188797070,0,26,721,kept,new file not smaller; marked
+2026-10-19T14:47:06.502Z,//bandersnatch/Video/Movies/Last Flag Flying (2017)/Last Flag Flying (2017).mkv,hevc,1908x1068,1570479377,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T14:47:22.367Z,//bandersnatch/Video/Movies/Last Night in Soho (2021)/Last Night in Soho (2021).mkv,h264,1920x800,2267449802,2702315497,0,26,694,kept,new file not smaller; marked
+2026-10-19T14:59:04.328Z,//bandersnatch/Video/Movies/Lawless (2012)/Lawless (2012).mkv,h264,1440x608,4699299094,2229300929,2469998165,26,432,replaced,
+2026-10-19T15:06:31.168Z,//bandersnatch/Video/Movies/Lawrence of Arabia (1962)/Lawrence of Arabia (1962).mkv,h264,1280x584,10560912043,5425889937,5135022106,26,809,replaced,"default audio eng, default subtitle eng"
+2026-10-19T15:20:26.260Z,//bandersnatch/Video/Movies/Layer Cake (2004)/Layer Cake (2004).m4v,h264,720x362,1074439631,927708428,146731203,26,150,replaced,
+2026-10-19T15:23:26.360Z,//bandersnatch/Video/Movies/Legion of Super-Heroes (2023)/Legion of Super-Heroes (2023).mp4,h264,1280x720,2756662411,1030548042,1726114369,26,312,replaced,
+2026-10-19T15:29:12.811Z,//bandersnatch/Video/Movies/Léon - The Professional (1994)/Léon - The Professional (1994).m4v,h264,720x370,1246751846,961045860,285705986,26,186,replaced,
+2026-10-19T15:32:58.848Z,//bandersnatch/Video/Movies/Let's Ruin It with Babies (2013)/Let's Ruin It with Babies (2013).mp4,h264,1280x720,1045927724,1143887652,0,26,295,kept,new file not smaller
+2026-10-19T15:38:08.896Z,//bandersnatch/Video/Movies/Licorice Pizza (2021)/Licorice Pizza (2021).mkv,h264,1912x800,1721054090,2581935981,0,26,800,kept,new file not smaller; marked
+2026-10-19T15:51:46.195Z,//bandersnatch/Video/Movies/Life of Pi (2012)/Life of Pi (2012).mkv,h264,1920x1040,9385324615,5245147289,4140177326,26,1239,replaced,
+2026-10-19T16:13:08.143Z,//bandersnatch/Video/Movies/Lilo & Stitch 2 - Stitch Has a Glitch (2005)/Lilo & Stitch 2 - Stitch Has a Glitch (2005).m4v,h264,720x478,784313727,705621039,78692688,26,142,replaced,
+2026-10-19T16:15:50.338Z,//bandersnatch/Video/Movies/Lincoln (2012)/Lincoln (2012).avi,mpeg4,1280x528,5411634234,2043388662,3368245572,26,579,replaced,
+2026-10-19T16:26:06.622Z,//bandersnatch/Video/Movies/Lion (2016)/Lion (2016).mkv,h264,1280x530,1178161631,912910074,265251557,26,329,replaced,
+2026-10-19T16:31:52.612Z,//bandersnatch/Video/Movies/Little Miss Sunshine (2006)/Little Miss Sunshine (2006).m4v,h264,720x360,1414682447,971696805,442985642,26,150,replaced,
+2026-10-19T16:34:51.376Z,//bandersnatch/Video/Movies/Little Women (2019)/Little Women (2019).mkv,hevc,720x384,567445808,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T16:35:13.524Z,//bandersnatch/Video/Movies/Live and Let Die (1973)/Live and Let Die (1973).m4v,h264,720x480,2945706627,1378249256,1567457371,26,218,replaced,
+2026-10-19T16:39:03.858Z,"//bandersnatch/Video/Movies/Lock, Stock and Two Smoking Barrels (1998)/Lock, Stock and Two Smoking Barrels (1998).m4v",h264,720x452,1590197481,1118683278,471514203,26,184,replaced,
+2026-10-19T16:42:30.804Z,//bandersnatch/Video/Movies/Logan (2017)/Logan (2017).mkv,h264,1914x800,2679105822,2810954726,0,26,812,kept,new file not smaller; marked
+2026-10-19T16:56:20.884Z,//bandersnatch/Video/Movies/Logan Lucky (2017)/Logan Lucky (2017).mkv,h264,1280x536,5035769548,1659248865,3376520683,26,359,replaced,
+2026-10-19T17:02:33.096Z,//bandersnatch/Video/Movies/Looper (2012)/Looper (2012).mkv,h264,1280x544,6442463715,2505454453,3937009262,26,383,replaced,
+2026-10-19T17:09:34.885Z,//bandersnatch/Video/Movies/Lord of War (2005)/Lord of War (2005).mkv,h264,720x304,652444148,575973527,76470621,26,143,replaced,
+2026-10-19T19:11:29.255Z,//bandersnatch/Video/Movies/Lost Horizon (1973)/Lost Horizon (1973).mkv,h264,720x300,1132575019,778100596,354474423,26,184,replaced,"default audio eng, default subtitle eng"
+2026-10-19T19:15:15.567Z,//bandersnatch/Video/Movies/Lost in Translation (2003)/Lost in Translation (2003).m4v,h264,720x460,1095095961,947441393,147654568,26,170,replaced,
+2026-10-19T19:18:47.463Z,//bandersnatch/Video/Movies/Love & Mercy (2015)/Love & Mercy (2015).mkv,h264,1280x718,1538853467,1948063444,0,26,464,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-19T19:26:42.205Z,//bandersnatch/Video/Movies/Love Actually (2003)/Love Actually (2003).m4v,h264,720x480,2354585465,1559831806,794753659,26,237,replaced,
+2026-10-19T19:30:53.804Z,//bandersnatch/Video/Movies/Lucy (2014)/Lucy (2014).mkv,h264,1280x536,4659518137,1978783745,2680734392,26,289,replaced,
+2026-10-19T19:36:08.905Z,//bandersnatch/Video/Movies/Mad Max - Fury Road (2015)/Mad Max - Fury Road (2015).mkv,h264,1912x792,2143455831,3187334711,0,26,717,kept,"new file not smaller; default audio none, default subtitle none; marked"
+2026-10-19T19:48:21.324Z,//bandersnatch/Video/Movies/Mad Max 2 (1981)/Mad Max 2 (1981).mp4,h264,1280x524,1238938644,1230425824,8512820,26,275,replaced,
+2026-10-19T19:53:19.990Z,//bandersnatch/Video/Movies/Mad Max Beyond Thunderdome (1985)/Mad Max Beyond Thunderdome (1985).mkv,h264,704x288,818832439,539667619,279164820,26,117,replaced,
+2026-10-19T19:55:46.094Z,//bandersnatch/Video/Movies/Made (2001)/Made (2001).m4v,h264,716x480,1224914077,960076996,264837081,26,159,replaced,
+2026-10-19T19:59:01.442Z,//bandersnatch/Video/Movies/Maleficent - Mistress of Evil (2019)/Maleficent - Mistress of Evil (2019).mkv,hevc,1280x536,995567534,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T19:59:23.660Z,//bandersnatch/Video/Movies/Manchester by the Sea (2016)/Manchester by the Sea (2016).mkv,h264,1280x688,1392135909,1465382579,0,26,489,kept,new file not smaller; marked
+2026-10-19T20:07:56.471Z,//bandersnatch/Video/Movies/Mandy (2018)/Mandy (2018).mkv,h264,1280x536,1126728425,1083680972,43047453,26,338,replaced,
+2026-10-19T20:14:13.808Z,//bandersnatch/Video/Movies/Marlowe (2023)/Marlowe (2023).mp4,hevc,1920x800,1835584098,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T20:14:33.427Z,//bandersnatch/Video/Movies/Mary Poppins Returns (2018)/Mary Poppins Returns (2018).mkv,h264,1280x536,1274471956,1402812011,0,26,369,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-19T20:20:57.748Z,//bandersnatch/Video/Movies/Masterplan (2026)/Masterplan (2026).mkv,hevc,1920x960,2215210716,2306354924,0,26,744,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-19T20:33:46.778Z,//bandersnatch/Video/Movies/Megalopolis (2024)/Megalopolis (2024).mkv,hevc,1920x960,2479573585,2761248451,0,26,944,kept,new file not smaller; marked
+2026-10-19T20:49:46.776Z,//bandersnatch/Video/Movies/Memento (2000)/Memento (2000).m4v,h264,720x370,1259689344,1047047367,212641977,26,161,replaced,
+2026-10-19T20:53:04.429Z,//bandersnatch/Video/Movies/Men in Black - International (2019)/Men in Black - International (2019).mkv,h264,1920x960,2151208763,2934627884,0,26,813,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-19T21:06:49.949Z,//bandersnatch/Video/Movies/Men in Black (1997)/Men in Black (1997).m4v,h264,720x470,1132433839,828585396,303848443,26,164,replaced,
+2026-10-19T21:10:07.743Z,//bandersnatch/Video/Movies/Men in Black 3 (2012)/Men in Black 3 (2012).mkv,h264,1280x696,4692699247,2693246368,1999452879,26,419,replaced,"default audio eng, default subtitle eng"
+2026-10-19T21:17:32.890Z,//bandersnatch/Video/Movies/Mickey 17 (2025)/Mickey 17 (2025).mkv,hevc,1920x1040,2302716983,2368329066,0,26,1019,kept,new file not smaller; marked
+2026-10-19T21:34:57.364Z,//bandersnatch/Video/Movies/Midway (2019)/Midway (2019).mkv,hevc,3840x1616,3735866853,2518705997,1217160856,26,825,replaced,
+2026-10-19T21:49:19.312Z,//bandersnatch/Video/Movies/Mike and Dave Need Wedding Dates (2016)/Mike and Dave Need Wedding Dates (2016).mkv,h264,720x304,1450200107,757955497,692244610,26,126,replaced,
+2026-10-19T21:51:43.575Z,//bandersnatch/Video/Movies/Mile 22 (2018)/Mile 22 (2018).mkv,h264,1280x534,788475622,943452675,0,26,265,kept,new file not smaller; marked
+2026-10-19T21:56:24.017Z,//bandersnatch/Video/Movies/Mission - Impossible - Fallout (2018)/Mission - Impossible - Fallout (2018).mkv,hevc,1280x680,2146135533,2117446714,28688819,26,534,replaced,"default audio eng, default subtitle none"
+2026-10-19T22:05:31.024Z,//bandersnatch/Video/Movies/Mission - Impossible - Rogue Nation (2015)/Mission - Impossible - Rogue Nation (2015).mkv,hevc,1280x536,2017295531,1655546074,361749457,26,372,replaced,
+2026-10-19T22:11:51.570Z,//bandersnatch/Video/Movies/Money Monster (2016)/Money Monster (2016).mkv,h264,1280x536,2762894627,1411723046,1351171581,26,289,replaced,
+2026-10-19T22:16:51.505Z,//bandersnatch/Video/Movies/Monkey Man (2024)/Monkey Man (2024).mkv,hevc,1920x800,1861277912,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T22:17:12.155Z,//bandersnatch/Video/Movies/Monsters University (2013)/Monsters University (2013).mkv,h264,1920x1080,10883991439,4808355815,6075635624,26,886,replaced,"default audio eng, default subtitle none"
+2026-10-19T22:32:10.968Z,"//bandersnatch/Video/Movies/Monsters, Inc. (2001)/Monsters, Inc. (2001).m4v",h264,720x476,1247893423,982467027,265426396,26,168,replaced,
+2026-10-19T22:35:21.752Z,//bandersnatch/Video/Movies/Monty Python and the Holy Grail (1975)/Monty Python and the Holy Grail (1975).m4v,h264,720x476,1437573518,861121422,576452096,26,164,replaced,
+2026-10-19T22:38:23.449Z,//bandersnatch/Video/Movies/Monty Python's The Meaning of Life (1983)/Monty Python's The Meaning of Life (1983).mkv,h264,1920x1040,8531801852,4446905217,4084896635,26,860,replaced,
+2026-10-19T22:53:18.368Z,//bandersnatch/Video/Movies/Moonlight (2016)/Moonlight (2016).mkv,h264,1920x808,2250758180,2479527266,0,26,680,kept,new file not smaller; marked
+2026-10-19T23:04:54.053Z,//bandersnatch/Video/Movies/Moonrise Kingdom (2012)/Moonrise Kingdom (2012).mkv,h264,1920x1040,8830521262,4884034708,3946486554,26,794,replaced,"sidecars embedded: Moonrise Kingdom (2012).srt; default audio eng, default subtitle none"
+2026-10-19T23:18:35.860Z,//bandersnatch/Video/Movies/Mortal Engines (2018)/Mortal Engines (2018).mkv,h264,1280x532,1073919572,1289135239,0,26,358,kept,new file not smaller; marked
+2026-10-19T23:24:42.163Z,//bandersnatch/Video/Movies/Motor City (2026)/Motor City (2026).mkv,hevc,1280x536,745054721,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T23:25:02.117Z,//bandersnatch/Video/Movies/Mr. Blandings Builds His Dream House (1948)/Mr. Blandings Builds His Dream House (1948).mp4,hevc,1480x1080,1574130283,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-19T23:25:20.577Z,//bandersnatch/Video/Movies/Mr. Brooks (2007)/Mr. Brooks (2007).mkv,h264,1920x1040,13208193471,5567108068,7641085403,26,995,replaced,
+2026-10-19T23:42:19.044Z,//bandersnatch/Video/Movies/Mr. Holmes (2015)/Mr. Holmes (2015).mkv,h264,1280x536,945346658,892829123,52517535,26,290,replaced,"default audio eng, default subtitle eng"
+2026-10-19T23:47:52.564Z,//bandersnatch/Video/Movies/Much Ado About Nothing (1993)/Much Ado About Nothing (1993).mkv,h264,1912x1072,4366607952,3019540072,1347067880,26,866,replaced,"default audio eng, default subtitle eng"
+2026-10-20T00:02:42.237Z,//bandersnatch/Video/Movies/Mud (2013)/Mud (2013).mkv,h264,1280x540,891621600,1139555779,0,26,365,kept,new file not smaller; marked
+2026-10-20T00:09:00.473Z,//bandersnatch/Video/Movies/Mulan (1998)/Mulan (1998).m4v,h264,720x480,1248710699,922423070,326287629,26,149,replaced,
+2026-10-20T00:12:00.439Z,//bandersnatch/Video/Movies/Mulan (2020)/Mulan (2020).mkv,hevc,1920x808,1901759073,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T00:12:13.393Z,//bandersnatch/Video/Movies/Mulan II (2004)/Mulan II (2004).m4v,h264,720x480,778688512,692019934,86668578,26,131,replaced,
+2026-10-20T00:14:57.473Z,//bandersnatch/Video/Movies/Murder on the Orient Express (2017)/Murder on the Orient Express (2017).mkv,h264,1920x800,2386994620,2174044790,212949830,26,669,replaced,
+2026-10-20T00:26:31.699Z,//bandersnatch/Video/Movies/Music and Lyrics (2007)/Music and Lyrics (2007).m4v,h264,720x480,1532591290,1131624820,400966470,26,180,replaced,
+2026-10-20T00:29:46.978Z,//bandersnatch/Video/Movies/My Big Fat Greek Wedding (2002)/My Big Fat Greek Wedding (2002).m4v,h264,720x480,1160095256,913137424,246957832,26,160,replaced,
+2026-10-20T00:32:35.854Z,//bandersnatch/Video/Movies/My Cousin Vinny (1992)/My Cousin Vinny (1992).m4v,h264,720x480,1125710152,918995615,206714537,26,197,replaced,
+2026-10-20T00:36:08.027Z,//bandersnatch/Video/Movies/My Neighbor Totoro (1988)/My Neighbor Totoro (1988).mkv,hevc,1920x1080,2880657043,3316069133,0,26,715,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-20T00:48:25.776Z,//bandersnatch/Video/Movies/Nacho Libre (2006)/Nacho Libre (2006).mkv,h264,1280x720,4852734901,2487016455,2365718446,26,378,replaced,"default audio eng, default subtitle eng"
+2026-10-20T00:55:05.803Z,//bandersnatch/Video/Movies/Nanny McPhee (2005)/Nanny McPhee (2005).m4v,h264,720x362,1419989876,1009253873,410736003,26,145,replaced,
+2026-10-20T00:58:04.722Z,//bandersnatch/Video/Movies/National Treasure (2004)/National Treasure (2004).m4v,h264,720x358,1452855956,1208003414,244852542,26,188,replaced,
+2026-10-20T01:01:36.655Z,//bandersnatch/Video/Movies/News of the World (2020)/News of the World (2020).mkv,h264,1920x800,2124000347,2545782264,0,26,703,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-20T01:13:57.822Z,//bandersnatch/Video/Movies/Night at the Museum (2006)/Night at the Museum (2006).avi,mpeg4,720x390,1471413466,787246069,684167397,26,156,replaced,
+2026-10-20T01:17:14.075Z,//bandersnatch/Video/Movies/Night School (2018)/Night School (2018).mkv,h264,1280x534,998320275,1229065513,0,26,325,kept,new file not smaller; marked
+2026-10-20T01:23:16.681Z,//bandersnatch/Video/Movies/Nightbitch (2024)/Nightbitch (2024).mkv,hevc,1920x808,1494703644,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T01:23:36.602Z,//bandersnatch/Video/Movies/Nightcrawler (2014)/Nightcrawler (2014).mkv,h264,688x304,1988396288,675742088,1312654200,26,170,replaced,
+2026-10-20T01:26:53.539Z,//bandersnatch/Video/Movies/Nightmare Alley (2021)/Nightmare Alley (2021).mkv,hevc,1280x688,1029113231,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T01:27:17.012Z,//bandersnatch/Video/Movies/No Country for Old Men (2007)/No Country for Old Men (2007).mkv,h264,1280x544,4693233646,1780792889,2912440757,26,366,replaced,"default audio und, default subtitle none"
+2026-10-20T01:33:36.367Z,//bandersnatch/Video/Movies/No Time to Die (2021)/No Time to Die (2021).mkv,hevc,1920x800,3062101441,3158045377,0,26,932,kept,new file not smaller; marked
+2026-10-20T01:49:29.211Z,//bandersnatch/Video/Movies/No. 2 - Story of the Pencil (2016)/No. 2 - Story of the Pencil (2016).mp4,h264,720x370,467687853,408068307,59619546,26,87,replaced,
+2026-10-20T01:51:19.661Z,//bandersnatch/Video/Movies/Nobody (2021)/Nobody (2021).mkv,hevc,1280x536,684826745,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T01:51:35.329Z,//bandersnatch/Video/Movies/Nobody 2 (2025)/Nobody 2 (2025).mkv,hevc,1920x800,1465789455,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T01:51:55.003Z,//bandersnatch/Video/Movies/Nomadland (2021)/Nomadland (2021).mp4,hevc,1920x804,1799947316,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T01:52:10.247Z,//bandersnatch/Video/Movies/Nope (2022)/Nope (2022).mkv,h264,1280x584,1047416358,1177150799,0,26,405,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-20T01:59:13.681Z,//bandersnatch/Video/Movies/Now You See Me (2013)/Now You See Me (2013).mkv,h264,1920x800,16036618985,6513788748,9522830237,26,836,replaced,"default audio eng, default subtitle eng"
+2026-10-20T02:13:50.880Z,"//bandersnatch/Video/Movies/O Brother, Where Art Thou! (2000)/O Brother, Where Art Thou! (2000).m4v",h264,720x368,1505796462,1083020897,422775565,26,158,replaced,
+2026-10-20T02:17:07.575Z,//bandersnatch/Video/Movies/Oblivion (2013)/Oblivion (2013).mkv,h264,1920x808,10567200007,4952180505,5615019502,26,831,replaced,"default audio eng, default subtitle none"
+2026-10-20T02:31:13.113Z,//bandersnatch/Video/Movies/Ocean's Eight (2018)/Ocean's Eight (2018).avi,mpeg4,720x304,1476419723,728727358,747692365,26,132,replaced,
+2026-10-20T02:33:54.301Z,//bandersnatch/Video/Movies/Ocean's Eleven (2001)/Ocean's Eleven (2001).mkv,hevc,720x480,2038274886,,,,,skipped,already converted (Lavc61.19.101 hevc_nvenc)
+2026-10-20T02:34:06.269Z,//bandersnatch/Video/Movies/Ocean's Twelve (2004)/Ocean's Twelve (2004).mp4,hevc,720x362,1868334832,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T02:34:20.632Z,//bandersnatch/Video/Movies/Old Henry (2021)/Old Henry (2021).mkv,hevc,1920x720,1674397091,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T02:34:35.354Z,//bandersnatch/Video/Movies/Old School (2003)/Old School (2003).mp4,hevc,718x366,1604846614,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T02:35:09.341Z,//bandersnatch/Video/Movies/On the Rocks (2020)/On the Rocks (2020).mkv,h264,1920x1038,7867451042,3314096844,4553354198,26,765,replaced,
+2026-10-20T02:48:30.503Z,//bandersnatch/Video/Movies/Once Upon a Time. in Hollywood (2019)/Once Upon a Time. in Hollywood (2019).mkv,hevc,1920x800,2513034956,2586468566,0,26,929,kept,new file not smaller; marked
+2026-10-20T03:04:12.290Z,//bandersnatch/Video/Movies/One Battle After Another (2025)/One Battle After Another (2025).mkv,hevc,1920x1080,3451254665,3873971186,0,26,1247,kept,new file not smaller; marked
+2026-10-20T03:25:14.106Z,//bandersnatch/Video/Movies/One Hundred and One Dalmatians (1961)/One Hundred and One Dalmatians (1961).m4v,h264,716x480,1138641979,764341246,374300733,26,133,replaced,
+2026-10-20T03:27:51.684Z,//bandersnatch/Video/Movies/Oppenheimer (2023)/Oppenheimer (2023).mkv,hevc,1920x1080,2116824997,2734277332,0,26,1373,kept,new file not smaller; marked
+2026-10-20T03:51:04.171Z,//bandersnatch/Video/Movies/Out of Sight (1998)/Out of Sight (1998).mkv,h264,1920x1080,4027165256,4421907587,0,26,994,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-20T04:08:09.318Z,//bandersnatch/Video/Movies/Pacific Rim - Uprising (2018)/Pacific Rim - Uprising (2018).mkv,h264,1280x534,1088800808,1435832288,0,26,322,kept,new file not smaller; marked
+2026-10-20T04:13:55.435Z,//bandersnatch/Video/Movies/Pain & Gain (2013)/Pain & Gain (2013).mkv,hevc,1280x534,2353917767,,,,,skipped,already converted (Lavc61.19.101 hevc_nvenc)
+2026-10-20T04:14:19.551Z,//bandersnatch/Video/Movies/Paper Moon (1973)/Paper Moon (1973).mp4,hevc,720x480,1968046417,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T04:14:33.547Z,//bandersnatch/Video/Movies/Papillon (2017)/Papillon (2017).mkv,h264,1280x534,1130638114,1372580839,0,26,384,kept,new file not smaller; marked
+2026-10-20T04:06:01.763Z,//bandersnatch/Video/Movies/Oz the Great and Powerful (2013)/Oz the Great and Powerful (2013).avi,mpeg4,1920x800,6017298432,3447653138,2569645294,26,944,replaced,
+2026-10-20T04:22:00.242Z,//bandersnatch/Video/Movies/Passengers (2016)/Passengers (2016).mkv,hevc,1920x808,1608323233,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T04:22:15.758Z,//bandersnatch/Video/Movies/Pawn Sacrifice (2015)/Pawn Sacrifice (2015).avi,mpeg4,720x304,1476678206,723326827,753351379,26,171,replaced,
+2026-10-20T04:25:27.768Z,//bandersnatch/Video/Movies/Pee-wee's Big Holiday (2016)/Pee-wee's Big Holiday (2016).avi,mpeg4,720x384,1483274244,587010237,896264007,26,158,replaced,
+2026-10-20T04:28:44.147Z,//bandersnatch/Video/Movies/Phantom Thread (2017)/Phantom Thread (2017).mkv,hevc,1280x688,759730295,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T04:29:07.208Z,//bandersnatch/Video/Movies/Pig (2021)/Pig (2021).mkv,hevc,1916x800,761144166,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T04:29:21.978Z,//bandersnatch/Video/Movies/Pinocchio (1940)/Pinocchio (1940).mp4,hevc,716x480,1783587923,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T04:29:37.996Z,//bandersnatch/Video/Movies/Pirates of the Caribbean - The Curse of the Black Pearl (2003)/Pirates of the Caribbean - The Curse of the Black Pearl (2003).mp4,hevc,716x360,2642519742,2013145895,629373847,26,299,replaced,
+2026-10-20T04:21:13.636Z,//bandersnatch/Video/Movies/Parasite (2019)/Parasite (2019).mkv,h264,1920x804,9079933541,4277299367,4802634174,26,866,replaced,
+2026-10-20T04:36:09.459Z,//bandersnatch/Video/Movies/Pom Poko (1994)/Pom Poko (1994).mp4,hevc,720x460,1710300393,1707643775,2656618,,62,remuxed,"already hevc, 2 GB or smaller; default audio eng, default subtitle eng"
+2026-10-20T04:35:10.586Z,//bandersnatch/Video/Movies/Pokémon Detective Pikachu (2019)/Pokémon Detective Pikachu (2019).mkv,h264,1920x808,2487191115,3166787043,0,26,801,kept,"new file not smaller; default audio eng, default subtitle none; marked"
+2026-10-20T04:49:09.007Z,//bandersnatch/Video/Movies/Popstar - Never Stop Never Stopping (2016)/Popstar - Never Stop Never Stopping (2016).avi,mpeg4,720x302,1172408638,574150423,598258215,26,128,replaced,
+2026-10-20T04:37:48.455Z,//bandersnatch/Video/Movies/Ponyo (2008)/Ponyo (2008).mp4,h264,1920x1036,4740943188,3434908882,1306034306,26,832,replaced,
+2026-10-20T04:51:32.324Z,//bandersnatch/Video/Movies/Precious Cargo (2016)/Precious Cargo (2016).mp4,h264,1280x536,1167881537,1185308323,0,26,320,kept,new file not smaller
+2026-10-20T04:57:08.626Z,//bandersnatch/Video/Movies/Predator - Killer of Killers (2025)/Predator - Killer of Killers (2025).mkv,hevc,1920x808,1387582468,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T04:52:11.500Z,//bandersnatch/Video/Movies/Predator - Badlands (2025)/Predator - Badlands (2025).mkv,h264,1920x804,6254492192,2617481250,3637010942,26,670,replaced,"default audio eng, default subtitle none"
+2026-10-20T04:57:23.369Z,//bandersnatch/Video/Movies/Pressure (2026)/Pressure (2026).mp4,h264,1280x694,970597920,977816071,0,26,438,kept,new file not smaller
+2026-10-20T05:03:40.158Z,//bandersnatch/Video/Movies/Pride and Prejudice and Zombies (2016)/Pride and Prejudice and Zombies (2016).mp4,h264,1280x570,976066496,1124470063,0,26,326,kept,new file not smaller
+2026-10-20T05:05:05.766Z,//bandersnatch/Video/Movies/Princess Mononoke (1997)/Princess Mononoke (1997).mkv,h264,1280x688,4685962280,3465162187,1220800093,26,634,replaced,"default audio eng, default subtitle eng"
+2026-10-20T05:09:31.013Z,//bandersnatch/Video/Movies/Project Hail Mary (2026)/Project Hail Mary (2026).mp4,h264,1920x1080,3095505925,4329175574,0,26,1283,kept,new file not smaller
+2026-10-20T05:15:50.803Z,//bandersnatch/Video/Movies/Prometheus (2012)/Prometheus (2012).mkv,h264,1920x800,10560720517,4683160808,5877559709,26,956,replaced,"default audio eng, default subtitle none"
+2026-10-20T05:32:27.456Z,//bandersnatch/Video/Movies/Proud Mary (2018)/Proud Mary (2018).mkv,h264,1280x536,3494095954,1130626533,2363469421,26,316,replaced,
+2026-10-20T05:31:03.146Z,//bandersnatch/Video/Movies/Prospect (2018)/Prospect (2018).avi,h264,1920x1016,3234718322,2554194675,680523647,26,763,replaced,
+2026-10-20T05:44:03.247Z,//bandersnatch/Video/Movies/Queen & Slim (2019)/Queen & Slim (2019).mp4,h264,720x404,1331350635,630754764,700595871,26,242,replaced,
+2026-10-20T05:37:55.261Z,//bandersnatch/Video/Movies/Pusher (2012)/Pusher (2012).mkv,h264,1920x808,7040915297,3096565225,3944350072,26,690,replaced,
+2026-10-20T05:49:48.360Z,//bandersnatch/Video/Movies/Raiders of the Lost Ark (1981)/Raiders of the Lost Ark (1981).m4v,h264,720x372,1729539524,1177857374,551682150,26,223,replaced,
+2026-10-20T05:48:24.217Z,//bandersnatch/Video/Movies/Queen of the Desert (2015)/Queen of the Desert (2015).mp4,h264,1280x534,1169935070,1257002323,0,26,374,kept,new file not smaller
+2026-10-20T05:55:06.486Z,//bandersnatch/Video/Movies/Rambo - Last Blood (2019)/Rambo - Last Blood (2019).mkv,hevc,1280x536,745686393,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T05:55:30.011Z,//bandersnatch/Video/Movies/Rampage (2018)/Rampage (2018).mkv,hevc,1920x800,1887925646,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T05:55:49.861Z,//bandersnatch/Video/Movies/Ran (1985)/Ran (1985).mp4,hevc,704x346,1782059450,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T05:54:09.315Z,//bandersnatch/Video/Movies/Ralph Breaks the Internet (2018)/Ralph Breaks the Internet (2018).avi,mpeg4,720x304,1616285696,642274093,974011603,26,166,replaced,
+2026-10-20T05:56:03.090Z,//bandersnatch/Video/Movies/Ready Player One (2018)/Ready Player One (2018).mkv,h264,1920x800,2408798393,3252309284,0,26,847,kept,new file not smaller; marked
+2026-10-20T06:10:33.643Z,//bandersnatch/Video/Movies/Red Sparrow (2018)/Red Sparrow (2018).mkv,hevc,1280x536,944328176,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T06:10:57.322Z,//bandersnatch/Video/Movies/Renfield (2023)/Renfield (2023).mkv,hevc,1920x808,1604524218,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T06:11:12.119Z,//bandersnatch/Video/Movies/Requiem for a Dream (2000)/Requiem for a Dream (2000).mp4,hevc,712x462,1714061313,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T06:11:26.377Z,//bandersnatch/Video/Movies/Reservoir Dogs (1992)/Reservoir Dogs (1992).mp4,hevc,718x274,1163917936,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T05:57:11.102Z,//bandersnatch/Video/Movies/RED 2 (2013)/RED 2 (2013).mkv,h264,1920x800,8521627271,4501177414,4020449857,26,882,replaced,"default audio eng, default subtitle eng"
+2026-10-20T06:11:40.679Z,//bandersnatch/Video/Movies/Return of the Jedi (1983)/Return of the Jedi (1983).mkv,h264,1280x544,3313869653,2958298576,355571077,26,432,replaced,"default audio eng, default subtitle none"
+2026-10-20T06:19:04.362Z,//bandersnatch/Video/Movies/Rise of the Guardians (2012)/Rise of the Guardians (2012).mkv,h264,1280x720,5277936908,2020775543,3257161365,26,395,replaced,
+2026-10-20T06:25:55.040Z,//bandersnatch/Video/Movies/Rivers and Tides (2001)/Rivers and Tides (2001).mp4,hevc,720x480,1554077868,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T06:26:09.703Z,//bandersnatch/Video/Movies/RoboCop (1987)/RoboCop (1987).mp4,hevc,718x472,1808932238,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T06:12:11.294Z,//bandersnatch/Video/Movies/Riddick (2013)/Riddick (2013).mkv,h264,1916x796,4132972437,2889279329,1243693108,26,919,replaced,"sidecars embedded: Riddick (2013).srt; default audio eng, default subtitle none"
+2026-10-20T06:27:52.167Z,//bandersnatch/Video/Movies/Rogue One - A Star Wars Story (2016)/Rogue One - A Star Wars Story (2016).mkv,hevc,1920x808,1876681524,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T06:26:30.250Z,//bandersnatch/Video/Movies/Rocketman (2019)/Rocketman (2019).mkv,h264,1908x792,2362703390,2502342998,0,26,728,kept,new file not smaller; marked
+2026-10-20T06:38:54.998Z,//bandersnatch/Video/Movies/Romeo Is Bleeding (1993)/Romeo Is Bleeding (1993).m4v,h264,712x472,1281445188,914377386,367067802,26,186,replaced,
+2026-10-20T06:42:09.784Z,//bandersnatch/Video/Movies/Ronin (1998)/Ronin (1998).mp4,h264,718x368,1379204687,1137447546,241757141,26,179,replaced,
+2026-10-20T06:28:23.022Z,"//bandersnatch/Video/Movies/Roman J. Israel, Esq. (2017)/Roman J. Israel, Esq. (2017).mkv",h264,1920x1040,2470167944,3093571285,0,26,1141,kept,new file not smaller; marked
+2026-10-20T06:47:56.213Z,//bandersnatch/Video/Movies/Rush (2013)/Rush (2013).mkv,h264,1280x534,7370584282,2056454926,5314129356,26,471,replaced,
+2026-10-20T06:45:27.376Z,//bandersnatch/Video/Movies/Roofman (2025)/Roofman (2025).mkv,hevc,1916x796,5803991408,3928811658,1875179750,26,788,replaced,
+2026-10-20T06:59:03.522Z,//bandersnatch/Video/Movies/Safety Not Guaranteed (2012)/Safety Not Guaranteed (2012).mkv,h264,1280x544,4687510081,1954779361,2732730720,26,319,replaced,sidecars embedded: Safety Not Guaranteed (2012).en.idx
+2026-10-20T07:04:38.235Z,//bandersnatch/Video/Movies/Santa Claus Conquers the Martians (1964)/Santa Claus Conquers the Martians (1964).m4v,h264,708x482,1445538062,716005726,729532336,26,133,replaced,
+2026-10-20T07:07:17.108Z,//bandersnatch/Video/Movies/Sausage Party (2016)/Sausage Party (2016).mkv,h264,720x388,682140351,519002001,163138350,26,143,replaced,
+2026-10-20T06:56:03.694Z,//bandersnatch/Video/Movies/Safe House (2012)/Safe House (2012).mkv,h264,1920x800,17999478167,5903122872,12096355295,26,934,replaced,
+2026-10-20T07:12:11.794Z,//bandersnatch/Video/Movies/Saving Silverman (2001)/Saving Silverman (2001).m4v,h264,720x476,1379252656,909723716,469528940,26,210,replaced,
+2026-10-20T07:16:18.216Z,//bandersnatch/Video/Movies/Scott Pilgrim vs. the World (2010)/Scott Pilgrim vs. the World (2010).m4v,h264,720x460,1352272033,1103542448,248729585,26,241,replaced,
+2026-10-20T07:21:00.735Z,//bandersnatch/Video/Movies/Serenity (2005)/Serenity (2005).m4v,h264,720x362,1294612456,1064098236,230514220,26,228,replaced,
+2026-10-20T07:25:26.970Z,//bandersnatch/Video/Movies/Seven Psychopaths (2012)/Seven Psychopaths (2012).mkv,h264,1280x536,4690361472,2524559678,2165801794,26,444,replaced,"default audio eng, default subtitle eng"
+2026-10-20T07:10:01.981Z,//bandersnatch/Video/Movies/Saving Private Ryan (1998)/Saving Private Ryan (1998).mkv,h264,1920x1040,14079783367,9212749393,4867033974,26,1460,replaced,"default audio eng, default subtitle eng"
+2026-10-20T07:34:47.896Z,//bandersnatch/Video/Movies/Shazam! (2019)/Shazam! (2019).avi,h264,720x304,1470788912,945893729,524895183,26,178,replaced,
+2026-10-20T07:33:11.991Z,//bandersnatch/Video/Movies/Seven Samurai (1954)/Seven Samurai (1954).m4v,h264,708x480,3880982037,2105544612,1775437425,26,460,replaced,
+2026-10-20T07:41:20.781Z,//bandersnatch/Video/Movies/Shinobi - Heart Under Blade (2005)/Shinobi - Heart Under Blade (2005).m4v,h264,720x366,1162645083,961213440,201431643,26,253,replaced,
+2026-10-20T07:46:02.155Z,//bandersnatch/Video/Movies/Shogun's Samurai - The Yagyu Clan Conspiracy (1978)/Shogun's Samurai - The Yagyu Clan Conspiracy (1978).m4v,h264,720x358,1526792714,989352281,537440433,26,259,replaced,
+2026-10-20T07:38:06.602Z,//bandersnatch/Video/Movies/Sherlock Holmes - A Game of Shadows (2011)/Sherlock Holmes - A Game of Shadows (2011).mkv,h264,1920x800,11758497650,4776639968,6981857682,26,823,replaced,
+2026-10-20T07:50:42.343Z,//bandersnatch/Video/Movies/Shrek (2001)/Shrek (2001).m4v,h264,720x480,1106772751,896759608,210013143,26,196,replaced,
+2026-10-20T07:52:06.651Z,//bandersnatch/Video/Movies/Shrek the Third (2007)/Shrek the Third (2007).m4v,h264,720x478,1068206938,875106570,193100368,26,160,replaced,
+2026-10-20T07:55:05.408Z,//bandersnatch/Video/Movies/Sicario (2015)/Sicario (2015).mkv,h264,1280x528,3575589283,1310698339,2264890944,26,361,replaced,
+2026-10-20T08:01:30.307Z,//bandersnatch/Video/Movies/Signs (2002)/Signs (2002).m4v,h264,718x480,1232093617,999492053,232601564,26,182,replaced,
+2026-10-20T08:04:58.633Z,//bandersnatch/Video/Movies/Silence (2016)/Silence (2016).mkv,h264,720x304,943684171,765111231,178572940,26,237,replaced,
+2026-10-20T07:54:27.580Z,//bandersnatch/Video/Movies/Sicario - Day of the Soldado (2018)/Sicario - Day of the Soldado (2018).mkv,h264,1920x800,2196268829,2101244563,95024266,26,883,replaced,
+2026-10-20T08:09:39.725Z,//bandersnatch/Video/Movies/Sin City (2005)/Sin City (2005).m4v,h264,720x466,1998140117,1408951732,589188385,26,236,replaced,
+2026-10-20T08:09:17.779Z,//bandersnatch/Video/Movies/Silver Linings Playbook (2012)/Silver Linings Playbook (2012).mkv,h264,1280x536,5859179305,2679251393,3179927912,26,475,replaced,"default audio eng, default subtitle eng"
+2026-10-20T08:17:22.577Z,//bandersnatch/Video/Movies/Sisu (2022)/Sisu (2022).mkv,hevc,1920x800,1558604531,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T08:13:44.928Z,//bandersnatch/Video/Movies/Sisters (2015)/Sisters (2015).mp4,h264,1280x534,1163100212,1374436536,0,26,364,kept,new file not smaller
+2026-10-20T08:20:13.233Z,//bandersnatch/Video/Movies/Skyfall (2012)/Skyfall (2012).mkv,h264,1280x536,7033912369,3049899349,3984013020,26,494,replaced,
+2026-10-20T08:17:45.235Z,//bandersnatch/Video/Movies/Sky High (2005)/Sky High (2005).mkv,h264,1920x800,9209570330,3277316255,5932254075,26,750,replaced,
+2026-10-20T08:30:24.955Z,//bandersnatch/Video/Movies/Sleeping Beauty (1959)/Sleeping Beauty (1959).m4v,h264,720x334,883399370,694975868,188423502,26,138,replaced,
+2026-10-20T08:29:04.460Z,//bandersnatch/Video/Movies/Skyscraper (2018)/Skyscraper (2018).mkv,h264,1280x532,894437095,1031310728,0,26,293,kept,new file not smaller; marked
+2026-10-20T08:34:18.954Z,//bandersnatch/Video/Movies/Sliding Doors (1998)/Sliding Doors (1998).m4v,h264,720x350,1151042223,770527070,380515153,26,143,replaced,
+2026-10-20T08:37:03.467Z,//bandersnatch/Video/Movies/Slow West (2015)/Slow West (2015).mkv,h264,1280x768,3574792418,1361217033,2213575385,26,346,replaced,
+2026-10-20T08:33:07.463Z,//bandersnatch/Video/Movies/Sleepwalk with Me (2012)/Sleepwalk with Me (2012).mkv,h264,1920x1040,5862918938,3024080501,2838838437,26,786,replaced,
+2026-10-20T08:43:25.493Z,//bandersnatch/Video/Movies/Snatch (2000)/Snatch (2000).m4v,h264,714x480,970943046,792664874,178278172,26,175,replaced,
+2026-10-20T08:46:55.093Z,//bandersnatch/Video/Movies/Snow White and the Huntsman (2012)/Snow White and the Huntsman (2012).mkv,h264,1920x816,10021047015,5380123817,4640923198,26,909,replaced,"default audio eng, default subtitle eng"
+2026-10-20T09:02:47.976Z,//bandersnatch/Video/Movies/Snow White and the Seven Dwarfs (1938)/Snow White and the Seven Dwarfs (1938).m4v,h264,708x480,1341961923,958993102,382968821,26,165,replaced,
+2026-10-20T09:06:03.909Z,//bandersnatch/Video/Movies/Solo - A Star Wars Story (2018)/Solo - A Star Wars Story (2018).mkv,hevc,1280x536,896414920,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T09:06:26.237Z,//bandersnatch/Video/Movies/Sonic the Hedgehog (2020)/Sonic the Hedgehog (2020).mkv,hevc,1280x536,755666398,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T09:06:41.795Z,//bandersnatch/Video/Movies/Soul (2020)/Soul (2020).mkv,hevc,1920x808,1351122876,,,,,skipped,"already hevc, 2 GB or smaller; default audio eng, default subtitle eng"
+2026-10-20T08:46:55.253Z,//bandersnatch/Video/Movies/Sneakers (1992)/Sneakers (1992).mkv,hevc,1920x1080,11814030244,7974137763,3839892481,26,1341,replaced,"default audio eng, default subtitle eng"
+2026-10-20T09:09:39.268Z,//bandersnatch/Video/Movies/Soylent Green (1973)/Soylent Green (1973).m4v,h264,720x362,887579152,689875886,197703266,26,180,replaced,
+2026-10-20T09:06:56.517Z,//bandersnatch/Video/Movies/Southpaw (2015)/Southpaw (2015).mp4,h264,1280x534,1176416027,1348248349,0,26,366,kept,new file not smaller
+2026-10-20T09:13:10.778Z,//bandersnatch/Video/Movies/Spectre (2015)/Spectre (2015).avi,mpeg4,720x304,2255536128,1001018334,1254517794,26,230,replaced,
+2026-10-20T09:13:34.686Z,//bandersnatch/Video/Movies/Spider-Man - Across the Spider-Verse (2023)/Spider-Man - Across the Spider-Verse (2023).mkv,hevc,1920x800,3169960361,3620410768,0,26,1036,kept,new file not smaller; marked
+2026-10-20T09:17:39.465Z,//bandersnatch/Video/Movies/Spider-Man - Brand New Day (2026)/Spider-Man - Brand New Day (2026).mkv,h264,1920x900,6311500331,3632534253,2678966078,26,1064,replaced,"default audio eng, default subtitle none"
+2026-10-20T09:31:19.648Z,//bandersnatch/Video/Movies/Spider-Man - Far From Home (2019)/Spider-Man - Far From Home (2019).mkv,h264,1280x536,9372488737,2247551449,7124937288,26,538,replaced,"default audio eng, default subtitle eng"
+2026-10-20T09:41:01.960Z,//bandersnatch/Video/Movies/Spider-Man - Into the Spider-Verse (2018)/Spider-Man - Into the Spider-Verse (2018).mkv,h264,1280x530,997001341,1429530248,0,26,423,kept,new file not smaller; marked
+2026-10-20T09:36:01.534Z,//bandersnatch/Video/Movies/Spider-Man - Homecoming (2017)/Spider-Man - Homecoming (2017).mkv,h264,1920x808,10565296876,4403539579,6161757297,26,901,replaced,
+2026-10-20T09:51:31.378Z,//bandersnatch/Video/Movies/Spinal Tap II - The End Continues (2025)/Spinal Tap II - The End Continues (2025).mp4,h264,1920x1038,1534363138,2455966253,0,26,663,kept,new file not smaller
+2026-10-20T09:48:29.456Z,//bandersnatch/Video/Movies/Spider-Man - No Way Home (2021)/Spider-Man - No Way Home (2021).mp4,hevc,1920x804,2480061441,2552355015,0,26,1111,kept,new file not smaller
+2026-10-20T10:07:42.692Z,//bandersnatch/Video/Movies/Spotlight (2015)/Spotlight (2015).avi,mpeg4,720x384,1810130944,915036693,895094251,26,276,replaced,
+2026-10-20T10:03:16.770Z,//bandersnatch/Video/Movies/Spirited Away (2001)/Spirited Away (2001).mp4,h264,1920x1036,4998047861,3819686537,1178361324,26,1017,replaced,
+2026-10-20T10:12:43.255Z,//bandersnatch/Video/Movies/Spy (2015)/Spy (2015).mp4,h264,1280x720,1238877180,1807425893,0,26,602,kept,new file not smaller
+2026-10-20T10:20:32.704Z,//bandersnatch/Video/Movies/St. Vincent (2014)/St. Vincent (2014).avi,mpeg4,720x388,1383619262,696828057,686791205,26,187,replaced,
+2026-10-20T10:24:15.449Z,//bandersnatch/Video/Movies/Star Trek II - The Wrath of Khan (1982)/Star Trek II - The Wrath of Khan (1982).m4v,h264,720x368,1203246823,844771686,358475137,26,169,replaced,
+2026-10-20T10:23:15.705Z,//bandersnatch/Video/Movies/Star Trek Beyond (2016)/Star Trek Beyond (2016).mkv,h264,1280x720,2937921391,2015671656,922249735,26,581,replaced,
+2026-10-20T10:33:06.244Z,//bandersnatch/Video/Movies/Star Wars - Episode II - Attack of the Clones (2002)/Star Wars - Episode II - Attack of the Clones (2002).m4v,h264,720x364,1761459021,1327776189,433682832,26,290,replaced,
+2026-10-20T10:27:34.489Z,//bandersnatch/Video/Movies/Star Trek Into Darkness (2013)/Star Trek Into Darkness (2013).mkv,h264,1920x800,10286586446,3769446022,6517140424,26,839,replaced,
+2026-10-20T10:38:38.848Z,//bandersnatch/Video/Movies/Star Wars - The Force Awakens (2015)/Star Wars - The Force Awakens (2015).mkv,hevc,1280x536,2015169960,1737951486,277218474,26,505,replaced,"default audio und, default subtitle none"
+2026-10-20T10:47:44.858Z,//bandersnatch/Video/Movies/Star Wars (1977)/Star Wars (1977).mkv,h264,1280x546,3313586708,2757403313,556183395,26,506,replaced,"default audio eng, default subtitle none"
+2026-10-20T10:42:12.648Z,//bandersnatch/Video/Movies/Star Wars - The Rise of Skywalker (2019)/Star Wars - The Rise of Skywalker (2019).mkv,hevc,3840x1616,4593252455,2796165287,1797087168,26,862,replaced,
+2026-10-20T10:56:37.843Z,//bandersnatch/Video/Movies/Stardust (2007)/Stardust (2007).mp4,hevc,720x356,1695934583,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T10:57:15.573Z,//bandersnatch/Video/Movies/Stowaway (2021)/Stowaway (2021).mkv,hevc,1280x544,698983539,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T10:56:58.033Z,//bandersnatch/Video/Movies/Steamboy (2004)/Steamboy (2004).m4v,h264,720x466,1411748670,1174510124,237238546,26,273,replaced,
+2026-10-20T11:02:13.357Z,//bandersnatch/Video/Movies/Strange World (2022)/Strange World (2022).mp4,hevc,1920x800,1717096534,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T10:57:30.041Z,//bandersnatch/Video/Movies/Straight Outta Compton (2015)/Straight Outta Compton (2015).mkv,h264,1280x536,1626094655,1540893161,85201494,26,485,replaced,
+2026-10-20T11:02:36.546Z,//bandersnatch/Video/Movies/Stripes (1981)/Stripes (1981).m4v,h264,720x470,1526064374,985262441,540801933,26,230,replaced,
+2026-10-20T11:06:49.533Z,//bandersnatch/Video/Movies/Suicide Squad (2016)/Suicide Squad (2016).mkv,h264,720x300,844436423,608264521,236171902,26,227,replaced,
+2026-10-20T11:06:13.104Z,//bandersnatch/Video/Movies/Stuber (2019)/Stuber (2019).mkv,h264,1280x534,838907284,850825832,0,26,267,kept,new file not smaller; marked
+2026-10-20T11:11:17.732Z,//bandersnatch/Video/Movies/Superbad (2007)/Superbad (2007).m4v,h264,720x462,1510360724,1227295271,283065453,26,266,replaced,
+2026-10-20T11:11:17.815Z,//bandersnatch/Video/Movies/Supergirl (2026)/Supergirl (2026).mkv,h264,1280x536,3607193425,1524035855,2083157570,26,336,replaced,"default audio eng, default subtitle eng"
+2026-10-20T11:17:13.585Z,//bandersnatch/Video/Movies/Superman (2025)/Superman (2025).mkv,hevc,1280x696,1433943510,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T11:17:28.348Z,//bandersnatch/Video/Movies/Superman Returns (2006)/Superman Returns (2006).m4v,h264,720x360,1517724410,1281535581,236188829,26,238,replaced,
+2026-10-20T11:16:00.875Z,//bandersnatch/Video/Movies/Superman - Red Son (2020)/Superman - Red Son (2020).mkv,h264,1280x720,3516456814,1875941205,1640515609,26,420,replaced,
+2026-10-20T11:21:53.095Z,//bandersnatch/Video/Movies/Surf's Up (2007)/Surf's Up (2007).m4v,h264,720x462,1448556572,951489515,497067057,26,160,replaced,
+2026-10-20T11:24:54.030Z,//bandersnatch/Video/Movies/Swingers (2002)/Swingers (2002).m4v,h264,720x352,888424069,666846413,221577656,26,138,replaced,
+2026-10-20T11:23:30.197Z,//bandersnatch/Video/Movies/Sweeney Todd - The Demon Barber of Fleet Street (2007)/Sweeney Todd - The Demon Barber of Fleet Street (2007).m4v,h264,720x480,1486762777,1174704309,312058468,26,257,replaced,
+2026-10-20T11:27:34.124Z,//bandersnatch/Video/Movies/Swiss Army Man (2016)/Swiss Army Man (2016).mp4,h264,1280x534,1027825222,1094132339,0,26,303,kept,new file not smaller
+2026-10-20T11:33:02.330Z,//bandersnatch/Video/Movies/Talladega Nights - The Ballad of Ricky Bobby (2006)/Talladega Nights - The Ballad of Ricky Bobby (2006).mp4,hevc,1280x534,1054922546,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T11:33:22.576Z,//bandersnatch/Video/Movies/TÁR (2022)/TÁR (2022).mkv,h264,1280x536,1762821384,1414370799,348450585,26,456,replaced,
+2026-10-20T11:41:31.761Z,//bandersnatch/Video/Movies/Tarzan (1999)/Tarzan (1999).m4v,h264,678x480,1125356368,891356772,233999596,26,151,replaced,
+2026-10-20T11:28:23.399Z,//bandersnatch/Video/Movies/T2 Trainspotting (2017)/T2 Trainspotting (2017).mkv,h264,1920x1036,2358871704,3231937843,0,26,1118,kept,new file not smaller; marked
+2026-10-20T11:47:29.130Z,//bandersnatch/Video/Movies/Ted 2 (2015)/Ted 2 (2015).m4v,h264,1280x536,699716842,1104274177,0,26,414,kept,new file not smaller
+2026-10-20T11:44:29.724Z,//bandersnatch/Video/Movies/Ted (2012)/Ted (2012).mkv,h264,1920x1040,8206955958,4360971027,3845984931,26,883,replaced,
+2026-10-20T11:59:44.073Z,//bandersnatch/Video/Movies/Tenzing (2026)/Tenzing (2026).mkv,hevc,1920x804,2089300314,2349643459,0,26,759,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-20T11:54:59.714Z,//bandersnatch/Video/Movies/Tenet (2020)/Tenet (2020).mkv,h264,1920x872,4465653176,4036268049,429385127,26,1215,replaced,
+2026-10-20T12:15:48.093Z,//bandersnatch/Video/Movies/Tesla (2020)/Tesla (2020).mp4,h264,720x390,1044417558,547471537,496946021,26,186,replaced,
+2026-10-20T12:19:04.234Z,//bandersnatch/Video/Movies/Tetris (2023)/Tetris (2023).mkv,hevc,1920x808,1794367947,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T12:19:24.861Z,//bandersnatch/Video/Movies/The 40 Year-Old Virgin (2005)/The 40 Year-Old Virgin (2005).m4v,h264,720x460,2169404683,1500648275,668756408,26,284,replaced,
+2026-10-20T12:24:40.965Z,//bandersnatch/Video/Movies/The Accountant (2016)/The Accountant (2016).mkv,hevc,1280x536,675351064,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T12:25:03.392Z,//bandersnatch/Video/Movies/The Adventures of Buckaroo Banzai Across the 8th Dimension (1984)/The Adventures of Buckaroo Banzai Across the 8th Dimension (1984).mp4,hevc,1920x808,1750427207,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T12:25:16.498Z,//bandersnatch/Video/Movies/The Aeronauts (2019)/The Aeronauts (2019).mkv,hevc,1280x688,852900284,,,,,skipped,"already hevc, 2 GB or smaller; default audio eng, default subtitle eng"
+2026-10-20T12:13:06.427Z,//bandersnatch/Video/Movies/Terminator - Dark Fate (2019)/Terminator - Dark Fate (2019).mkv,hevc,3840x1604,3244108426,2520038328,724070098,26,772,replaced,"default audio eng, default subtitle eng"
+2026-10-20T12:25:35.520Z,//bandersnatch/Video/Movies/The Amazing Spider-Man (2012)/The Amazing Spider-Man (2012).mkv,h264,1280x528,6756520778,2685389387,4071131391,26,545,replaced,
+2026-10-20T12:26:25.043Z,//bandersnatch/Video/Movies/The Amazing Spider-Man 2 (2014)/The Amazing Spider-Man 2 (2014).mkv,h264,1280x528,7484201346,3156404443,4327796903,26,500,replaced,
+2026-10-20T12:35:22.846Z,//bandersnatch/Video/Movies/The Animatrix (2003)/The Animatrix (2003).m4v,h264,720x374,1339724017,960243360,379480657,26,194,replaced,
+2026-10-20T12:35:21.890Z,//bandersnatch/Video/Movies/The American Society of Magical Negroes (2024)/The American Society of Magical Negroes (2024).mkv,h264,1280x720,1794160103,1137619543,656540560,26,352,replaced,
+2026-10-20T12:39:12.795Z,//bandersnatch/Video/Movies/The Assassination of Jesse James by the Coward Robert Ford (2007)/The Assassination of Jesse James by the Coward Robert Ford (2007).m4v,h264,720x360,1580160152,1258023584,322136568,26,296,replaced,
+2026-10-20T12:44:34.263Z,//bandersnatch/Video/Movies/The Beekeeper (2024)/The Beekeeper (2024).mkv,hevc,1920x800,1664609110,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T12:41:53.293Z,//bandersnatch/Video/Movies/The Aviator (2004)/The Aviator (2004).m4v,h264,720x368,1972287991,1527752417,444535574,26,255,replaced,
+2026-10-20T12:44:57.549Z,//bandersnatch/Video/Movies/The Big Short (2015)/The Big Short (2015).avi,mpeg4,720x288,1628688443,810099041,818589402,26,221,replaced,
+2026-10-20T12:46:33.258Z,//bandersnatch/Video/Movies/The Big Sick (2017)/The Big Sick (2017).avi,mpeg4,720x384,1494695518,774974505,719721013,26,164,replaced,
+2026-10-20T12:48:59.074Z,//bandersnatch/Video/Movies/The Boondock Saints (1999)/The Boondock Saints (1999).m4v,h264,720x272,834839897,680614880,154225017,26,181,replaced,
+2026-10-20T12:52:29.557Z,//bandersnatch/Video/Movies/The Boxtrolls (2014)/The Boxtrolls (2014).avi,mpeg4,1280x720,3336708096,2016407833,1320300263,26,459,replaced,
+2026-10-20T13:00:49.747Z,//bandersnatch/Video/Movies/The Brutalist (2024)/The Brutalist (2024).mkv,hevc,1200x720,1389313279,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T12:49:47.011Z,//bandersnatch/Video/Movies/The Bourne Legacy (2012)/The Bourne Legacy (2012).mkv,h264,1920x800,10559892151,5464776629,5095115522,26,893,replaced,"default audio eng, default subtitle eng"
+2026-10-20T13:01:13.270Z,//bandersnatch/Video/Movies/The Cabin in the Woods (2012)/The Cabin in the Woods (2012).mkv,h264,1280x534,5544696515,2049872643,3494823872,26,384,replaced,"default audio eng, default subtitle none"
+2026-10-20T13:05:24.017Z,"//bandersnatch/Video/Movies/The Chronicles of Narnia - The Lion, the Witch and the Wardrobe (2005)/The Chronicles of Narnia - The Lion, the Witch and the Wardrobe (2005).m4v",h264,720x362,1734473930,1351887378,382586552,26,224,replaced,
+2026-10-20T13:09:30.324Z,//bandersnatch/Video/Movies/The Circle (2017)/The Circle (2017).avi,mpeg4,720x300,1561925726,742744002,819181724,26,141,replaced,
+2026-10-20T13:08:05.536Z,//bandersnatch/Video/Movies/The Chronicles of Riddick (2004)/The Chronicles of Riddick (2004).m4v,h264,720x354,1703127339,1277068917,426058422,26,263,replaced,
+2026-10-20T13:12:46.465Z,//bandersnatch/Video/Movies/The Courier (2019)/The Courier (2019).mkv,hevc,1280x528,626873299,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T13:13:01.577Z,//bandersnatch/Video/Movies/The Courier (2020)/The Courier (2020).mkv,hevc,1280x536,714807758,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T13:13:16.349Z,//bandersnatch/Video/Movies/The Current War (2018)/The Current War (2018).mkv,hevc,1920x800,979477184,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T13:13:32.269Z,//bandersnatch/Video/Movies/The Darjeeling Limited (2007)/The Darjeeling Limited (2007).m4v,h264,720x354,1186268562,882473465,303795097,26,174,replaced,
+2026-10-20T13:12:10.257Z,//bandersnatch/Video/Movies/The Counselor (2013)/The Counselor (2013).mkv,h264,1280x534,1048054250,1227088331,0,26,394,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-20T13:19:26.896Z,//bandersnatch/Video/Movies/The Dark Tower (2017)/The Dark Tower (2017).mkv,h264,1904x800,1905274878,1977884652,0,26,583,kept,new file not smaller; marked
+2026-10-20T13:17:03.026Z,//bandersnatch/Video/Movies/The Dark Knight Rises (2012)/The Dark Knight Rises (2012).mkv,h264,1280x720,7043025075,3616128840,3426896235,26,824,replaced,"default audio eng, default subtitle eng"
+2026-10-20T13:29:48.279Z,//bandersnatch/Video/Movies/The Day the Earth Stood Still (1951)/The Day the Earth Stood Still (1951).m4v,h264,720x480,1286459525,815802465,470657060,26,196,replaced,
+2026-10-20T13:33:36.742Z,//bandersnatch/Video/Movies/The Death of Stalin (2017)/The Death of Stalin (2017).mkv,h264,1280x690,893826775,1188813872,0,26,439,kept,new file not smaller; marked
+2026-10-20T13:41:33.763Z,//bandersnatch/Video/Movies/The Departed (2006)/The Departed (2006).m4v,h264,720x360,1632039223,1370288054,261751169,26,309,replaced,
+2026-10-20T13:31:12.590Z,//bandersnatch/Video/Movies/The Dead Don't Die (2019)/The Dead Don't Die (2019).mkv,hevc,3840x2160,18321955657,1866583310,16455372347,26,1029,replaced,
+2026-10-20T13:47:25.602Z,//bandersnatch/Video/Movies/The Emperor's New Groove (2000)/The Emperor's New Groove (2000).m4v,h264,680x480,780325837,694879315,85446522,26,138,replaced,
+2026-10-20T13:49:01.216Z,//bandersnatch/Video/Movies/The Empire Strikes Back (1980)/The Empire Strikes Back (1980).mkv,h264,1280x546,3317379004,2733738638,583640366,26,539,replaced,"default audio eng, default subtitle none"
+2026-10-20T13:50:06.513Z,//bandersnatch/Video/Movies/The Equalizer (2014)/The Equalizer (2014).mp4,h264,1920x808,2089163910,2282146086,0,26,841,kept,new file not smaller
+2026-10-20T14:04:37.105Z,//bandersnatch/Video/Movies/The Fabelmans (2022)/The Fabelmans (2022).mkv,hevc,1280x688,1332190771,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T14:04:59.137Z,//bandersnatch/Video/Movies/The Fall Guy (2024)/The Fall Guy (2024).mkv,hevc,1280x536,1199044119,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T14:05:13.786Z,//bandersnatch/Video/Movies/The Fantastic 4 - First Steps (2025)/The Fantastic 4 - First Steps (2025).mkv,hevc,1280x536,996444609,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T13:58:42.178Z,//bandersnatch/Video/Movies/The Equalizer 2 (2018)/The Equalizer 2 (2018).mkv,h264,1280x530,1049057826,1179122726,0,26,430,kept,new file not smaller; marked
+2026-10-20T14:05:35.834Z,//bandersnatch/Video/Movies/The Farewell (2019)/The Farewell (2019).avi,h264,720x302,1450599314,574445359,876153955,26,146,replaced,
+2026-10-20T14:08:20.365Z,//bandersnatch/Video/Movies/The Favourite (2018)/The Favourite (2018).mkv,h264,720x386,893864139,547276628,346587511,26,196,replaced,
+2026-10-20T14:12:14.021Z,//bandersnatch/Video/Movies/The Fifth Element (1997)/The Fifth Element (1997).m4v,h264,720x364,1264818536,981501332,283317204,26,233,replaced,
+2026-10-20T14:06:02.068Z,//bandersnatch/Video/Movies/The Fast and the Furious - Tokyo Drift (2006)/The Fast and the Furious - Tokyo Drift (2006).mkv,h264,1920x816,11567950809,4852657298,6715293511,26,921,replaced,"default audio eng, default subtitle eng"
+2026-10-20T14:16:41.005Z,//bandersnatch/Video/Movies/The Firm (1993)/The Firm (1993).mp4,hevc,718x480,2273468600,1454895981,818572619,26,290,replaced,
+2026-10-20T14:33:57.715Z,//bandersnatch/Video/Movies/The Flash (2023)/The Flash (2023).mkv,h264,720x380,1451384023,894518561,556865462,26,300,replaced,
+2026-10-20T14:39:26.735Z,//bandersnatch/Video/Movies/The Founder (2016)/The Founder (2016).avi,mpeg4,720x304,1786443776,688038139,1098405637,26,239,replaced,
+2026-10-20T14:33:36.435Z,//bandersnatch/Video/Movies/The Five-Year Engagement (2012)/The Five-Year Engagement (2012).mkv,h264,1280x720,7444833281,3441765325,4003067956,26,620,replaced,
+2026-10-20T14:44:05.429Z,"//bandersnatch/Video/Movies/The French Dispatch of the Liberty, Kansas Evening Sun (2021)/The French Dispatch of the Liberty, Kansas Evening Sun (2021).avi",h264,720x388,1398816917,661489330,737327587,26,175,replaced,
+2026-10-20T14:47:26.120Z,//bandersnatch/Video/Movies/The Fugitive (1993)/The Fugitive (1993).m4v,h264,720x480,1982267990,1355328301,626939689,26,251,replaced,
+2026-10-20T14:52:10.627Z,//bandersnatch/Video/Movies/The Gambler (2014)/The Gambler (2014).avi,mpeg4,704x304,2015244652,657513818,1357730834,26,152,replaced,
+2026-10-20T14:55:10.654Z,//bandersnatch/Video/Movies/The Gentlemen (2020)/The Gentlemen (2020).mkv,hevc,1280x536,869684641,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T14:44:26.399Z,//bandersnatch/Video/Movies/The Friends of Eddie Coyle (1973)/The Friends of Eddie Coyle (1973).mkv,hevc,1920x1038,2927416561,3416055935,0,26,1011,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-20T14:55:33.078Z,//bandersnatch/Video/Movies/The Girl in the Spider's Web (2018)/The Girl in the Spider's Web (2018).mkv,h264,1280x536,2962427656,1379358255,1583069401,26,364,replaced,"default audio eng, default subtitle none"
+2026-10-20T15:01:44.844Z,//bandersnatch/Video/Movies/The Girl on the Train (2016)/The Girl on the Train (2016).avi,mpeg4,720x384,1464573747,782282825,682290922,26,193,replaced,
+2026-10-20T15:02:08.462Z,//bandersnatch/Video/Movies/The Girl with All the Gifts (2016)/The Girl with All the Gifts (2016).mkv,h264,1280x640,1046567287,1103626431,0,26,384,kept,new file not smaller; marked
+2026-10-20T15:05:38.348Z,//bandersnatch/Video/Movies/The Godfather (1972)/The Godfather (1972).m4v,h264,718x480,3310996586,1981407933,1329588653,26,416,replaced,
+2026-10-20T15:13:10.073Z,//bandersnatch/Video/Movies/The Godfather Part III (1990)/The Godfather Part III (1990).m4v,h264,720x480,2669127803,1776539104,892588699,26,396,replaced,
+2026-10-20T15:09:15.497Z,//bandersnatch/Video/Movies/The Godfather Part II (1974)/The Godfather Part II (1974).mp4,h264,1280x720,1090555337,2043151796,0,26,833,kept,new file not smaller
+2026-10-20T15:20:29.123Z,//bandersnatch/Video/Movies/The Good Dinosaur (2015)/The Good Dinosaur (2015).mkv,h264,1280x536,842358488,1206211812,0,26,346,kept,new file not smaller; marked
+2026-10-20T15:26:42.933Z,//bandersnatch/Video/Movies/The Great Wall (2016)/The Great Wall (2016).mkv,h264,1280x534,995855567,1178621895,0,26,382,kept,new file not smaller; marked
+2026-10-20T15:23:42.642Z,//bandersnatch/Video/Movies/The Grand Budapest Hotel (2014)/The Grand Budapest Hotel (2014).mkv,h264,1920x1034,8538995969,3515935365,5023060604,26,858,replaced,
+2026-10-20T15:38:22.963Z,//bandersnatch/Video/Movies/The Grey (2012)/The Grey (2012).mkv,hevc,1280x534,1914682651,,,,,skipped,already converted (Lavc61.19.101 hevc_nvenc)
+2026-10-20T15:38:40.107Z,//bandersnatch/Video/Movies/The Hammer (2007)/The Hammer (2007).mp4,hevc,720x480,1748082189,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T15:38:55.693Z,//bandersnatch/Video/Movies/The Hateful Eight (2015)/The Hateful Eight (2015).m4v,h264,720x308,1470345719,1299619174,170726545,26,239,replaced,
+2026-10-20T15:33:45.617Z,//bandersnatch/Video/Movies/The Greatest Showman (2017)/The Greatest Showman (2017).mkv,h264,1920x800,2124073413,1948104399,175969014,26,785,replaced,
+2026-10-20T15:47:24.153Z,//bandersnatch/Video/Movies/The Hobbit - The Battle of the Five Armies (2014)/The Hobbit - The Battle of the Five Armies (2014).avi,mpeg4,720x304,1871109950,1327825486,543284464,26,295,replaced,
+2026-10-20T15:43:04.014Z,//bandersnatch/Video/Movies/The Hobbit - An Unexpected Journey (2012)/The Hobbit - An Unexpected Journey (2012).mkv,h264,1280x534,4028550188,2596602986,1431947202,26,565,replaced,
+2026-10-20T15:52:47.723Z,//bandersnatch/Video/Movies/The Hobbit (1977)/The Hobbit (1977).avi,mpeg4,512x384,730546176,369885264,360660912,26,90,replaced,
+2026-10-20T15:54:35.345Z,//bandersnatch/Video/Movies/The Imitation Game (2014)/The Imitation Game (2014).avi,mpeg4,720x304,1768722432,902480928,866241504,26,158,replaced,
+2026-10-20T15:53:12.783Z,//bandersnatch/Video/Movies/The House (2017)/The House (2017).mkv,h264,1912x792,3265182917,2201165666,1064017251,26,653,replaced,
+2026-10-20T15:57:52.675Z,//bandersnatch/Video/Movies/The Intern (2015)/The Intern (2015).mkv,h264,1280x720,946434132,1541045888,0,26,591,kept,new file not smaller; marked
+2026-10-20T16:08:04.583Z,//bandersnatch/Video/Movies/The Italian Job (1969)/The Italian Job (1969).m4v,h264,720x366,1256788904,963037502,293751402,26,163,replaced,
+2026-10-20T16:04:36.696Z,//bandersnatch/Video/Movies/The Interview (2014)/The Interview (2014).mkv,h264,1272x534,2660164099,1162926233,1497237866,26,406,replaced,
+2026-10-20T16:11:09.210Z,//bandersnatch/Video/Movies/The Italian Job (2003)/The Italian Job (2003).m4v,h264,720x362,1364667930,1075189939,289477991,26,177,replaced,
+2026-10-20T16:14:33.954Z,//bandersnatch/Video/Movies/The Jungle Book (1967)/The Jungle Book (1967).m4v,h264,718x480,1092208862,720593444,371615418,26,140,replaced,
+2026-10-20T16:17:05.956Z,//bandersnatch/Video/Movies/The Jungle Book (2016)/The Jungle Book (2016).mp4,h264,1280x694,1375176550,1623063787,0,26,405,kept,new file not smaller
+2026-10-20T16:11:44.182Z,//bandersnatch/Video/Movies/The Jesus Rolls (2019)/The Jesus Rolls (2019).mkv,h264,1920x1038,3421250741,2239101442,1182149299,26,812,replaced,
+2026-10-20T16:25:42.528Z,//bandersnatch/Video/Movies/The King's Man (2021)/The King's Man (2021).mp4,h264,720x302,1333948132,693387097,640561035,26,232,replaced,
+2026-10-20T16:30:09.561Z,//bandersnatch/Video/Movies/The Last Mimzy (2007)/The Last Mimzy (2007).m4v,h264,720x364,1108084972,882593364,225491608,26,191,replaced,
+2026-10-20T16:33:45.789Z,//bandersnatch/Video/Movies/The Last of the Mohicans (1992)/The Last of the Mohicans (1992).m4v,h264,720x368,1523894875,1229693030,294201845,26,241,replaced,
+2026-10-20T16:24:12.788Z,//bandersnatch/Video/Movies/The King (2019)/The King (2019).mp4,hevc,1920x800,2349373383,1873544580,475828803,26,825,replaced,"sidecars embedded: The King (2019).en.srt; default audio eng, default subtitle eng"
+2026-10-20T16:38:32.538Z,//bandersnatch/Video/Movies/The Last Witch Hunter (2015)/The Last Witch Hunter (2015).mkv,hevc,1280x720,470878311,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T16:38:27.350Z,//bandersnatch/Video/Movies/The Last Stand (2013)/The Last Stand (2013).mkv,h264,1920x800,9394905181,4832358329,4562546852,26,775,replaced,"default audio eng, default subtitle none"
+2026-10-20T16:38:46.583Z,//bandersnatch/Video/Movies/The Lego Batman Movie (2017)/The Lego Batman Movie (2017).mkv,h264,1912x792,3811496452,2823280042,988216410,26,809,replaced,
+2026-10-20T16:52:43.945Z,//bandersnatch/Video/Movies/The Limey (1999)/The Limey (1999).mp4,hevc,1920x1080,1484292874,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T16:53:12.678Z,//bandersnatch/Video/Movies/The Little Mermaid (1989)/The Little Mermaid (1989).mp4,hevc,720x386,1152335242,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T16:51:51.746Z,//bandersnatch/Video/Movies/The Life Aquatic with Steve Zissou (2004)/The Life Aquatic with Steve Zissou (2004).m4v,h264,720x366,1371732033,1113147597,258584436,26,198,replaced,
+2026-10-20T16:53:29.197Z,//bandersnatch/Video/Movies/The Long Good Friday (1980)/The Long Good Friday (1980).m4v,h264,720x372,1157103512,825306770,331796742,26,235,replaced,
+2026-10-20T16:55:29.690Z,//bandersnatch/Video/Movies/The Lord of the Rings - The Fellowship of the Ring (2001)/The Lord of the Rings - The Fellowship of the Ring (2001).mkv,h264,1280x534,6012695097,3283815494,2728879603,26,756,replaced,
+2026-10-20T16:58:03.355Z,//bandersnatch/Video/Movies/The Lord of the Rings - The Return of the King (2003)/The Lord of the Rings - The Return of the King (2003).mkv,h264,1280x530,6811352985,4431083062,2380269923,26,1113,replaced,
+2026-10-20T17:17:12.499Z,//bandersnatch/Video/Movies/The Lost City (2022)/The Lost City (2022).mkv,hevc,1280x536,973406816,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T17:17:38.106Z,//bandersnatch/Video/Movies/The Magnificent Seven (2016)/The Magnificent Seven (2016).mkv,h264,720x300,1107051824,709810436,397241388,26,366,replaced,
+2026-10-20T17:08:40.904Z,//bandersnatch/Video/Movies/The Lord of the Rings - The Two Towers (2002)/The Lord of the Rings - The Two Towers (2002).mkv,h264,1906x798,26074634413,9850178002,16224456411,26,1879,replaced,
+2026-10-20T18:16:38.321Z,//bandersnatch/Video/Movies/The Man from U.N.C.L.E. (2015)/The Man from U.N.C.L.E. (2015).mkv,h264,1280x530,3880525029,1468159990,2412365039,26,432,replaced,"default audio eng, default subtitle eng"
+2026-10-20T18:24:15.806Z,//bandersnatch/Video/Movies/The Man with the Golden Gun (1974)/The Man with the Golden Gun (1974).m4v,h264,716x480,1881304914,1165464986,715839928,26,291,replaced,
+2026-10-20T18:16:37.908Z,//bandersnatch/Video/Movies/The Man Who Killed Don Quixote (2018)/The Man Who Killed Don Quixote (2018).mkv,h264,1920x804,3102523810,3557041208,0,26,1225,kept,"new file not smaller; default audio eng, default subtitle none; marked"
+2026-10-20T18:37:46.041Z,//bandersnatch/Video/Movies/The Marksman (2021)/The Marksman (2021).mkv,hevc,1280x536,765797799,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T18:29:51.093Z,//bandersnatch/Video/Movies/The Man with the Iron Fists (2012)/The Man with the Iron Fists (2012).mkv,h264,1280x528,6160059512,2033049367,4127010145,26,502,replaced,
+2026-10-20T18:38:42.541Z,//bandersnatch/Video/Movies/The Marvels (2023)/The Marvels (2023).mp4,hevc,2048x858,1563609329,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T18:38:07.054Z,//bandersnatch/Video/Movies/The Martian (2015)/The Martian (2015).mp4,h264,1280x532,1216556883,1430128510,0,26,566,kept,new file not smaller
+2026-10-20T18:47:59.451Z,//bandersnatch/Video/Movies/The Matrix Reloaded (2003)/The Matrix Reloaded (2003).m4v,h264,720x362,1710568211,1291048263,419519948,26,326,replaced,
+2026-10-20T18:39:11.496Z,//bandersnatch/Video/Movies/The Matrix (1999)/The Matrix (1999).mkv,hevc,1920x800,4330034685,3374063488,955971197,26,960,replaced,"default audio eng, default subtitle eng"
+2026-10-20T18:55:33.067Z,//bandersnatch/Video/Movies/The Mule (2018)/The Mule (2018).avi,h264,720x302,1522452143,828954955,693497188,26,205,replaced,
+2026-10-20T18:54:02.635Z,//bandersnatch/Video/Movies/The Ministry of Ungentlemanly Warfare (2024)/The Ministry of Ungentlemanly Warfare (2024).mkv,hevc,1920x800,2071972924,1959217765,112755159,26,936,replaced,
+2026-10-20T19:10:15.805Z,//bandersnatch/Video/Movies/The Naked Gun (2025)/The Naked Gun (2025).mkv,hevc,1920x800,1565681756,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T18:59:27.077Z,//bandersnatch/Video/Movies/The Mummy (2017)/The Mummy (2017).mp4,h264,1920x800,1809198498,2327469889,0,26,751,kept,new file not smaller
+2026-10-20T19:12:26.456Z,//bandersnatch/Video/Movies/The Nice Guys (2016)/The Nice Guys (2016).mkv,h264,1280x536,995895045,1044420849,0,26,440,kept,new file not smaller; marked
+2026-10-20T19:20:28.036Z,//bandersnatch/Video/Movies/The Nightmare Before Christmas (1993)/The Nightmare Before Christmas (1993).m4v,h264,720x390,1252741490,916368031,336373459,26,230,replaced,
+2026-10-20T19:10:39.198Z,//bandersnatch/Video/Movies/The Name of the Rose (1986)/The Name of the Rose (1986).mkv,h264,1272x720,10421160979,3966004119,6455156860,26,951,replaced,"default audio eng, default subtitle eng"
+2026-10-20T19:26:56.974Z,//bandersnatch/Video/Movies/The Odd Life of Timothy Green (2012)/The Odd Life of Timothy Green (2012).mkv,h264,1280x696,4693441582,2583587748,2109853834,26,642,replaced,"default audio eng, default subtitle eng"
+2026-10-20T19:24:39.131Z,//bandersnatch/Video/Movies/The Northman (2022)/The Northman (2022).mp4,hevc,1920x960,2295024942,3124565371,0,26,1120,kept,new file not smaller
+2026-10-20T19:43:40.568Z,//bandersnatch/Video/Movies/The Outfit (2022)/The Outfit (2022).mkv,hevc,1280x640,753303030,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T19:44:00.640Z,//bandersnatch/Video/Movies/The Peanut Butter Falcon (2019)/The Peanut Butter Falcon (2019).avi,h264,720x306,1434827117,635269240,799557877,26,188,replaced,
+2026-10-20T19:38:09.945Z,//bandersnatch/Video/Movies/The Old Man & the Gun (2018)/The Old Man & the Gun (2018).mkv,h264,1920x802,1742677807,1835834767,0,26,768,kept,new file not smaller; marked
+2026-10-20T19:51:17.472Z,//bandersnatch/Video/Movies/The Post (2017)/The Post (2017).mkv,h264,1280x694,1122209929,1317606703,0,26,572,kept,new file not smaller; marked
+2026-10-20T19:47:39.950Z,//bandersnatch/Video/Movies/The Phoenician Scheme (2025)/The Phoenician Scheme (2025).mkv,hevc,1920x1080,2485290189,2130130807,355159382,26,872,replaced,"default audio eng, default subtitle eng"
+2026-10-20T20:01:07.361Z,//bandersnatch/Video/Movies/The Princess Bride (1987)/The Princess Bride (1987).m4v,h264,720x472,1266801286,975481481,291319805,26,241,replaced,
+2026-10-20T20:02:25.026Z,//bandersnatch/Video/Movies/The Return (2024)/The Return (2024).mp4,h264,1280x694,1117602709,1304676498,0,26,466,kept,new file not smaller
+2026-10-20T20:05:28.514Z,//bandersnatch/Video/Movies/The Revenant (2015)/The Revenant (2015).mkv,h264,720x356,2442572155,1166382794,1276189361,26,296,replaced,"default audio eng, default subtitle none"
+2026-10-20T20:10:59.180Z,//bandersnatch/Video/Movies/The Roses (2025)/The Roses (2025).mkv,hevc,1920x1040,1630223776,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T20:11:19.256Z,//bandersnatch/Video/Movies/The Royal Tenenbaums (2001)/The Royal Tenenbaums (2001).m4v,h264,720x362,1214702764,861240251,353462513,26,186,replaced,
+2026-10-20T20:14:56.372Z,//bandersnatch/Video/Movies/The School of Rock (2003)/The School of Rock (2003).m4v,h264,720x480,1670728608,1199617553,471111055,26,229,replaced,
+2026-10-20T20:19:06.280Z,//bandersnatch/Video/Movies/The Secret Life of Pets (2016)/The Secret Life of Pets (2016).avi,mpeg4,720x384,1487031996,610532504,876499492,26,164,replaced,
+2026-10-20T20:22:24.782Z,//bandersnatch/Video/Movies/The Secret Life of Walter Mitty (2013)/The Secret Life of Walter Mitty (2013).mkv,h264,720x304,1501334550,649697222,851637328,26,167,replaced,
+2026-10-20T20:10:31.289Z,//bandersnatch/Video/Movies/The Rivals of Amziah King (2026)/The Rivals of Amziah King (2026).mkv,hevc,1920x800,2120994595,3283007451,0,26,1030,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-20T20:28:10.248Z,//bandersnatch/Video/Movies/The Sheep Detectives (2026)/The Sheep Detectives (2026).mkv,hevc,1920x960,1823851450,,,,,skipped,"already hevc, 2 GB or smaller; default audio eng, default subtitle eng"
+2026-10-20T20:25:31.099Z,//bandersnatch/Video/Movies/The Secret of NIMH (1982)/The Secret of NIMH (1982).m4v,h264,718x480,1839799577,854031882,985767695,26,179,replaced,
+2026-10-20T20:28:43.575Z,//bandersnatch/Video/Movies/The SpongeBob SquarePants Movie (2004)/The SpongeBob SquarePants Movie (2004).m4v,h264,720x480,1200810851,875457531,325353320,26,178,replaced,
+2026-10-20T20:32:04.365Z,//bandersnatch/Video/Movies/The Spy Who Dumped Me (2018)/The Spy Who Dumped Me (2018).mkv,h264,1280x536,1133084509,1191141962,0,26,362,kept,new file not smaller; marked
+2026-10-20T20:28:29.872Z,//bandersnatch/Video/Movies/The Sisters Brothers (2018)/The Sisters Brothers (2018).mkv,h264,1920x800,3311909190,2777673727,534235463,26,923,replaced,
+2026-10-20T20:44:08.637Z,//bandersnatch/Video/Movies/The Story of Everything (2026)/The Story of Everything (2026).mp4,h264,720x300,905310103,440565066,464745037,26,182,replaced,
+2026-10-20T20:38:39.110Z,//bandersnatch/Video/Movies/The Square (2017)/The Square (2017).mkv,h264,1280x696,2751713067,1883258701,868454366,26,599,replaced,"default audio eng, default subtitle none"
+2026-10-20T20:49:01.185Z,//bandersnatch/Video/Movies/The Super Mario Bros. Movie (2023)/The Super Mario Bros. Movie (2023).mkv,hevc,1280x536,841410082,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T20:49:30.223Z,//bandersnatch/Video/Movies/The Tax Collector (2020)/The Tax Collector (2020).mkv,h264,1920x1024,1885676513,2276494114,0,26,751,kept,"new file not smaller; default audio und, default subtitle none; marked"
+2026-10-20T21:02:29.569Z,//bandersnatch/Video/Movies/The Theory of Everything (2014)/The Theory of Everything (2014).avi,mpeg4,720x304,1477077074,736034980,741042094,26,174,replaced,
+2026-10-20T21:05:49.212Z,//bandersnatch/Video/Movies/The Thief and the Cobbler (1993)/The Thief and the Cobbler (1993).m4v,h264,712x480,1105580951,695433032,410147919,26,148,replaced,
+2026-10-20T20:47:45.122Z,//bandersnatch/Video/Movies/The Suicide Squad (2021)/The Suicide Squad (2021).mp4,hevc,1920x1012,2209615113,3628464383,0,26,1262,kept,new file not smaller
+2026-10-20T21:08:58.953Z,//bandersnatch/Video/Movies/The Tragedy of Macbeth (2021)/The Tragedy of Macbeth (2021).mkv,hevc,984x720,810416420,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T21:09:12.238Z,//bandersnatch/Video/Movies/The Transporter (2002)/The Transporter (2002).m4v,h264,720x364,1235776090,922201791,313574299,26,198,replaced,
+2026-10-20T21:08:53.525Z,//bandersnatch/Video/Movies/The Town (2010)/The Town (2010).mp4,h264,1280x528,944511933,1491127896,0,26,458,kept,new file not smaller
+2026-10-20T21:16:52.324Z,//bandersnatch/Video/Movies/The Usual Suspects (1995)/The Usual Suspects (1995).m4v,h264,720x372,1106773658,939655970,167117688,26,183,replaced,
+2026-10-20T21:20:12.994Z,//bandersnatch/Video/Movies/The Vast of Night (2019)/The Vast of Night (2019).mp4,hevc,1920x800,1520750882,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T21:12:49.306Z,//bandersnatch/Video/Movies/The Unbearable Weight of Massive Talent (2022)/The Unbearable Weight of Massive Talent (2022).mp4,h264,1920x800,2388723545,2268728173,119995372,26,827,replaced,
+2026-10-20T21:27:08.989Z,//bandersnatch/Video/Movies/The Waterboy (1998)/The Waterboy (1998).m4v,h264,720x354,1409855982,912638078,497217904,26,225,replaced,
+2026-10-20T21:20:33.238Z,//bandersnatch/Video/Movies/The Watch (2012)/The Watch (2012).mkv,h264,1920x816,8524043109,3722479411,4801563698,26,783,replaced,"default audio eng, default subtitle none"
+2026-10-20T21:31:18.533Z,//bandersnatch/Video/Movies/The Way Way Back (2013)/The Way Way Back (2013).mp4,h264,1280x692,1342912774,1544295871,0,26,501,kept,new file not smaller
+2026-10-20T21:34:08.554Z,//bandersnatch/Video/Movies/The Wild Robot (2024)/The Wild Robot (2024).mkv,hevc,1920x800,2237806115,2405291330,0,26,642,kept,new file not smaller; marked
+2026-10-20T21:45:20.569Z,//bandersnatch/Video/Movies/The Wolf of Wall Street (2013)/The Wolf of Wall Street (2013).mkv,h264,640x256,1763380376,953326006,810054370,26,240,replaced,
+2026-10-20T21:49:47.138Z,//bandersnatch/Video/Movies/The Wolverine (2013)/The Wolverine (2013).mkv,hevc,1280x536,2950411542,,,,,skipped,already converted (Lavc61.19.101 hevc_nvenc)
+2026-10-20T21:50:13.082Z,//bandersnatch/Video/Movies/The World's End (2013)/The World's End (2013).mkv,h264,1280x544,4689926325,2547489720,2142436605,26,443,replaced,"default audio eng, default subtitle eng"
+2026-10-20T21:58:08.326Z,//bandersnatch/Video/Movies/The Year Without a Santa Claus (1974)/The Year Without a Santa Claus (1974).mp4,h264,654x480,487406493,382783020,104623473,26,86,replaced,"sidecars embedded: The Year Without a Santa Claus (1974).idx, The Year Without a Santa Claus (1974).sub"
+2026-10-20T21:40:09.656Z,//bandersnatch/Video/Movies/The Wind Rises (2013)/The Wind Rises (2013).mp4,h264,1920x1036,4095983375,3102256734,993726641,26,1262,replaced,
+2026-10-20T22:01:37.054Z,//bandersnatch/Video/Movies/They Shall Not Grow Old (2018)/They Shall Not Grow Old (2018).mkv,h264,1280x688,945494003,1494689141,0,26,465,kept,new file not smaller; marked
+2026-10-20T21:59:52.477Z,//bandersnatch/Video/Movies/They Live (1988)/They Live (1988).mp4,h264,1920x816,1539848697,2255810380,0,26,613,kept,new file not smaller
+2026-10-20T22:10:27.393Z,//bandersnatch/Video/Movies/This Is Spinal Tap (1984)/This Is Spinal Tap (1984).avi,mpeg4,720x390,1123176536,611216456,511960080,26,142,replaced,
+2026-10-20T22:13:16.058Z,//bandersnatch/Video/Movies/This Is the End (2013)/This Is the End (2013).mkv,h264,1920x808,8212418752,3486224965,4726193787,26,792,replaced,
+2026-10-20T22:09:48.095Z,//bandersnatch/Video/Movies/Thief (1981)/Thief (1981).mkv,h264,1920x1080,4118528786,4405250338,0,26,1577,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-20T22:26:50.429Z,//bandersnatch/Video/Movies/Thor - Love and Thunder (2022)/Thor - Love and Thunder (2022).mkv,h264,1920x804,2353990831,2539322641,0,26,782,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-20T22:40:13.421Z,//bandersnatch/Video/Movies/Thor - The Dark World (2013)/Thor - The Dark World (2013).mp4,h264,1920x800,1760417074,2040544311,0,26,692,kept,new file not smaller
+2026-10-20T22:36:37.612Z,//bandersnatch/Video/Movies/Thor - Ragnarok (2017)/Thor - Ragnarok (2017).mkv,h264,1920x808,2832270699,2913378889,0,26,1007,kept,new file not smaller; marked
+2026-10-20T22:53:51.689Z,//bandersnatch/Video/Movies/Three Kings (1999)/Three Kings (1999).m4v,h264,720x362,2055117501,1186501558,868615943,26,250,replaced,
+2026-10-20T22:58:34.346Z,//bandersnatch/Video/Movies/TMNT (2007)/TMNT (2007).m4v,h264,720x360,1215011965,847610440,367401525,26,185,replaced,
+2026-10-20T23:01:54.343Z,//bandersnatch/Video/Movies/Tomb Raider (2018)/Tomb Raider (2018).mkv,hevc,1280x536,1553908871,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T22:52:07.736Z,//bandersnatch/Video/Movies/Thor (2011)/Thor (2011).mp4,h264,1920x816,1723956026,2480255292,0,26,750,kept,new file not smaller
+2026-10-20T23:04:56.137Z,//bandersnatch/Video/Movies/Total Recall (2012)/Total Recall (2012).mkv,h264,1280x528,8395962415,2877131904,5518830511,26,575,replaced,
+2026-10-20T23:02:08.919Z,//bandersnatch/Video/Movies/Tomorrowland (2015)/Tomorrowland (2015).mp4,h264,1280x680,2846968141,2179353756,667614385,26,760,replaced,
+2026-10-20T23:15:20.353Z,//bandersnatch/Video/Movies/Trainspotting (1996)/Trainspotting (1996).m4v,h264,720x352,968099834,776195920,191903914,26,166,replaced,
+2026-10-20T23:14:57.007Z,//bandersnatch/Video/Movies/Traffic (2000)/Traffic (2000).m4v,h264,720x462,2642574289,1674516476,968057813,26,378,replaced,
+2026-10-20T23:21:28.167Z,//bandersnatch/Video/Movies/Transporter 2 (2005)/Transporter 2 (2005).m4v,h264,720x368,1229716622,906583075,323133547,26,191,replaced,
+2026-10-20T23:18:40.265Z,//bandersnatch/Video/Movies/Trainwreck (2015)/Trainwreck (2015).mp4,h264,1280x532,1223927232,1234539173,0,26,411,kept,new file not smaller
+2026-10-20T23:25:04.339Z,//bandersnatch/Video/Movies/Triangle of Sadness (2022)/Triangle of Sadness (2022).mkv,h264,720x302,735503426,557607594,177895832,26,260,replaced,
+2026-10-20T23:29:56.919Z,//bandersnatch/Video/Movies/TRON - Ares (2025)/TRON - Ares (2025).mkv,hevc,1280x536,1159704133,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T23:25:48.172Z,//bandersnatch/Video/Movies/Triple 9 (2016)/Triple 9 (2016).mkv,h264,1280x536,996197957,1195940403,0,26,351,kept,new file not smaller; marked
+2026-10-20T23:30:25.820Z,//bandersnatch/Video/Movies/Tron (1982)/Tron (1982).m4v,h264,720x390,1572972432,1019150273,553822159,26,235,replaced,
+2026-10-20T23:31:58.283Z,//bandersnatch/Video/Movies/Tropic Thunder (2008)/Tropic Thunder (2008).mkv,h264,1280x544,4654754408,2227455874,2427298534,26,478,replaced,
+2026-10-20T23:34:46.392Z,//bandersnatch/Video/Movies/Trumbo (2015)/Trumbo (2015).avi,mpeg4,720x384,1832507392,975034225,857473167,26,320,replaced,
+2026-10-20T23:40:32.035Z,//bandersnatch/Video/Movies/Tully (2018)/Tully (2018).mkv,hevc,1920x1040,1384836852,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T23:40:59.899Z,"//bandersnatch/Video/Movies/Ultramarines - A Warhammer 40,000 Movie (2010)/Ultramarines - A Warhammer 40,000 Movie (2010).mp4",hevc,1920x1080,1283047883,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-20T23:41:12.726Z,//bandersnatch/Video/Movies/Unbroken (2014)/Unbroken (2014).avi,mpeg4,720x304,1834469338,801568675,1032900663,26,229,replaced,
+2026-10-20T23:45:23.118Z,//bandersnatch/Video/Movies/Uncut Gems (2019)/Uncut Gems (2019).mkv,h264,720x304,1465846694,997502905,468343789,26,240,replaced,"default audio eng, default subtitle eng"
+2026-10-20T23:40:13.337Z,//bandersnatch/Video/Movies/Tucker and Dale vs. Evil (2010)/Tucker and Dale vs. Evil (2010).mkv,h264,1920x816,8526315750,2837619083,5688696667,26,801,replaced,
+2026-10-20T23:49:50.337Z,//bandersnatch/Video/Movies/V for Vendetta (2006)/V for Vendetta (2006).mkv,h264,1280x534,3330780370,1603438217,1727342153,26,477,replaced,
+2026-10-20T23:53:59.632Z,//bandersnatch/Video/Movies/Valerian and the City of a Thousand Planets (2017)/Valerian and the City of a Thousand Planets (2017).mkv,h264,1280x536,8620329288,2200948311,6419380977,26,678,replaced,
+2026-10-20T23:58:08.312Z,//bandersnatch/Video/Movies/Vampire Academy (2014)/Vampire Academy (2014).mkv,h264,1920x800,8212446430,3035665438,5176780992,26,791,replaced,
+2026-10-21T00:11:51.080Z,//bandersnatch/Video/Movies/Vice (2018)/Vice (2018).mkv,h264,720x304,998609797,581608243,417001554,26,211,replaced,
+2026-10-21T00:05:31.787Z,//bandersnatch/Video/Movies/Venom (2018)/Venom (2018).mkv,h264,1920x800,1922874313,2222776891,0,26,814,kept,new file not smaller; marked
+2026-10-21T00:19:36.270Z,//bandersnatch/Video/Movies/Violent Night (2022)/Violent Night (2022).mp4,hevc,1920x804,1865065679,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-21T00:15:59.779Z,//bandersnatch/Video/Movies/Victoria & Abdul (2017)/Victoria & Abdul (2017).mkv,h264,1280x532,894450044,923730513,0,26,334,kept,new file not smaller; marked
+2026-10-21T00:19:50.676Z,//bandersnatch/Video/Movies/Walk the Line (2005)/Walk the Line (2005).m4v,h264,720x362,1393633231,1189790632,203842599,26,280,replaced,
+2026-10-21T00:24:57.111Z,//bandersnatch/Video/Movies/Warfare (2025)/Warfare (2025).mp4,hevc,1918x958,1711697587,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-21T00:22:08.839Z,//bandersnatch/Video/Movies/Warcraft (2016)/Warcraft (2016).mp4,h264,1280x524,1259970796,1549044681,0,26,399,kept,new file not smaller
+2026-10-21T00:25:17.674Z,//bandersnatch/Video/Movies/Warriors of the Wind (1984)/Warriors of the Wind (1984).m4v,h264,720x466,1447206647,981904887,465301760,26,280,replaced,
+2026-10-21T00:30:30.933Z,//bandersnatch/Video/Movies/Wedding Crashers (2005)/Wedding Crashers (2005).m4v,h264,720x364,1602411057,1241920196,360490861,26,297,replaced,
+2026-10-21T00:35:58.876Z,//bandersnatch/Video/Movies/Weird - The Al Yankovic Story (2022)/Weird - The Al Yankovic Story (2022).mkv,hevc,1280x720,844897551,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-21T00:36:21.340Z,//bandersnatch/Video/Movies/Welcome to Marwen (2018)/Welcome to Marwen (2018).mkv,h264,1280x534,997003147,1014796113,0,26,436,kept,new file not smaller; marked
+2026-10-21T00:43:59.830Z,//bandersnatch/Video/Movies/West Side Story (2021)/West Side Story (2021).mkv,hevc,1280x536,1464206689,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-21T00:29:10.639Z,//bandersnatch/Video/Movies/We Steal Secrets - The Story of WikiLeaks (2013)/We Steal Secrets - The Story of WikiLeaks (2013).mkv,h264,1920x1040,9388613799,5458646101,3929967698,26,1203,replaced,"sidecars embedded: We Steal Secrets - The Story of WikiLeaks (2013).idx, We Steal Secrets - The Story of WikiLeaks (2013).sub"
+2026-10-21T00:44:26.148Z,//bandersnatch/Video/Movies/What We Do in the Shadows (2014)/What We Do in the Shadows (2014).mkv,h264,1280x696,3218068792,1444652569,1773416223,26,444,replaced,
+2026-10-21T00:49:42.248Z,//bandersnatch/Video/Movies/Whiskey Tango Foxtrot (2016)/Whiskey Tango Foxtrot (2016).avi,mpeg4,720x400,1513105354,689465804,823639550,26,195,replaced,
+2026-10-21T00:52:15.545Z,//bandersnatch/Video/Movies/Whisper of the Heart (1995)/Whisper of the Heart (1995).m4v,h264,720x462,1248981717,1039461642,209520075,26,260,replaced,
+2026-10-21T00:56:53.330Z,//bandersnatch/Video/Movies/Wicked (2024)/Wicked (2024).mkv,hevc,1280x536,1474340708,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-21T00:53:32.009Z,//bandersnatch/Video/Movies/White Boy Rick (2018)/White Boy Rick (2018).mkv,h264,1280x530,946499383,1064768990,0,26,340,kept,"new file not smaller; default audio eng, default subtitle none; marked"
+2026-10-21T00:59:40.858Z,//bandersnatch/Video/Movies/Wild (2014)/Wild (2014).avi,mpeg4,704x306,1644767279,846274607,798492672,26,197,replaced,
+2026-10-21T01:03:33.446Z,//bandersnatch/Video/Movies/Willow (1988)/Willow (1988).m4v,h264,720x366,1580831288,1219838989,360992299,26,224,replaced,
+2026-10-21T01:07:41.821Z,//bandersnatch/Video/Movies/Willy Wonka & the Chocolate Factory (1971)/Willy Wonka & the Chocolate Factory (1971).m4v,h264,720x480,1910113317,1126250366,783862951,26,214,replaced,
+2026-10-21T00:57:07.957Z,//bandersnatch/Video/Movies/Widows (2018)/Widows (2018).mkv,h264,1920x802,2335546340,2576879210,0,26,1020,kept,new file not smaller; marked
+2026-10-21T01:14:38.724Z,//bandersnatch/Video/Movies/Won't You Be My Neighbor! (2018)/Won't You Be My Neighbor! (2018).mkv,hevc,1280x688,577226827,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-21T01:11:34.362Z,//bandersnatch/Video/Movies/Wizards (1977)/Wizards (1977).m4v,h264,1920x1040,5922739869,3288818488,2633921381,26,754,replaced,
+2026-10-21T01:14:59.011Z,//bandersnatch/Video/Movies/Wonder Woman (2017)/Wonder Woman (2017).mkv,h264,1280x536,4291974104,2238467545,2053506559,26,621,replaced,
+2026-10-21T01:25:37.714Z,//bandersnatch/Video/Movies/Wrath of Man (2021)/Wrath of Man (2021).mkv,hevc,1920x800,1406492615,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-21T01:24:31.368Z,//bandersnatch/Video/Movies/World War Z (2013)/World War Z (2013).mkv,h264,1280x536,5865169119,2598972233,3266196886,26,559,replaced,"default audio eng, default subtitle eng"
+2026-10-21T01:25:52.662Z,//bandersnatch/Video/Movies/Wreck-It Ralph (2012)/Wreck-It Ralph (2012).mkv,h264,1280x544,4611462006,2155997857,2455464149,26,532,replaced,
+2026-10-21T01:34:08.167Z,//bandersnatch/Video/Movies/X - The Unheard Music (1986)/X - The Unheard Music (1986).avi,mpeg4,624x352,736700416,454761097,281939319,26,116,replaced,
+2026-10-21T01:36:19.743Z,//bandersnatch/Video/Movies/xXx - Return of Xander Cage (2017)/xXx - Return of Xander Cage (2017).mkv,h264,1280x532,996603698,1225526873,0,26,324,kept,new file not smaller; marked
+2026-10-21T01:35:13.750Z,//bandersnatch/Video/Movies/X-Men - Apocalypse (2016)/X-Men - Apocalypse (2016).mp4,h264,1280x534,1121507540,1509171885,0,26,529,kept,new file not smaller
+2026-10-21T01:44:22.660Z,//bandersnatch/Video/Movies/Yoga Hosers (2016)/Yoga Hosers (2016).avi,mpeg4,720x302,1491250332,661377315,829873017,26,152,replaced,
+2026-10-21T01:42:21.092Z,//bandersnatch/Video/Movies/Yesterday (2019)/Yesterday (2019).mkv,h264,1280x530,1048790503,1129225059,0,26,361,kept,new file not smaller; marked
+2026-10-21T01:47:26.873Z,//bandersnatch/Video/Movies/Yojimbo (1961)/Yojimbo (1961).m4v,h264,696x286,858296119,681634629,176661490,26,235,replaced,
+2026-10-21T01:51:53.458Z,//bandersnatch/Video/Movies/You Were Never Really Here (2017)/You Were Never Really Here (2017).mkv,h264,1280x536,881830741,673193738,208637003,26,365,replaced,
+2026-10-21T01:48:54.390Z,//bandersnatch/Video/Movies/You Don't Mess with the Zohan (2008)/You Don't Mess with the Zohan (2008).mkv,h264,1280x694,8207772150,2517381203,5690390947,26,614,replaced,"default audio eng, default subtitle eng"
+2026-10-21T01:59:34.631Z,//bandersnatch/Video/Movies/Zombieland - Double Tap (2019)/Zombieland - Double Tap (2019).mkv,hevc,1920x800,1684071813,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-21T01:59:55.112Z,//bandersnatch/Video/Movies/Zoolander (2001)/Zoolander (2001).mkv,h264,1280x546,4674536986,1687179830,2987357156,26,449,replaced,
+2026-10-21T02:07:51.414Z,//bandersnatch/Video/Movies/Zoolander 2 (2016)/Zoolander 2 (2016).avi,mpeg4,640x272,732946432,465925787,267020645,26,130,replaced,
+2026-10-21T01:58:27.654Z,//bandersnatch/Video/Movies/Zero Dark Thirty (2012)/Zero Dark Thirty (2012).mkv,h264,1280x690,7663301288,3463187154,4200114134,26,924,replaced,
+2026-10-21T02:10:23.987Z,//bandersnatch/Video/Movies/Zootopia (2016)/Zootopia (2016).mp4,h264,1280x540,1072363680,1098299078,0,26,343,kept,new file not smaller
+2026-10-21T02:30:07.326Z,//bandersnatch/Video/Movies/Clockwatchers (1997)/Clockwatchers (1997).mp4,hevc,1920x1040,1600613781,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-21T02:30:07.709Z,//bandersnatch/Video/Movies/Bambi - The Reckoning (2025)/Bambi - The Reckoning (2025).mkv,hevc,1920x800,731927062,,,,,skipped,"already hevc, 2 GB or smaller; default audio eng, default subtitle eng"
+2026-10-21T02:30:16.762Z,//bandersnatch/Video/Movies/Laserblast (1978)/Laserblast (1978).mp4,hevc,1920x1080,1379545178,,,,,skipped,"already hevc, 2 GB or smaller"
+2026-10-21T02:30:15.186Z,//bandersnatch/Video/Movies/Hope (2026)/Hope (2026).mkv,hevc,1920x800,2818777623,2997747961,0,26,970,kept,"new file not smaller; default audio none, default subtitle eng; marked"
+2026-10-21T02:30:25.423Z,//bandersnatch/Video/Movies/Moneyball (2011)/Moneyball (2011).mkv,hevc,1920x1080,2871387568,4238215856,0,26,1421,kept,"new file not smaller; default audio eng, default subtitle eng; marked"
+2026-10-21T02:46:39.110Z,//bandersnatch/Video/Movies/Pride & Prejudice (2005)/Pride & Prejudice (2005).mkv,hevc,1914x818,17291867332,8442023590,8849843742,26,1179,replaced,
+2026-10-21T02:54:17.347Z,//bandersnatch/Video/Movies/The Protégé (2021)/The Protégé (2021).mkv,hevc,1920x800,2889070652,2035840391,853230261,26,873,replaced,"default audio eng, default subtitle none"
+2026-10-21T03:06:28.961Z,//bandersnatch/Video/Movies/Waves (2019)/Waves (2019).mp4,hevc,1920x1036,2272349343,3602264347,0,26,1076,kept,new file not smaller

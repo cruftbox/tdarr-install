@@ -72,7 +72,9 @@ The whole decision tree is one Tdarr Flow: an Input File plugin followed by a Cu
 7. **Default tracks**: the first English non-commentary audio track becomes the default. So does the first full English subtitle track, or the forced one if there's no full track.
 8. **Replace only if smaller.** The output is always `.mkv` and keeps the original base name. When it's smaller, the original is renamed `*.old` (for example `Movie.mp4.old`), and the new file takes its place. Plex, Sonarr and Radarr ignore `.old` files. The originals are kept until a purge is approved. When the encode is larger, the original stays.
 
-Every file handled, skipped ones included, gets a row in a local CSV log. It records the path, codec, resolution, sizes, bytes saved, CQ, encode time and outcome.
+Every file handled, skipped ones included, gets a row in [logs/transcode-log.csv](logs/transcode-log.csv). It records the path, codec, resolution, sizes, bytes saved, CQ, encode time and outcome. Rows from the test library are kept in a separate local file.
+
+New files in the Movies library are picked up by Tdarr's folder watching and processed as they arrive. Encoding has no fixed schedule: the nodes are paused by hand during video calls and games. Originals renamed `.old` are purged by hand after each run.
 
 ## The feeder
 
@@ -99,12 +101,8 @@ The feeder never scans. That's because a single-folder scan in Tdarr removes the
 
 ## Not done yet
 
-- A 10 PM to 6 AM schedule for the node.
 - The TV Shows library.
-- After the Movies run: a "Find new" scan of Movies, to pick up files downloaded during the run.
-- After the Movies run: turn on folder watching, so new downloads are processed without the feeder. File-change notifications from the QNAP share reaching the container are untested.
-- Purging the `.old` originals.
-- The NAS restarts itself at 1 AM every Saturday and Sunday. The feeder exits when it loses the server, so it has to be restarted by hand after each restart.
+- A startup task for the 2070 SUPER node. It is started by hand for now.
 
 ## Repository layout
 
