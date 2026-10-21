@@ -45,7 +45,7 @@ Bandersnatch (NAS)                              Straylight (desktop)
 
 - The node is a *mapped* node: it reads and writes the media directly over SMB, using path translators (`/data` on the server is `//bandersnatch/Video` on the node). Unmapped nodes need Tdarr Pro for files over 10 MB.
 - There are two nodes on Straylight, each a separate install with its own config. Each one is pinned to one card by UUID through `CUDA_VISIBLE_DEVICES`, in [node/start-node.cmd](node/start-node.cmd) and [node/start-node-2070.cmd](node/start-node-2070.cmd). The feeder runs with `--slots 2`, so each node has one file at a time. `nvidia-smi` and CUDA number the two cards differently, so an index isn't reliable.
-- The node runs from Task Scheduler at startup, at priority 4. At the default priority 7, SMB reads dropped from about 65 MB/s to 5 MB/s.
+- Each node runs from its own Task Scheduler task at startup, at priority 4. At the default priority 7, SMB reads dropped from about 65 MB/s to 5 MB/s.
 
 ### Ports and paths
 
@@ -102,7 +102,6 @@ The feeder never scans. That's because a single-folder scan in Tdarr removes the
 ## Not done yet
 
 - The TV Shows library.
-- A startup task for the 2070 SUPER node. It is started by hand for now.
 
 ## Repository layout
 
