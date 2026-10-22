@@ -4,17 +4,28 @@ Converting a home Plex library to HEVC (H.265) with [Tdarr](https://tdarr.io). T
 
 The full specification and decision log is [tdarr.md](tdarr.md). This page is the overview.
 
-## Results so far
+## Results
 
-The Movies library (791 movies) has been running since 2026-10-17. As of 2026-10-18, 167 movies were finished:
+Both libraries are finished. Movies ran from 2026-10-17 to 2026-10-20; TV Shows ran on 2026-10-21 and 22. Both libraries now use folder watching, so new downloads are processed as they arrive.
 
-| Outcome | Movies |
-|---|---|
-| Converted and replaced | 103 |
-| Encoded, but kept the original (the HEVC version was larger) | 30 |
-| Skipped (already HEVC, or already converted) | 34 |
+| Outcome | Movies | TV episodes | Total |
+|---|---|---|---|
+| Converted and replaced | 493 | 273 | 766 |
+| Encoded, but kept the original (the HEVC version was not smaller) | 157 | 34 | 191 |
+| Skipped (already HEVC and 2 GB or smaller, or already converted) | 149 | 574 | 723 |
+| Remuxed only (default tracks fixed, video copied) | 1 | 0 | 1 |
+| Failed the duration check, original kept | 0 | 17 | 17 |
+| **Files** | **800** | **898** | **1,698** |
 
-The 103 replaced movies went from 351.3 GB to 179.3 GB, a 49% reduction. An encode takes about 7 minutes on average, and the run averages about 10 movies an hour. The TV library (56 shows, 773 episodes) hasn't been started yet.
+| | Movies | TV Shows | Total |
+|---|---|---|---|
+| Replaced files, before → after | 1643.4 → 874.0 GB (47%) | 377.0 → 195.2 GB (48%) | 2020.4 → 1069.3 GB (47%) |
+| Library, before → after | 2.14 → 1.37 TB | 739.5 → 557.8 GB | 2.88 → 1.93 TB |
+| Space saved | 769 GB | 182 GB | 951 GB |
+| Encodes / GPU hours | 651 / 80.9 h | 307 / 20.1 h | 958 / 101.0 h |
+| Average encode | 7.5 min | 3.9 min | 6.3 min |
+
+The library sizes leave out the 17 failed episodes, which are unchanged on disk. All 17 failed for one reason: a subtitle file next to the episode ran longer than the video, so embedding it made the output longer than the source and the flow's duration check refused the replacement. With one node the Movies run did 8 to 11 movies an hour; after the second node joined on 2026-10-19 it did 15 to 20. Per-file results are in [logs/transcode-log.csv](logs/transcode-log.csv).
 
 ## Hardware
 
@@ -74,7 +85,7 @@ The whole decision tree is one Tdarr Flow: an Input File plugin followed by a Cu
 
 Every file handled, skipped ones included, gets a row in [logs/transcode-log.csv](logs/transcode-log.csv). It records the path, codec, resolution, sizes, bytes saved, CQ, encode time and outcome. Rows from the test library are kept in a separate local file.
 
-New files in the Movies library are picked up by Tdarr's folder watching and processed as they arrive. Encoding has no fixed schedule: the nodes are paused by hand during video calls and games. Originals renamed `.old` are purged by hand after each run.
+New files in the Movies and TV Shows libraries are picked up by Tdarr's folder watching and processed as they arrive. Encoding has no fixed schedule: the nodes are paused by hand during video calls and games. Originals renamed `.old` are purged by hand after each run.
 
 ## The feeder
 
@@ -93,15 +104,15 @@ The feeder never scans. That's because a single-folder scan in Tdarr removes the
 **Change the quality.** Edit `const CQ = 26;` near the top of `flow/hevc-convert.js`. Lower numbers mean better quality and bigger files. Rebuild the flow with `pwsh flow/build-flow.ps1` (PowerShell 7 is required, because 5.1 can't write UTF-8 without a BOM), then import `hevc-flow.json` into Tdarr. The marker tag records the CQ used, but a file that's already been converted is still skipped after a CQ change.
 
 **Pause everything.**
-- Stop the feeder process. The file in progress finishes, and nothing new is queued.
-- To stop the current encode too, pause the Straylight node in the Tdarr web UI.
-- To stop all of it, stop the `Tdarr Node` scheduled task, or `docker stop tdarr` on the NAS.
+- Pause both nodes (`Straylight` and `Straylight-2070`) in the Tdarr web UI. Nothing new starts; an encode already running finishes. If the feeder is running, stop it too.
+- To stop a running encode as well, stop the `Tdarr Node` and `Tdarr Node 2070` scheduled tasks, or `docker stop tdarr` on the NAS.
 
 **Add a library.** Create it in the Tdarr web UI. Point it at a folder under `/data`, exclude `.@__thumb` folders (QNAP thumbnail caches), attach the `hevc_project` flow, and leave "Process library" off. Then follow the feeder steps above with `--library <library id>`.
 
 ## Not done yet
 
-- The TV Shows library.
+- Purging the `.old` originals left by the TV Shows run.
+- The 17 TV episodes that failed the duration check (2 Battlestar Galactica: Blood & Chrome webisodes, 15 Dark Matter episodes) need correct subtitle files, or a flow change, before they can be converted.
 
 ## Repository layout
 
